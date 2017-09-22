@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+ <body>
+    <h1>METODO PROTOTYPE 2</h1>
+    <p id="n1"></p>
+ </body>
+ <script>
+   Number.prototype.metodoResta = function(){
+     return this-20;
+   }
+
+   var numero = 40;
+   document.getElementById("n1").innerHTML = numero.metodoResta();
+ </script>
+
+<html>

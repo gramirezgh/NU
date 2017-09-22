@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+ </head>
+ <body onload="onload()">
+   <h4>Informacion Personal</h4>
+   <form onreset="reestablecer()">
+    Nombres: <input type="text" id="nombres" onchange="letras()"></input><br>
+    Apellidos:<input type="text" id="apellidos" onchange="letras()"> </input><br>
+    Direccion :<input type="text" id="direccion" ></input><br>
+    Edad :<input type="text" id="edad" ></input><br>
+    Fecha de Nacimiento :<input type="date" id="fechaNac" ></input><br>
+    Lugar de Nacimiento :<input type="text" id="lugarNac" ></input><br>
+    Estado Civil: <input type="text" id="eCivil" ></input><br>
+   <h4>Informacion Académica</h4>
+    Universidad: <input type="text" id="universidad" ></input><br>
+    Profesion: <input type="text" id="profesion" ></input><br>
+    Observaciones :<textarea name="observaciones" onselect="onSelect()"></textarea><br><br><br>
+
+    <button onclick="enviar()">Enviar</button>
+    <button onclick="reestablecer()">Reestablecer</button>
+    </form>
+ </body>
+ <script>
+ function onload () {
+		alert("Bienvenido a su formato de Hoja de Vida");
+	}
+
+    function enviar(){
+      alert("Su hoja de vida a sido guradada correctamente");
+    }
+
+    // window.onselect = onSelect;
+    function onSelect(){
+      alert("Se ha seleccionado el texto");
+    }
+
+    function letras(){
+      var x = document.getElementById("nombres");
+      x.value=x.value.toUpperCase();
+
+      var y = document.getElementById("apellidos");
+      y.value=y.value.toUpperCase();
+    }
+
+    function reestablecer(){
+      alert("Se ha reseteado el formulario");
+    }
+ </script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h3>MANEJO DE FECHAS "MES"</h3>
+     <p id="f1"></p>
+     <p id="f2"></p>
+     <p id="f3"></p>
+     <p id="f4"></p>
+     <p id="f5"></p>
+     <p id="f6"></p>
+  </body>
+  <script>
+     var f1 = new Date();
+     var f2 = new Date(2018,9,13);
+     var f3 = new Date(2008,5,23);
+     var f4 = new Date(2003,12,25);
+     var f5 = new Date(1999,8,18);
+     var f6 = new Date(1991,6,16);
+
+     document.getElementById("f1").innerHTML = f1.getMonth();
+     document.getElementById("f2").innerHTML = f2.getMonth();
+     document.getElementById("f3").innerHTML = f3.getMonth();
+     document.getElementById("f4").innerHTML = f4.getMonth();
+     document.getElementById("f5").innerHTML = f5.getMonth();
+     document.getElementById("f6").innerHTML = f6.getMonth();
+
+  </script>
+</html>

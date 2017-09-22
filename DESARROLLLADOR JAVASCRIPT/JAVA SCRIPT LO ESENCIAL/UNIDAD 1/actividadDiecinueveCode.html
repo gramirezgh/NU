@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>USO DE PROTOTYPE TRES</h1>
+     <p id="n1"></p>
+  </body>
+  <script>
+     Number.prototype.metodoMultiplicacion = function(){
+       return this*12;
+     }
+
+     var numero = 4;
+     document.getElementById("n1").innerHTML = numero.metodoMultiplicacion();
+  </script>
+</html>

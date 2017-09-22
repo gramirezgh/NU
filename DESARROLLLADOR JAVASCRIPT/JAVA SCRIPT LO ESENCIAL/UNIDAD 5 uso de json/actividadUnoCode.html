@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Uso de JSON uno</h1>
+  </body>
+  <script>
+     var estudiantes = [
+       {"codigo":"001", "nombre":"juan"},
+       {"codigo":"002", "nombre":"luis"},
+       {"codigo":"003", "nombre":"paco"}
+     ];
+     function leerJSON(json){
+        var i;
+        var out="";
+        for(i=0;i<json.length;i++){
+
+         alert("codigo :"+json[i].codigo+"-"+"nombre:"+json[i].nombre);
+        }
+     }
+     leerJSON(estudiantes);
+  </script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h3>CONCATENACION DE ARRAYS</h3>
+    <h4>ARRAYS</h4>
+      <p id="a1"></p>
+      <p id="a2"></p>
+      <p id="a3"></p>
+      <p id="a4"></p>
+      <p id="a5"></p>
+      <p id="a6"></p>
+    <h4>OPERACIONES CON ARRAYS</h4>
+      <p id="a7"></p>
+      <p id="a8"></p>
+      <p id="a9"></p>
+  </body>
+  <script>
+     var frutas = ["Mango","Kiwi","Toronja" ];
+     var colores = ["Negro","Violeta","Verde"];
+     var animales = ["Leopardo", "Vaca", "Cerdo"];
+     var equipos = ["River Plate", "America De Cali", "Gremio"];
+     var planetas = ["Jupiter", "Urano", "Saturno"];
+     var flores = ["Hortensia", "Margarita", "Azucena"];
+
+     document.getElementById('a1').innerHTML = frutas;
+     document.getElementById('a2').innerHTML = colores;
+     var c1 = frutas.concat(colores);
+     document.getElementById('a7').innerHTML = c1;
+
+     document.getElementById('a3').innerHTML = animales;
+     document.getElementById('a4').innerHTML = equipos;
+     var c2 = animales.concat(equipos);
+     document.getElementById('a8').innerHTML = c2;
+
+     document.getElementById('a5').innerHTML = planetas;
+     document.getElementById('a6').innerHTML = flores;
+     var c3 = planetas.concat(flores);
+     document.getElementById('a9').innerHTML = c3;
+
+
+  </script>
+</html>

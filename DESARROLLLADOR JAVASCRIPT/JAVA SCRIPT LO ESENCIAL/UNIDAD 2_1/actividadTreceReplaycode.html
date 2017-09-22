@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+Crear un HTML que contenga un script donde se defina un arreglo con los siguientes valores:
+
+Milan
+Liverpool
+Barcelona
+Chelsea
+Bayern
+Utilice el método DO/WHILE para recorrer el arreglo y mostrar sus valores en pantalla.
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Repeticion do while</h1>
+     <p id="ar"></p>
+  <body>
+  <script>
+    var equipos = ["Milan", "Liverpool", "Barcelona", "Chelsea", "Bayern"];
+    var texto="";
+    var cont = 0;
+    do{
+    texto+=equipos[cont]+"<br>";
+    cont++;
+    console.log(cont);
+    document.getElementById("ar").innerHTML = texto;
+  }while(cont<=equipos.length);
+
+  </script>
+</html>

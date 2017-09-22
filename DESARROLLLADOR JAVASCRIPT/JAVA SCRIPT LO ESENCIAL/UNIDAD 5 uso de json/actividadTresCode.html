@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Utilizando json 3</h1>
+     <p id="mj"></p>
+     <p id="tv"></p>
+     <button onclick="mostrarVentas()">Mostrar Ventas</button>
+     <button onclick="mostrarTotalVentas()">Mostrar Total Ventas</button>
+  </body>
+  <script>
+  var ventas = [
+    {"codigo":"001", "valor":10},
+    {"codigo":"002", "valor":11},
+    {"codigo":"003", "valor":12},
+    {"codigo":"004", "valor":13},
+    {"codigo":"005", "valor":14},
+    {"codigo":"006", "valor":15},
+    {"codigo":"007", "valor":16},
+    {"codigo":"008", "valor":17},
+    {"codigo":"009", "valor":18},
+    {"codigo":"010", "valor":19}
+  ];
+
+  function leerJSON(json){
+   var out="-----Ventas-----<br>";
+   var i;
+   for(i=0;i<json.length;i++){
+     out+=(i+1)+"--->"+json[i].codigo+"----"+json[i].valor+"<br>";
+   }
+   document.getElementById('mj').innerHTML = out;
+  }
+
+  function totalVentas(json){
+    var out="-----Ventas-----<br>";
+    var i;
+    var totalVentas=0;
+    for (i = 0; i < json.length; i++) {
+        totalVentas += json[i].valor;
+    }
+    document.getElementById("tv").innerHTML = totalVentas;
+  }
+
+  function mostrarVentas(){
+    leerJSON(ventas);
+  }
+
+  function mostrarTotalVentas(){
+    totalVentas(ventas);
+  }
+  </script>
+</html>

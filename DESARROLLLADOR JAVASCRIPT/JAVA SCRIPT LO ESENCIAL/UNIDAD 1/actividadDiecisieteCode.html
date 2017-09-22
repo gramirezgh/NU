@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>METODO "PROTOTYPE"</h1>
+    <p id ="n1"><p>
+  </body>
+  <script>
+    Number.prototype.metodoSuma = function(){
+      return  this+10;
+    }
+
+    var num = 5;
+
+    document.getElementById("n1").innerHTML = num.metodoSuma();
+
+  </script>
+</html>

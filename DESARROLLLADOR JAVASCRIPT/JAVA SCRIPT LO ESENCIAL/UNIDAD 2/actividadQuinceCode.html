@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h3>Manejo de Fechas</h3>
+     <p id="f1"></p>
+     <p id="f2"></p>
+     <p id="f3"></p>
+     <p id="f4"></p>
+     <p id="f5"></p>
+     <p id="f6"></p>
+  </body>
+  <script>
+     var f1 = new Date();
+     var f2 = new Date(2016,5,27);
+     var f3 = new Date(2005,2,9);
+     var f4 = new Date(2000,11,12);
+     var f5 = new Date(1998,7,15);
+     var f6 = new Date(1996,4,30);
+
+     document.getElementById("f1").innerHTML = f1.getFullYear();
+     document.getElementById("f2").innerHTML = f2.getFullYear();
+     document.getElementById("f3").innerHTML = f3.getFullYear();
+     document.getElementById("f4").innerHTML = f4.getFullYear();
+     document.getElementById("f5").innerHTML = f5.getFullYear();
+     document.getElementById("f6").innerHTML = f6.getFullYear();
+  </script>
+</html>

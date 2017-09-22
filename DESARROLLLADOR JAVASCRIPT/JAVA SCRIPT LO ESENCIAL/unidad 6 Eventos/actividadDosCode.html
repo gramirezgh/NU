@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h4>Registro de Estudiantes</h4>
+    <form>
+      <table>
+        <tr>
+          <td><label>Codigo : </label></td>
+          <td><input id="codigo" type="text" name="codigo"></td>
+        </tr>
+        <tr>
+          <td><label>Nombres : </label></td>
+          <td><input id="nombres" type="text" name="nombres" onfocus="evento_onfocus(this)"></td>
+        </tr>
+        <tr>
+          <td><label>Apellidos : </label></td>
+          <td><input id="apellidos" type="text" name="apellidos" oncopy="evento_oncopy()"/></td>
+        </tr>
+        <tr>
+          <td><label>Identificacion : </label></td>
+          <td><input id="identificacion" type="text" name="identificacion" onselect="evento_onselect()"></td>
+        </tr>
+        <tr>
+          <td><label>Genero : </label></td>
+          <td>
+             <select>
+               <option value="masculino">masculino</option>
+               <option value="femenino">femenino</option>
+             </select>
+           </td>
+        </tr>
+        <tr>
+          <td><label>Fecha de Nacimiento : </label></td>
+          <td><input id="fn" type="date" name="fn"></td>
+        </tr>
+        <tr>
+           <td><label>Email : </label></td>
+           <td><input id="email" type="text" name="email"></td>
+        </tr>
+        <tr>
+          <td><label>Telefono : </label></td>
+          <td><input id="telefono" type="text" name="telefono"></td>
+        </tr>
+        <tr>
+          <td><label>Direccion : </label></td>
+          <td><input id="direccion" type="text" name="direccion"></td>
+        </tr>
+        <tr>
+          <td><label>Observaciones : </label></td>
+          <td><input id="observaciones" type="text" name="observaciones"></td>
+        </tr>
+        <tr>
+          <td><input type="button" name="enviar" onclick="evento_onclick()">Enviar</td>
+        </tr>
+      </table>
+    </form>
+  </body>
+  <script>
+  function evento_onfocus(x){
+    x.style.background="rgba(235, 172, 65, 0.39)";
+  }
+
+  function evento_onclick(){
+   alert("El formulario se ha enviado Cabroncito");
+  }
+
+  function evento_oncopy(){
+    alert("el texto fue copiado noooooooooooooooooooooooooooooooo  O-O");
+  }
+
+  function evento_onselect(){
+    alert("el texto a sido seleccionado q mas quieres cabro >:( ");
+  }
+  </script>
+</html>

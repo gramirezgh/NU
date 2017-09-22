@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p id="mp"></p>
+    <p id="em"></p>
+    <button onclick="mostrarPersonas()">Mostrar Personas</button>
+    <button onclick="mostrarEdadMayor()">Mostrar Edad Mayor</button>
+  </body>
+  <script>
+    var personas =[
+      {"nombre":"luis","edad":15},
+      {"nombre":"paco","edad":18},
+      {"nombre":"mau","edad":21}
+    ];
+
+   function leerJSON(json){
+     var out="---personas---<br>";
+     var i;
+     for(i=0;i<json.length;i++){
+      out+=i+"--->"+json[i].nombre+"---"+json[i].edad+"<br>";
+     }
+     document.getElementById("mp").innerHTML= out;
+   }
+
+   function edad(json){
+    var out="--Edad--<br>";
+    var i;
+     for(i=0;i<json.length;i++){
+       if(json[i].edad>=18){
+         out+=json[i].nombre+"----"+json[i].edad;
+         document.getElementById("em").innerHTML=out;
+       }
+     }
+   }
+
+   function mostrarPersonas(){
+     leerJSON(personas);
+   }
+
+   function mostrarEdadMayor(){
+     edad(personas);
+   }
+  </script>
+</html>

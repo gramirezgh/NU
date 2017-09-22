@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Utilizando IF , ELSE</h1>
+     <p id= "numero"></p>
+     <button onclick="verificarNumero()">verificar num</button>
+  </body>
+  <script>
+  function verificarNumero(){
+    var numero = 13;
+    if(numero%2==0){
+      document.getElementById("numero").innerHTML = "El numero es par";
+    }
+    else{
+      document.getElementById("numero").innerHTML = "El numero es impar";
+    }
+  }
+  </script>
+</html>

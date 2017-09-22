@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <h2>Creacion de Objetos Computador de las tres formas</h2>
+  </head>
+  <body>
+      <h3>COMPUTADOR UNO</h3>
+        <p id = "c1"></p>
+        <p id = "r1"></p>
+        <p id = "d1"></p>
+      <h3>COMPUTADOR DOS</h3>
+        <p id = "c2"></p>
+        <p id = "r2"></p>
+        <p id = "d2"></p>
+      <h3>COMPUTADOR TRES</h3>
+        <p id = "c3"></p>
+        <p id = "r3"></p>
+        <p id = "d3"></p>
+  </body>
+
+  <script>
+      var computador1 = {
+        codigo:"101",
+        ram:"2",
+        discoDuro:"350"
+      }
+
+      var computador2 = new Object();
+      computador2.codigo = "102";
+      computador2.ram = "4";
+      computador2.discoDuro = "750";
+
+      function computador3(codigo, ram, discoDuro){
+          this.codigo = codigo;
+          this.ram = ram;
+          this.discoDuro = discoDuro;
+      }
+      var computador3 = new computador3("103","8","1000");
+
+      document.getElementById("c1").innerHTML = computador1.codigo;
+      document.getElementById("r1").innerHTML = computador1.ram;
+      document.getElementById("d1").innerHTML = computador1.discoDuro;
+
+      document.getElementById("c2").innerHTML = computador2.codigo;
+      document.getElementById("r2").innerHTML = computador2.ram;
+      document.getElementById("d2").innerHTML = computador2.discoDuro;
+
+      document.getElementById("c3").innerHTML = computador3.codigo;
+      document.getElementById("r3").innerHTML = computador3.ram;
+      document.getElementById("d3").innerHTML = computador3.discoDuro;
+
+  </script>
+</html>

@@ -1,0 +1,4 @@
+[0419/011711.871:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Acceso denegado. (0x5)
+[0419/011711.877:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0419/011711.879:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Acceso denegado. (0x5)
+[0419/011711.935:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured

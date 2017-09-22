@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoUno_3.html" line="53" mnemonic="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89b34823-1da9-4895-9437-7b9c0341d2df" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JQUERY" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="listaDinamica.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/js/listaDinamica.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2068">
+              <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>miInput</find>
+      <find>mostrar</find>
+      <find>value</find>
+      <find>hide</find>
+      <find>form</find>
+      <find>for</find>
+      <find>editar</find>
+      <find>set</find>
+      <find>get</find>
+      <find>console.log</find>
+      <find>p1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JQUERY/JQUERY" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EVENTOS PERSONALIZADOS/EventosPersonalizados.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EVENTOS PERSONALIZADOS/utillizandoOn_Trigger.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EVENTOS PERSONALIZADOS/actrividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/efectos.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/efectos.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/style.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/efectos Toogle/toogle.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/efectos Toogle/tooogle.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/efectos Toogle/toogle.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/fadeIn_fadeOut/fadeIn_fadeOut.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/fadeIn_fadeOut/fadeIn_fadeOut.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/fadeIn_fadeOut/fadeIn_fadeOut.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoUno/actividadDeCodigoUno.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoUno/actividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigodos.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigoDos.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigoDos.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/colaDeEfectosParteUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/colaDeEfectosParteDos.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/plugin.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/creacionDePlugin.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/plugin.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO UNO/plugin.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO UNO/creacionDePlugin.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO DOS/ActividadDeCodigoDos.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO DOS/plugin.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/parseJSON.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/parseJSON.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/parse.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/index.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/JS/parse.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/index.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/JS/utilitarios.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/losMetodosUtilitarios.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/actividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoUno_3.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoTres.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/elementosBasicosDeUnForulario.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/focusIn.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/selects.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/MEJORANDO TU CODIGO CON PLUGINS/vallidacionConPlugins.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/localStorage.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/localStorage_2.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/js/listaDinamica.js" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/css/estudiantes.css" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/index.html" />
+        <option value="$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/MEJORANDO TU CODIGO CON PLUGINS/validacionConPlugins.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="654" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="FUNCIONAMIENTO DE JQUERY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="MANEJANDO ELEMENTOS DE FORMULARIOS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="PROYECTO FINAL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JQUERY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY" type="462c0819:PsiDirectoryNode" />
+              <item name="PROYECTO FINAL" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\MANEJANDO ELEMENTOS DE FORMULARIOS\MEJORANDO TU CODIGO CON PLUGINS" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\LOS METODOS UTILITARIOS\PARSEJSON\JS" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\LOS METODOS UTILITARIOS\PARSEJSON" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\jqlib" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\EFECTOS JQUERY\PLUGINS\ACTIVIDAD DE CODIGO UNO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\PROYECTO FINAL\js" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\EFECTOS JQUERY\CREACION DE PLUGIN\ACTIVIDAD DE CODIGO DOS" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\EFECTOS JQUERY\CREACION DE PLUGIN\ACTIVIDAD DE CODIGO UNO" />
+      <recent name="E:\CURSOS\NextU\JQUERY\JQUERY\JQUERY\EFECTOS JQUERY\PLUGINS\ACTIVIDAD DE CODIGO UNO" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89b34823-1da9-4895-9437-7b9c0341d2df" name="Default" comment="" />
+      <created>1501134155695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501134155695</updated>
+      <workItem from="1501134156998" duration="1136000" />
+      <workItem from="1501175489379" duration="3972000" />
+      <workItem from="1501382051379" duration="1250000" />
+      <workItem from="1501457569299" duration="1573000" />
+      <workItem from="1501459177336" duration="780000" />
+      <workItem from="1501512949060" duration="359000" />
+      <workItem from="1501615126609" duration="7142000" />
+      <workItem from="1501724836921" duration="3664000" />
+      <workItem from="1501821722288" duration="1344000" />
+      <workItem from="1501866369351" duration="4000000" />
+      <workItem from="1501911950727" duration="612000" />
+      <workItem from="1501954687628" duration="770000" />
+      <workItem from="1502081916892" duration="213000" />
+      <workItem from="1502122474854" duration="10781000" />
+      <workItem from="1502160307627" duration="2591000" />
+      <workItem from="1502205187425" duration="855000" />
+      <workItem from="1502254297608" duration="870000" />
+      <workItem from="1502255957269" duration="294000" />
+      <workItem from="1502424541148" duration="2925000" />
+      <workItem from="1502557251633" duration="3973000" />
+      <workItem from="1502579163477" duration="5974000" />
+      <workItem from="1502629631623" duration="1196000" />
+      <workItem from="1502682290638" duration="599000" />
+      <workItem from="1503270195600" duration="6386000" />
+      <workItem from="1503291208842" duration="471000" />
+      <workItem from="1503291988017" duration="191000" />
+      <workItem from="1503761471480" duration="4856000" />
+      <workItem from="1504202564232" duration="1141000" />
+      <workItem from="1504332558685" duration="638000" />
+      <workItem from="1504368368416" duration="5531000" />
+      <workItem from="1504378367590" duration="2655000" />
+      <workItem from="1504631678224" duration="1313000" />
+      <workItem from="1504674224727" duration="1138000" />
+      <workItem from="1504730652547" duration="2391000" />
+      <workItem from="1504762709224" duration="532000" />
+      <workItem from="1504796683890" duration="193000" />
+      <workItem from="1504796932374" duration="6207000" />
+      <workItem from="1504814797519" duration="992000" />
+      <workItem from="1504830261066" duration="3908000" />
+      <workItem from="1504840440384" duration="4685000" />
+      <workItem from="1504933694004" duration="841000" />
+      <workItem from="1504978776088" duration="5638000" />
+      <workItem from="1505162434200" duration="8311000" />
+      <workItem from="1505236674421" duration="4635000" />
+      <workItem from="1505337501346" duration="2313000" />
+      <workItem from="1505399709723" duration="8446000" />
+      <workItem from="1505412321527" duration="331000" />
+      <workItem from="1505487022994" duration="5342000" />
+      <workItem from="1505496290013" duration="8000" />
+      <workItem from="1505496319845" duration="885000" />
+      <workItem from="1505525386090" duration="2897000" />
+      <workItem from="1505519343891" duration="3341000" />
+      <workItem from="1505532224502" duration="3039000" />
+      <workItem from="1505616913332" duration="6606000" />
+      <workItem from="1505685153454" duration="1059000" />
+      <workItem from="1505794218312" duration="6447000" />
+      <workItem from="1505851028531" duration="4789000" />
+      <workItem from="1505915761377" duration="12675000" />
+      <workItem from="1505969897644" duration="2378000" />
+      <workItem from="1506030075889" duration="4167000" />
+      <workItem from="1506038795502" duration="11950000" />
+      <workItem from="1506093797521" duration="545000" />
+    </task>
+    <task id="LOCAL-00001" summary="Eventos en Jquery">
+      <created>1503292104753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503292104753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="196744000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eventos en Jquery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eventos en Jquery" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoUno/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/fadeIn_fadeOut/fadeIn_fadeOut.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/hide,etc/efectos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/hide,etc/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/colaDeEfectosParteDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="103" column="7" lean-forward="false" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/ACTIVIDAD DE CODIGO DOS/actividadDeCodigoDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/COLA DE EFECTOS/colaDeEfectosParteUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigoDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigoDos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/actividadDeCodigoDos/actividadDeCodigodos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/hide,etc/efectos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/ACTIVIDAD DE CODIGO UNO/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/ACTIVIDAD DE CODIGO UNO/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/creacionDePlugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/PLUGINS/plugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO UNO/plugin.html" />
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO UNO/creacionDePlugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO DOS/ActividadDeCodigoDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/CONCEPTOS ADICIONALES/losMetodosUtilitarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/EFECTOS JQUERY/CREACION DE PLUGIN/ACTIVIDAD DE CODIGO DOS/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/JS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/JS/parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/actividadDeCodigoUno.html" />
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoUno_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/JS/utilitarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoUno_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/actividadDeCodigoTres.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/MEJORANDO TU CODIGO CON PLUGINS/vallidacionConPlugins.html" />
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/img/fondo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/elementosBasicosDeUnForulario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/selects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="72" column="19" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/js/jquery.validate.js" />
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/focusIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/MEJORANDO TU CODIGO CON PLUGINS/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6732">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/localStorage_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/localStorage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/losMetodosUtilitarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/css/estudiantes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/PARSEJSON/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/FUNCIONAMIENTO DE JQUERY/funcionamientoBasicodeJquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/LOS METODOS UTILITARIOS/MAS METODOS UTILITARIOS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/MANEJANDO ELEMENTOS DE FORMULARIOS/MEJORANDO TU CODIGO CON PLUGINS/validacionConPlugins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/js/listaDinamica.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQUERY/JQUERY/PROYECTO FINAL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

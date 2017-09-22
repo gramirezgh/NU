@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <h2>CREACION DE OBJETOS DE LAS TRES FORMAS SEGUNDA FORMA</h2>
+  </head>
+  <body>
+     <h1>ESTUDIANTE UNO</h1>
+        <p id="c1"></p>
+        <p id="n1"></p>
+        <p id="t1"></p>
+     <h1>ESTUDIANTE DOS</h1>
+         <p id="c2"></p>
+         <p id="n2"></p>
+         <p id="t2"></p>
+     <h1>ESTUDIANTE TRES</h1>
+         <p id="c3"></p>
+         <p id="n3"></p>
+         <p id="t3"></p>
+  </body>
+
+  <script>
+      var estudiante1 = {
+         codigo:"100",
+         nombre:"luis",
+         telefono:111111
+      }
+
+      var estudiante2 = new Object();
+      estudiante2.codigo = "200";
+      estudiante2.nombre = "paco";
+      estudiante2.telefono = 222222;
+
+      function estudiante3(codigo, nombre, telefono){
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.telefono = telefono;
+      }
+      var estudiante3 = new estudiante3("300","mario",333333);
+
+      // Imprimiendo los objetos estudiantes
+      document.getElementById("c1").innerHTML = estudiante1.codigo;
+      document.getElementById("n1").innerHTML = estudiante1.nombre;
+      document.getElementById("t1").innerHTML = estudiante1.telefono;
+
+      document.getElementById("c2").innerHTML = estudiante2.codigo;
+      document.getElementById("n2").innerHTML = estudiante2.nombre;
+      document.getElementById("t2").innerHTML = estudiante2.telefono;
+
+      document.getElementById("c3").innerHTML = estudiante3.codigo;
+      document.getElementById("n3").innerHTML = estudiante3.nombre;
+      document.getElementById("t3").innerHTML = estudiante3.telefono;
+
+  </script>
+</html>

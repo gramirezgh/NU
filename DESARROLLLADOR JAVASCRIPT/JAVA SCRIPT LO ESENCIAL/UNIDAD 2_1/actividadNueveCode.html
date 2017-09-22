@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Muestra todos los numeros pares</h1>
+     <p id="numero"></p>
+     <button onclick="numPares()">Click</button>
+  </body>
+  <script>
+    function numPares(){
+      var texto = "Numeros <br>";
+
+      for(i=0;i<=100;i++){
+        if(i%2==0){
+          texto+=i+"<br>";
+          document.getElementById("numero").innerHTML = texto;
+        }
+      }
+    }
+  </script>
+</html>

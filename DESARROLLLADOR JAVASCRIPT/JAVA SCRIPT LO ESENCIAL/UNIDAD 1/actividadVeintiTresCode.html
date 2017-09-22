@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h3>USO DE EL METODO "toPrecision"</h3>
+     <p id="n1"></p>
+     <p id="n2"></p>
+     <p id="n3"></p>
+     <p id="n4"></p>
+     <p id="n5"></p>
+  </body>
+  <script>
+  var numero1 = 12.6477;
+  var numero2 = 0.23576;
+  var numero3 = 5.0896;
+  var numero4 = 4.23435;
+  var numero5 = 235.3457778;
+
+     /*
+       Redondeando a tres decimales mediante el metodo toPrecision
+     */
+  document.getElementById('n1').innerHTML = numero1.toFixed(2);
+  document.getElementById('n2').innerHTML = numero2.toFixed(2);
+  document.getElementById('n3').innerHTML = numero3.toFixed(2);
+  document.getElementById('n4').innerHTML = numero4.toFixed(2);
+  document.getElementById('n5').innerHTML = numero5.toFixed(2);
+  </script>
+</html>

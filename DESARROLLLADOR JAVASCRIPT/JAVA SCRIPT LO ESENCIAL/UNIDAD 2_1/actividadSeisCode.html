@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Uso de IF ELSE IF ELSE</h1>
+    <p id="nota"></p>
+    <button onclick="verificarNota()">Verificar</button>
+  </body>
+  <script>
+  function verificarNota(){
+    var nota = 4.5;
+    if(nota>3.0&&nota<4.0){
+      document.getElementById("nota").innerHTML = "Su nota es de nivel medio";
+    }else if(nota>4.0&&nota<5.0){
+      document.getElementById("nota").innerHTML = "Su nota es de nivel alto";
+    }
+    else{
+      document.getElementById("nota").innerHTML = "Su nota es de nivel bajo";
+    }
+  }
+  </script>
+</html>

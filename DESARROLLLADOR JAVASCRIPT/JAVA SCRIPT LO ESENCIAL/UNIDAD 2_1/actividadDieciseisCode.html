@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Try catch 3</h1>
+     <p id="errorUno"></p>
+     <button onclick="miFuncion()">Ejecutar Funcion</button>
+  </body>
+  <script>
+    function miFuncion(){
+      try {
+        var estudiante = null;
+        alert(estudiante.nombre);
+      } catch (error) {
+        alert("Existe un error " + error.message);
+      } finally {
+        document.getElementById("errorUno").innerHTML = "Estamos en la sentencia finally";
+      }
+    }
+  </script>
+</html>

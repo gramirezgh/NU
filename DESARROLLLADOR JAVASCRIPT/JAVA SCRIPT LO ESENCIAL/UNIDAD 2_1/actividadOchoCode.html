@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Uso de FOR</h1>
+    <p id="equipo"></p>
+    <button onclick="obtener_equipos()">Obtener</button>
+  </body>
+  <script>
+
+    function obtener_equipos(){
+      var texto = "Equipos :<br>";
+      var equipos =["Stronguei", "Bolivar", "Oriente_Petrolero"];
+      for(i=0;i<equipos.length;i++){
+        texto+=equipos[i]+"<br>";
+        document.getElementById('equipo').innerHTML = texto;
+      }
+    }
+  </script>
+</html>

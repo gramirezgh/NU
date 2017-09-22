@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <h3>CREANDO OBJETOS PERSONA DE LAS TRES FORMAS</h3>
+  </head>
+  <body>
+     <h1>PERSONA UNO</h1>
+        <p id="id1"></p>
+        <p id="n1"></p>
+        <p id="e1"></p>
+     <h1>PERSONA DOS</h1>
+        <p id="id2"></p>
+        <p id="n2"></p>
+        <p id="e2"></p>
+     <h1>PERSONA TRES</h1>
+        <p id="id3"></p>
+        <p id="n3"></p>
+        <p id="e3"></p>
+  </body>
+
+  <script>
+        var persona1 = {
+          id:"01",
+          nombre:"jhoel",
+          edad:35
+        }
+
+        var persona2 = new Object();
+        persona2.id = "02";
+        persona2.nombre = "alberto";
+        persona2.edad = 58;
+
+        function persona3 (id, nombre, edad){
+          this.id = id;
+          this.nombre = nombre;
+          this.edad = edad;
+        }
+        var persona3 = new persona3("03","Sonia",56);
+
+        document.getElementById("id1").innerHTML = persona1.id;
+        document.getElementById("n1").innerHTML = persona1.nombre;
+        document.getElementById("e1").innerHTML = persona1.edad;
+
+        document.getElementById("id2").innerHTML = persona2.id;
+        document.getElementById("n2").innerHTML = persona2.nombre;
+        document.getElementById("e2").innerHTML = persona2.edad;
+
+        document.getElementById("id3").innerHTML = persona3.id;
+        document.getElementById("n3").innerHTML = persona3.nombre;
+        document.getElementById("e3").innerHTML = persona3.edad;
+
+  </script>
+</html>

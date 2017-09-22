@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>Objetos en JS "uno"</h1>
+    <p id ="p1"></p>
+    <p id ="p2"></p>
+    <button onclick="miFuncion()">Motrar Propiedades</button>
+  </body>
+  <script>
+    function Producto(codigo, nombre, cantidad,  precio){
+      this.codigo = codigo;
+      this.nombre = nombre;
+      this.cantidad = cantidad;
+      this.precio = precio;
+
+      this.mostrar = function(){
+       document.getElementById('p1').innerHTML = "El codigo del producto es :"+this.codigo+"<br> El nombre del producto es :"+this.nombre+"<br>La cantidad es : "+producto.cantidad+"<br> El precio es :"+producto.precio;
+     };
+    }
+
+    var producto = new Producto("p-01","kolyno",5,4);
+
+    function miFuncion(){
+      //  document.getElementById("p2").innerHTML = "La cantidad es : "+producto.cantidad+"<br> El precio es :"+producto.precio;
+       producto.mostrar();
+    }
+
+  </script>
+</html>

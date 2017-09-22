@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h3>USO DE PROTOTYPE CUATRO</h3>
+     <p id="n1"></p>
+  </body>
+  <script>
+     Number.prototype.metodoDivision = function(){
+       return (this/2);
+     }
+
+     var numero = 10;
+     document.getElementById('n1').innerHTML = numero.metodoDivision();
+  </script>
+</html>

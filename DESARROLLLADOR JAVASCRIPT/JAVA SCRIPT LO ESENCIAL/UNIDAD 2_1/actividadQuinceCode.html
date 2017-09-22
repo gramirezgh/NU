@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Uso Try Catch 2</h1>
+     <button onclick="miFuncion()">Ejecutar funcion</button>
+  </body>
+  <script>
+    function miFuncion(){
+      try {
+        var numero = -40;
+        var resultado = Math.sqrt(numero);
+        // alert("info"+resultado);
+        if(isNaN(resultado)){
+          throw "No es posible calcular una raiz negativa ";
+        }
+      } catch (error) {
+        alert("mensaje desde JS"+"--"+error);
+      }
+    }
+  </script>
+</html>

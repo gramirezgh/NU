@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1>Uso de For In</h1>
+     <p id="objeto"></p>
+     <button onclick="obtenerCoche()">Click</button>
+  </body>
+  <script>
+    var objeto = new Object();
+    objeto.ID = 1;
+    objeto.nombre = 'auto';
+    objeto.teefono = 12345;
+
+    function obtenerCoche(){
+
+     var texto="";
+     var o;
+     for(o in objeto){
+       texto+=objeto[o]+"<br>";
+       document.getElementById('objeto').innerHTML = texto;
+      }
+    }
+  </script>
+</html>
