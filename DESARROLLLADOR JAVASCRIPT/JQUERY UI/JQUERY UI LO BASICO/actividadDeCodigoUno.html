@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+</head>
+<body>
+    <h1>Datos</h1>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label><input id="nombre" type="text"><br><br>
+        <label for="apellidos">Apellidos:</label><input id="apellidos" type="text"><br><br>
+        <label for="fecNac">Fecha de Nacimiento:</label><input id="fecNac" type="text"><br><br>
+        <input id="mostrar" type="button" value="Mostrar Datos">
+    </form>
+</body>
+<script>
+    $(function () {
+        $("#fecNac").datepicker();
+
+        $("#mostrar").click(function () {
+            var nombre = $("#nombre").val();
+            var apellidos = $("#apellidos").val();
+            var fecNac = $("#fecNac").val();
+            alert(nombre+"-"+apellidos+"-"+fecNac);
+        });
+    });
+</script>
+</html>

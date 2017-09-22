@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <style>
+        #miDiv{
+            position: absolute;
+            top: 60%;
+            left: 60%;
+            width: 300px;
+            height: 300px;
+            margin-left: -400px;
+            margin-top: -100px;
+            border: 1px solid #808080;
+            padding: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Funcionalidad Arrastar y opcion cursor JQUERYUI</h1>
+    <div id="miDiv">Mi DIV!!!</div>
+</body>
+<script>
+    $(function () {
+       $("#miDiv").draggable();
+
+        $("#miDiv").on("dragstart",function (evento, ui) {
+            $(this).css('cursor', 'help');
+        });
+
+       $("#miDiv").on("drag",function (evento, ui) {
+           $(this).css('cursor', 'proress');
+       });
+
+       $("#miDiv").on("dragstop", function () {
+            $(this).css('cursor', 'default');
+       });
+    });
+</script>
+</html>
