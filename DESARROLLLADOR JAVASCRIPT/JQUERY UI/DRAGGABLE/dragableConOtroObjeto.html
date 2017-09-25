@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Draggable con otro objeto</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <style>
+        #miDiv1{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            width: 300px;
+            height: 300px;
+            margin-left: -400px;
+            margin-top: -100px;
+            border:1px solid #808080;
+            padding: 10px;
+            background-color: #FF9D3A;
+        }
+
+        #miDiv2{
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            background-color: #3AFF5E;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo funcionalidad arrastrar de JQUERY UI</h1>
+    <div id="miDiv1">Mi div Uno</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miDiv1").draggable({
+            cursor:'move',
+            containment: 'document',
+            helper:miCopia
+        });
+
+        function miCopia() {
+            return '<div id="miDiv2">Un clon Modificado</div>'
+        }
+    });
+</script>
+</html>

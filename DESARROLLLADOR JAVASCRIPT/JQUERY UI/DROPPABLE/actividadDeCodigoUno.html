@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+
+    <style type="text/css">
+        #divUno{
+            width: 50px;
+            height: 50px;
+            background-color: #0B2161;
+        }
+        #divDos{
+            width: 100px;
+            height: 100px;
+            top: -400px;
+            left: 200px;
+            background-color: #3AFF5E;
+        }
+    </style>
+</head>
+<body>
+    <div id="divUno">Div Uno</div>
+    <div id="divDos">Div Dos</div>
+    <div id="divTres"></div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#divUno").draggable({});
+        $("#divDos").droppable({
+            drop:function () {
+                $("#divTres").html("KAJ");
+            }
+        });
+    });
+
+</script>
+</html>

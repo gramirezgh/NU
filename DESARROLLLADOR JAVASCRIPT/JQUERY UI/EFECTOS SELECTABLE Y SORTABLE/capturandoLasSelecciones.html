@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CApturando las selecciones</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miProducto{
+            background-color: #E92003;
+
+        }
+        /*ui-selected funciona para cuando esta seleccionado*/
+        #productos .ui-selected{
+            color:red;
+            background: #FFF415;
+            font-weight: bold;
+        }
+
+        /* estilo para cuando no esta seleecionado*/
+        #productos{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 300px;
+        }
+
+        /*para seleecionar los elementos de la lista*/
+        #productos li{
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <ui id="productos">
+        <li class="miProducto">Producto 1</li>
+        <li class="miProducto">Producto 2</li>
+        <li class="miProducto">Producto 3</li>
+        <li class="miProducto">Producto 4</li>
+        <li class="miProducto">Producto 5</li>
+        <li class="miProducto">Producto 6</li>
+        <li class="miProducto">Producto 7</li>
+        <li class="miProducto">Producto 8</li>
+        <li class="miProducto">Producto 9</li>
+        <li class="miProducto">Producto 10</li>
+    </ui>
+    <p id="itemSelects"></p>
+    <p id="eventos"></p>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var eventos ="";
+        $("#productos").selectable({
+           selected: function (event, ui) {
+               var seleccionados = $("li[class$='ui-selected']").length;
+               $("#itemSelects").html("has seleccionado"+seleccionados+"productos!!");
+               $("#mensaje").html(eventos+="evento selected <br>");
+           },
+            unselected: function (e, ui) {
+                $("#eventos").html(eventos+="Eventos unselected<br>");
+            },
+            start:function(e){
+               $("#eventos").html(eventos+="Evento start<br>");
+            },
+            stop:function () {
+                $("#eventos").html(eventos+="Evento stop<br>");
+            }
+        });
+    });
+</script>
+</html>

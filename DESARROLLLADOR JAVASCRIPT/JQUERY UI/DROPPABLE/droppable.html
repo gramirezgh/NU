@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Droppable</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <style type="text/css">
+        #arrastrar{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin: 10px 10px 10px 10px;
+            background: #FF5500;
+            text-align: center;
+            color: #FFF;
+            border-radius: 50px;
+        }
+        #soltar{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            margin: 100px 10px 10px 600px;
+            background: #777777;
+            text-align: center;
+            color: #FFF;
+            border-radius: 50px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="soltar"><h4>Soltar dentro</h4></div>
+<div id="arrastrar"><h4>Arrastrame</h4></div>
+</body>
+<script type="text/javascript">
+  $(function () {
+      $("#arrastrar").draggable();
+      $("#soltar").droppable({
+         drop:function () {
+             alert("has soltado el elemento en la caja");
+         }
+      });
+  });
+</script>
+</html>
