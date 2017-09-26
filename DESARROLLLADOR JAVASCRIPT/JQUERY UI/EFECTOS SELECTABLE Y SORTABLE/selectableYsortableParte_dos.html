@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selectable y sortable parte dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #miListaUno, #miListaDos, #miListaTres{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 200px;
+        }
+        #miListaUno li, #miListaDos li, #miListaTres li{
+            padding: 0.4em;
+            margin: 0 5px 5px 5px;
+            font-size: 20px;
+            height: 18px;
+            padding-left: 1.5em;
+        }
+        .equipo{
+            background: #1017E8;
+            color: #FFFFFF;
+            border: 1px solid #75C9FF;
+        }
+        .contenedorHijo{
+            width: 150px;
+        }
+        .contenedorPadre{
+            display: table-row-group;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arrastrar equipos a los Grupos</h1>
+    <div class="contenedorPadre">
+    <div class="contenedor">
+    <h2>Grupo 1</h2>
+    <ul id="miListaUno">
+        <li class="equipo">Dinamo de Kiev</li>
+    </ul>
+    </div>
+    <div class="contenedorHijo">
+        <h2>Grupo 2</h2>
+        <ul id="miListaDos">
+        <li class="equipo">CSKA Moscu</li>
+        </ul>
+    </div>
+    <div class="contenedorHijo">
+        <h2>Equipos</h2>
+        <ul id="miListaTres">
+            <li class="equipo">Beyern Munich</li>
+            <li class="equipo">Roma</li>
+            <li class="equipo">Manchester City</li>
+            <li class="equipo">Barcelona</li>
+            <li class="equipo">Arsenal</li>
+            <li class="equipo">Real Madrid</li>
+        </ul>
+    </div>
+    </div>
+    <br>
+    <p id="mensaje"></p>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var mensaje = "";
+        $("#miListaUno").sortable({
+           start:function (event, ui) {
+               $("#mensaje").html(mensaje+="evento start desde lista uno <br>");
+           },
+           receive: function (event, ui) {
+               $("#mensaje").html(mensaje+="Evento receive desde lista uno <br>");
+           },
+           stop:function (event, ui) {
+               $("#mensaje").html(mensaje+="evento stop desde lista uno <br>")
+           }
+        });
+        $("#miListaDos").sortable({
+            start:function (event, ui) {
+                $("#mensaje").html(mensaje+="evento start desde lista Dos <br>");
+            },
+            receive: function (event, ui) {
+                $("#mensaje").html(mensaje+="Evento receive desde lista Dos <br>");
+            },
+            stop:function (event, ui) {
+                $("#mensaje").html(mensaje+="evento stop desde lista Dos <br>")
+            }
+        });
+        $("#miListaTres").sortable({
+            start:function (event, ui) {
+                $("#mensaje").html(mensaje+="evento start desde lista Tres <br>");
+            },
+            receive: function (event, ui) {
+                $("#mensaje").html(mensaje+="Evento receive desde lista Tres <br>");
+            },
+            stop:function (event, ui) {
+                $("#mensaje").html(mensaje+="evento stop desde lista Tres <br>")
+            }
+        });
+
+
+        $("#miListaUno").sortable({
+            connectWith:"#miListaUno, #miListaDos, #miListaTres"
+        });
+
+        $("#miListaDos").sortable({
+            connectWith:"#miListaUno, #miListaDos, #miListaTres"
+        });
+
+        $("#miListaTres").sortable({
+            connectWith:"#miListaUno, #miListaDos, #miListaTres"
+        });
+    });
+</script>
+</html>
