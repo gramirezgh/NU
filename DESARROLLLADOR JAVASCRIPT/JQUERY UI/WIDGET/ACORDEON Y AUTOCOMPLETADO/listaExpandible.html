@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista Expandible</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <style type="text/css">
+        /*<!--estilo de contenedor-->*/
+        #contenedor{
+            padding: 10px;
+            width: 450px;
+            height: 260px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Programación Web</h2>
+    <div id="contenedor">
+        <div id="miAcordion">
+            <div name="html">
+            <h3>HTML</h3>
+            <div>
+                Es un lenguaje utilizado para el desarrollo de paginas web.<br>
+                Podemos utilizar cualquier editor de texto para manipular HTML.
+            </div>
+            </div>
+            <div name="js">
+            <h3>JavaScript</h3>
+            <div>
+                Es un lenguaje que nos permite crear pequeños programas que se insertan en paginas web.<br>
+                JavaScript nos permite crear efectos dinamicos para nuestras paginas web.
+            </div>
+            </div>
+            <div name="jquery">
+            <h3>JQUERY</h3>
+            <div>
+                Son librerias y ficheros de javascript que nos facilita ejecutar tareas en paginas web.<br>
+                JQUERY nos permite implementar procesos ya listos para usar, facilitandonnos la solucion de tareas basicas.
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+//        var icono = {
+//            header: "ui-icon-circle-arrow-e",
+//            activeHeader: "ui-icon-circle-arrow-s"  ///Agregando iconos al acordeon
+//        };
+       $("#miAcordion").accordion({
+//           icons: icono   ///LLamando a la variable icono que contiene los iconos para el acordion
+             header:"div h3",
+                collapsible:true
+       })
+       .sortable({
+               axis:"y",
+               handle:"h3",
+         stop:function (event, ui) {
+                    ui.item.children("h3").triggerHandler("focusout");
+                    $(this).accordion("refresh");
+              }
+       });
+    });
+</script>
+</html>

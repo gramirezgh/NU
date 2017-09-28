@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo tres</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+</head>
+<body>
+    <h3>Autocompletado</h3>
+    <input id="cajauno">
+</body>
+<script>
+    $(function () {
+        var valores=[
+                "bolivar",
+                "Bolivia",
+                "Real Potosi",
+                "wilsterman",
+                "petrolero"
+            ];
+
+            $("#cajauno").autocomplete({
+
+            source:valores
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar una página web en la que implemente una función que haga uso de un widget de tipo autocompletado.-->
+<!--El widget deberá tener las siguientes características:-->
+
+<!--La opción de autocompletar la digitación del nombre de un equipo de fútbol, el cual estará almacenado en una -->
+<!--variable con múltiples valores (la cantidad de equipos de fútbol que se deben guardar en la variable será de diez).-->
+<!--Se debe desarrollar una caja de texto para que el usuario ingrese el nombre del equipo de fútbol a digitalizar.-->

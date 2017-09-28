@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seccion expandible o Acordeon y autocompletado</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <h2>ACordeon</h2>
+    <div id="miAcordeon">
+        <div name="seccionUno">
+            <h3>Seccion 1</h3>
+            <div>Contenido 1</div>
+        </div>
+        <div name="seccionDos">
+            <h3>Seccion 2</h3>
+            <div>Contenido 2</div>
+        </div>
+        <div name="seccionTres">
+            <h3>Seccion 3</h3>
+            <div>Contenido 3</div>
+        </div>
+    </div>
+
+    <h2>Autocomplete</h2>
+
+    <input type="text" id="cjatxt1">
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miAcordeon").accordion();
+
+        var valores=[
+            "camerun",
+            "colombia",
+            "chile",
+            "croacia",
+            "chipre"
+        ];
+
+        $("#cjatxt1").autocomplete({
+           source:valores
+        });
+    });
+</script>
+</html>

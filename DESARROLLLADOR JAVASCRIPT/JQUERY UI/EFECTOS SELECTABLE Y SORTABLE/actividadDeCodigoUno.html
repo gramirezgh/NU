@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #miLista .ui-selecting{
+            background-color: red;
+            width: 100px;
+        }
+        #miLista .ui-selected{
+            background: #40E0D0;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lenguajes de Programacion</h1>
+    <ul id="miLista">
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miLista").selectable();
+    });
+
+</script>
+</html>
+
+<!--Utilizar la función o plugin Selectable para-->
+<!--seleccionar uno o más elementos de una lista en HTML.-->
+<!--Estos elementos simularán algunos lenguajes de programación que-->
+<!--el estudiante seleccionará para decir que lenguajes desea aprender.-->
+<!--Se debe utilizar Selectable para la selección.-->
+
+<!--Además se debe acompañar de un estilo CSS cuando se está seleccionando-->
+<!--los elementos y cuando se han seleccionado.-->

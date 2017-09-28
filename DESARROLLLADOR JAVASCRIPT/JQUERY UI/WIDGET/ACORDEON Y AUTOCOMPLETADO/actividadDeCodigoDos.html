@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo Dos</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+
+</head>
+<body>
+    <h3>Acordeon</h3>
+    <div>
+    <div id="acordeon">
+        <div>
+            <h3>Desplegable Uno</h3>
+            <div>Concepto deplegable uno</div>
+        </div>
+        <div>
+            <h3>Desplegable Dos</h3>
+            <div>Concepto deplegable dos</div>
+        </div>
+        <div>
+            <h3>Desplegable Tres</h3>
+            <div>Concepto deplegable tres</div>
+        </div>
+
+    </div>
+    </div>
+</body>
+<script>
+    $(function () {
+        $("#acordeon").accordion({
+            header:"div h3",
+            collapsible: true
+        })
+    .sortable({
+            axis:"y",
+            handle:"h3",
+            stop:function (event, ui) {
+                ui.item.children("h3").triggerHandler("focusout");
+                $(this).accordion("refresh");
+            }
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar una aplicación web que posea un elemento de tipo “accordion”.-->
+<!--Esta deberá tener las siguientes características:-->
+
+<!--El “accordion” deberá contener como mínimos 3 conceptos, es decir, 3 despegables.-->
+<!--Implementación de la propiedad “collapsible” que permita encoger totalmente la “accordion”.-->
+<!--Desarrollar una función en la que se use la propiedad “sortable” para mover o cambiar de-->
+<!--posición cada uno de los despegables de nuestro “accordion”.-->

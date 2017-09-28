@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cuadro de dialogo activado por boton</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="dialog" title="barra">
+        <p>Es un aventana que se posiciona en una parte de nuestra pagina.
+           Cuenta con una barra de titulo y un  espacio de contenido.
+           Podemos moverla, cambiar su tamaño y cerrarla mediante el icono
+           por defecto "X" que posee.
+        </p>
+    </div>
+    <button id="boton">Dialogo</button>
+</body>
+<script>
+    $(function () {
+        $("#dialog").dialog({
+            autoOpen:false
+        })
+        $("#boton").button().click(function (event) {
+            $("#dialog").dialog("open");
+        });
+    });
+</script>
+</html>

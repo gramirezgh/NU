@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style>
+        #listaUno .ui-selecting{
+            background-color: red;
+            width: 100px;
+        }
+        #listaUno .ui-selected{
+            background: #40E0D0;
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Baul de jueguetes</h2>
+    <div id="divUno">Baul Autos
+        <ul id="listaUno">
+            <li>Coche carrera</li>
+            <li>Balon de playa</li>
+            <li>Balon de Futbol</li>
+        </ul>
+    </div>
+    <div id="divDos">Baul Pelotas
+        <ul id="listaDos">
+            <li>Tractor</li>
+            <li>Camioneta</li>
+            <li>Balon de basquet</li>
+        </ul>
+    </div>
+</body>
+<script>
+    $(function () {
+        $("#listaUno").sortable({
+            start:function (event, ui) {
+//                $("#mensaje").html(mensaje+="evento start desde lista uno <br>");
+            },
+            receive: function (event, ui) {
+//                $("#mensaje").html(mensaje+="Evento receive desde lista uno <br>");
+            },
+            stop:function (event, ui) {
+//                $("#mensaje").html(mensaje+="evento stop desde lista uno <br>")
+            }
+        });
+
+        $("#listaDos").sortable({
+            start:function (event, ui) {
+//                $("#mensaje").html(mensaje+="evento start desde lista uno <br>");
+            },
+            receive: function (event, ui) {
+//                $("#mensaje").html(mensaje+="Evento receive desde lista uno <br>");
+            },
+            stop:function (event, ui) {
+//                $("#mensaje").html(mensaje+="evento stop desde lista uno <br>")
+            }
+        });
+
+        $("#listaUno").sortable({
+            connectWith:"#listaUno, #listaDos"
+        });
+
+        $("#listaDos").sortable({
+            connectWith:"#listaUno, #listaDos"
+        });
+
+    });
+</script>
+</html>
+
+<!--Utilizar la función o plugin Sortable para seleccionar uno-->
+<!--o más elementos de una lista en HTML y arrastrarlos a otra y viceversa.-->
+<!--Estos elementos simularán una colección de juguetes, los cuales los debemos-->
+<!--arrastrar entre dos listas; una lista representarán dichos juguetes, y la otra-->
+<!--el baúl donde debemos guardarlos.-->
+
+<!--Se debe acompañar la página con un estilo CSS.-->

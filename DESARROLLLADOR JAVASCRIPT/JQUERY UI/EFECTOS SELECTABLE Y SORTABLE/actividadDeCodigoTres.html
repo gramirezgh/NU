@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo Tres</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <style type="text/css">
+        #listaUno, #listaDos, #listaTres{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            width: 200px;
+        }
+        #listaUno li, #listaDos li, #listaTres li{
+            padding: 0.4em;
+            margin: 0 5px 5px 5px;
+            font-size: 20px;
+            height: 18px;
+            padding-left: 1.5em;
+        }
+        .elemento{
+            background: red;
+            color: #FFFFFF;
+            border: 1px solid #75C9FF;
+        }
+    </style>
+</head>
+<body>
+    <h3>Lista para Ordenar</h3>
+    <div id="divUno">Frutas
+        <ul id="listaUno">
+            <li class="elemento">Manzana</li>
+        </ul>
+    </div>
+    <div id="divDos">Carros
+        <ul id="listaDos">
+            <li class="elemento">Toyota</li>
+        </ul>
+    </div>
+    <div id="divTres">Elementos
+        <ul id="listaTres">
+            <li class="elemento">Maracuya</li>
+            <li class="elemento">Chevrolet</li>
+            <li class="elemento">Fresa</li>
+            <li class="elemento">Uva</li>
+            <li class="elemento"> Hyundai</li>
+            <li class="elemento">Renault</li>
+            <li class="elemento">Mitsubishi</li>
+            <li class="elemento">Ford</li>
+            <li class="elemento">Mora</li>
+            <li class="elemento">Jeep</li>
+            <li class="elemento">Kia</li>
+            <li class="elemento">Nissan</li>
+            <li class="elemento">Tamarindo</li>
+            <li class="elemento">Guayaba</li>
+            <li class="elemento">Guanábana</li>
+            <li class="elemento">Sapote</li>
+        </ul>
+    </div>
+    <br>
+    <p id="msj"></p>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var msj="";
+        $("#listaUno").sortable({
+            start:function (event, ui) {
+              $("#msj").html(msj+="start iniciado en LISTA UNO ==>");
+            },
+            receive:function (event, ui) {
+              $("#msj").html(msj+="receive en LISTA UNO ==>");
+            },
+            stop:function (event, ui) {
+              $("#msj").html(msj+="stop en LISTA UNO ==>");
+            }
+        })
+
+        $("#listaDos").sortable({
+            start:function (event, ui) {
+                $("#msj").html(msj+="start iniciado en LISTA DOS ==>");
+            },
+            receive:function (event, ui) {
+                $("#msj").html(msj+="receive en LISTA DOS ==>");
+            },
+            stop:function (event, ui) {
+                $("#msj").html(msj+="stop en LISTA DOS ==>");
+            }
+        });
+
+        $("#listaTres").sortable({
+            start:function (event, ui) {
+                $("#msj").html(msj+="start iniciado en LISTA TRES ==>");
+            },
+            receive:function (event, ui) {
+                $("#msj").html(msj+="receive en LISTA TRES ==>");
+            },
+            stop:function (event, ui) {
+                $("#msj").html(msj+="stop en LISTA TRES ==>");
+            }
+        });
+
+        $("#listaUno").sortable({
+            connectWith:"#listaUno, #listaDos"
+        });
+        $("#listaDos").sortable({
+            connectWith:"#listaUno, #listaDos"
+        });
+        $("#listaTres").sortable({
+            connectWith:"#listaUno, #listaDos"
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar en un archivo HTML lo siguiente:  Crear tres divs;-->
+<!--el primer div contiene la fruta “Manzana” en una lista, el segundo-->
+<!--div contiene un carro “Toyota” en una lista, y el tercer div contiene el-->
+<!--siguiente listado de frutas y carros:-->
+
+<!--Maracuya-->
+<!--Chevrolet-->
+<!--Fresa-->
+<!--Uva-->
+<!--Hyundai-->
+<!--Renault-->
+<!--Mitsubishi-->
+<!--Ford-->
+<!--Mora-->
+<!--Jeep-->
+<!--Kia-->
+<!--Nissan-->
+<!--Tamarindo-->
+<!--Guayaba-->
+<!--Guanábana-->
+<!--Sapote-->
+<!--Antes de cada div debe haber un título h1 que diga Frutas, Carros y Elementos respectivamente.-->
+
+<!--Se debe implementar una función que permita mover las frutas y carros para cada uno-->
+<!--de los divs correspondientes.-->
+
+<!--Cada vez que se realice un movimiento de una lista a otra, se debe mostrar un mensaje-->
+<!--de start, receive y stop para cada lista.-->
+
+<!--Estos divs deben tener un estilo: que el color de fondo sea rojo, un padding,-->
+<!--un width para que los elementos se muestren de forma rectangular, y el color de letras blancas.-->
+
+<!--Las imágenes muestran como debe ser el resultado inicial y final.-->

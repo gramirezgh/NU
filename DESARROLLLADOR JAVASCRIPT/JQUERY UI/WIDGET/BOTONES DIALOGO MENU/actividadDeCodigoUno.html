@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <p id="parrafo">Ventana de dialogo lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+    <br>
+    <button id="boton" title="barra">Boton</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#parrafo").dialog({
+           autoOpen:false
+       })
+       $("#boton").button().click(function () {
+            $("#parrafo").dialog("open");
+       });
+    });
+</script>
+</html>
+<!--Desarrollar una aplicación web en la que se haga uso de los botones y los diálogos-->
+<!--de JQuery. La aplicación debe tener las siguientes características:-->
+
+<!--Desarrollar una ventana de dialogo (Dialog), y en su interior definir un concepto o-->
+<!--detallar un párrafo.-->
+
+<!--Se debe desarrollar un botón, que al ser presionado muestre la ventana de diálogo-->
+<!--creada anteriormente.-->
