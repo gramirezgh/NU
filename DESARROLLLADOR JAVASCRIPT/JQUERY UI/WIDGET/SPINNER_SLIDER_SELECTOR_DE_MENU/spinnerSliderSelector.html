@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spiner Sliter Selector Menu</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        select, #rango{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Spiner</h2>
+    <input id="numero" value="50">
+    <h2>Slider</h2>
+    <div id="rango"></div>
+    Rango de Valores:<input type="text" id="valores">
+
+    <h2>Select menu</h2>
+    <p>Selecciona una marca de carro</p>
+    <select name="carros" id="carros">
+        <option value="toyota">toyota</option>
+        <option value="chevrolet">chevrolet</option>
+        <option value="hyundai">hyundai</option>
+    </select>
+    <br>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#numero").spinner();
+
+       $("#rango").slider({
+           range:true,
+           min:0,
+           max:50,
+           slide:function (event,ui) {
+               $("#valores").val(ui.values[0]+"-"+ui.values[1]);
+           }
+       });
+       $("#valores").val($("#rango").slider("values",1));
+
+       $("#carros").selectmenu();
+    });
+</script>
+</html>

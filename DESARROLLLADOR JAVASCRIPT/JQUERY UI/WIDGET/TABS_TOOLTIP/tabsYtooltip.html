@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs y tooltip</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <div id="tab">
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#javascript">JAVASCRIPT</a></li>
+            <li><a href="#jquery">JQUERY</a></li>
+        </ul>
+        <div id="html">
+            <p>
+                Es un lenguaje utilizado para el desarrollo  de paginas web.<br>
+                Podemos utilizar cualquier editor de texto para editar o manipular el
+                contenido de un documento HTML.
+            </p>
+        </div>
+            <div id="javascript">
+                <p>
+                 Es un lenguaje que nos permite crear peuqeños programas que se insertan en paginas
+                 web.<br>
+                 Nos permite crear efectos dinamicos para nuestra pagina web.
+                </p>
+            </div>
+            <div id="jquery">
+                <p>
+                    Son librerias o ficheros de javascript que nos facilita ejecutar tareas
+                    en paginas web.<br>
+                    JQUERY nos permite implementar procesos ya listos para usar, facilitandonos la solucion de tareas basicas.
+                </p>
+            </div>
+
+    </div>
+</body>
+<script>
+    $(function () {
+        var tab=$("#tab").tabs();
+        tab.find(".ui-tabs-nav").sortable({
+            axis:"x",
+            stop:function () {
+                tab.tabs("refresh");
+            }
+        });
+
+    });
+</script>
+</html>

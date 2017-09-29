@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <h2>Tabs</h2>
+    <div id="misTabs">
+        <ul>
+            <li><a href="#tab1">Tab 1</a></li>
+            <li><a href="#tab2">Tab 2</a></li>
+            <li><a href="#tab3">Tab 3</a></li>
+        </ul>
+
+    <div id="tab1">Mi tab 1</div>
+    <div id="tab2">Mi tab 2</div>
+    <div id="tab3">Mi tab 3</div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#misTabs").tabs({
+            load:function (event, ui) {
+                console.log("elegitse un tab");
+            }
+
+        });
+
+        $(document).tooltip();
+    });
+</script>
+</html>

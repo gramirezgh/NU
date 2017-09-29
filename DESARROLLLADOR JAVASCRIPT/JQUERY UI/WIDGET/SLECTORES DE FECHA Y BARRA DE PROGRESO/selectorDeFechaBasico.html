@@ -9,8 +9,24 @@
     <script src="../../jqlib/jquery321.js"></script>
     <script src="../../jqlib/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
+    <p>Fecha : <input id="date" type="text"></p>
 
 </body>
+<script type="text/javascript">
+    $(function () {
+        $("#date").datepicker({
+//            showOtherMonths:true,
+//            selectOtherMonths:true  //Permite ver los dias antes y despues de la fecha actual
+              showOn:"button",
+              buttonImage:"image.jpg",
+              buttonImageOnly:true,
+              buttonText: "seleccione la fecha"
+        });
+    });
+</script>
 </html>

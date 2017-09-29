@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo Dos</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+
+</head>
+<body>
+    <div id="rango"></div>
+    Rango de Valores:<input type="text" id="valores">
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#rango").slider({
+            range:true,
+            min:1,
+            max:100,
+            slide:function (event,ui) {
+                $("#valores").val(ui.values[0]+"-"+ui.values[1]);
+            }
+        });
+    });
+</script>
+</html>
+<!--Desarrollar una página en HTML que contenga las siguientes características:-->
+
+<!--Una función en JQuery que haga uso de un widget de tipo Slider.-->
+
+<!--Se debe desarrollar una caja de texto en donde se mostrará el rango en el-->
+<!--que se encuentre el Slider.-->
+
+<!--El valor máximo del rango debe ser 100, el mínimo debe ser uno.-->
+<!--Se debe separar por un guion (-) los valores en el rango, por ejemplo, “10 - 50”.-->

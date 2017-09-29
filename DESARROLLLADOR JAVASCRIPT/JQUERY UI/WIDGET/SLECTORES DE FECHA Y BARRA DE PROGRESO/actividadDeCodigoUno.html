@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery321.js"></script>
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <p>FECHA : <input id="date" type="text"></p>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#date").datepicker({
+            showOn:"button",
+            buttonImage:"image.jpg",
+            buttonImageOnly:true,
+            buttonText:"click fecha",
+            onSelect: function(date) {
+                alert("La fecha seleccionada es: "+date);
+            }
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar una página en HTML que contenga las siguientes características:-->
+
+<!--Una función en JQuery que haga uso de un widget de tipo DatePicker.-->
+<!--El widget debe estar acompañado de una caja de texto que mostrará la-->
+<!--fecha seleccionada, además de una imagen que al ser presionada mostrará el-->
+<!--despliegue del widget DatePicker en pantalla, y de esa forma poder seleccionar-->
+<!--la fecha que se desee.-->
+
+<!--Se debe mostrar mediante un comando “alert” la fecha seleccionada en el widget-->
+<!--DatePicker.-->

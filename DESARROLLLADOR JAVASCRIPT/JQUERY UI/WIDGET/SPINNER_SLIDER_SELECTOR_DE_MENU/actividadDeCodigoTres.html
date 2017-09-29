@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo tres</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+
+</head>
+<body>
+    <h2>Menu</h2>
+    <select id="menu">
+        <option>python</option>
+        <option>javascript</option>
+        <option>jquery</option>
+    </select>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#menu").selectmenu({
+            width:800,
+            position: { my : "left+10 center", at: "right center" },
+            focus:function (event, ui) {
+
+                console.log("hiciste click");
+            }
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar una página en HTML que contenga las siguientes características:-->
+
+<!--Una función en JQuery que haga uso de un widget de tipo SelectMenu.-->
+<!--El widget debe contener como mínimo 4 opciones para que el usuario seleccione.-->

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Dos</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <h3>Barra Determinada Uno</h3>
+    <div id="barra_deter_uno"></div>
+    <HR>
+    <h3>Barra Determinada Dos</h3>
+    <div id="barra_deter_dos"></div>
+    <HR>
+    <h3>Bara indeterminada:</h3>
+    <div id="barra_indeter"></div>
+</body>
+<script type="text/javascript">
+    $("#barra_deter_uno").progressbar({
+        value:20
+    });
+    $("#barra_deter_dos").progressbar({
+        value:70
+    });
+    $("#barra_indeter").progressbar({
+        value:false
+    });
+</script>
+</html>
+
+<!--Desarrollar una página en HTML que contenga las siguientes características:-->
+
+<!--Una función en JQuery que haga uso de tres widget de tipo ProgressBar.-->
+
+<!--Dos de las barras de progreso deben ser de tipo determinada, con un valor-->
+<!--de 20% y 70% respectivamente. La otra de progreso debe ser de tipo indeterminada.-->

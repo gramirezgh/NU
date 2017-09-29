@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de cosigo uno</title>
+    <script src="../../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../../jqlib/jquery-ui.min.css">
+    <script src="../../jqlib/jquery-ui.min.js"></script>
+
+</head>
+<body>
+    <h1>uso de spinner</h1>
+    Spinner:<input id="inputUno" value="10">
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#inputUno").spinner({
+            max:50
+        });
+    });
+</script>
+</html>
+
+<!--Desarrollar una página en HTML que contenga las siguientes características:-->
+
+<!--Una función en JQuery que haga uso de un widget de tipo Spinner.-->
+<!--El widget debe ser básico, y su valor máximo debe ser 50.-->
+<!--El valor inicial del widget debe ser 10.-->
