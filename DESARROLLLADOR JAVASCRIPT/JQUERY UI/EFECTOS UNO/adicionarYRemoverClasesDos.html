@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar y Remover clases parte dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            font-style: oblique;
+            font-size: 50px;
+            color: #10D3C0;
+
+        }
+    </style>
+</head>
+<body>
+    <p id="parrafo1" class="miestilo2">El sabio puede sentarse en un hormiguero pero solo el necio se queda sentado en el.</p>
+    <button id="boton1">Agregar Clase</button>
+    <button id="boton2">Remover clase</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            $("#parrafo1").addClass("miEstilo1",3000,"easeInCirc");
+        });
+        $("#boton2").click(function () {
+           $("#parrafo1").removeClass("miEstilo1",3000,"easeInCubic");
+        });
+    });
+</script>
+</html>

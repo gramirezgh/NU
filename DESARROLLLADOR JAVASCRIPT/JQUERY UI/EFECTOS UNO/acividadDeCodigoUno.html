@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #000000;
+            color: #00FF09;
+        }
+    </style>
+</head>
+<body>
+    <input id="input1" value="caja de texto!!!">
+    <button id="boton1">Agregar Clase</button>
+    <button id="boton2">Remover Clase</button>
+</body>
+<script>
+    $(function () {
+        $("#boton1").click(function () {
+            $("#input1").addClass("miEstilo1",1000,"easeInOutBounce");
+
+        });
+        $("#boton2").click(function () {
+            $("#input1").removeClass("miEstilo1",3000,"easeInBack");
+        });
+    });
+
+</script>
+</html>
+
+<!--Crear un HTML que contenga una clase css llamada miEstilo1 que indique que el color de fondo del elemento sea el valor #000000 y el color del texto sea el valor #00FF09. La idea es crear un input de tipo texto con id “input1” que tenga como valor por defecto “Mi caja de texto!!” y dos botones; uno con id “boton1” y texto “Agregar clase!” y el otro con id “bototn2” y texto “Remover clase!”. El primer botón ejecutará la acción de agregar la clase miEstilo1 con un efecto easeInOutBounce que dure 3 segundos. El segundo botón ejecutará-->
+<!--la acción de  remover la clase miEstilo1 con un efecto easeInBack que dure 3 segundos.-->

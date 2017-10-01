@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios y uso de Animate</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <form>
+        Nombre:
+        <input id="nombre" type="text" class="requerido">
+        <br>
+        <br>
+        Apellido:
+        <input id="apellido" type="text" class="requerido">
+        <br>
+        <br>
+    </form>
+    <button id="boton1">Enviar</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#nombre").blur(function () {
+            if($("#nombre").val().trim().length==0){
+                $("#nombre").animate({
+                    outlineColor:"black",
+                    backgroundColor:"red"
+                });
+            }else{
+                $("#nombre").animate({
+                   outlineColor:"black",
+                   backgroundColor: "white"
+                });
+            }
+        });
+
+        $("#apellido").blur(function () {
+            if($("#apellido").val().trim().length==0){
+                $("#apellido").animate({
+                    outlineColor:"black",
+                    backgroundColor:"red"
+                });
+            }else{
+                $("#apellido").animate({
+                    outlineColor:"black",
+                    backgroundColor: "white"
+                });
+            }
+        });
+
+        $("#boton1").click(function () {
+            alert("datos enviados exitosamente");
+            $("#nombre").val("");
+            $("#apellido").val("");
+        });
+    });
+</script>
+</html>
+
+
+
+

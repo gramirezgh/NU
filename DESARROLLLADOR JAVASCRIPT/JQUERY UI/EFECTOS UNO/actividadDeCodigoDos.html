@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #6F0C90;
+            color: #EBFF01;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">Mi div !!!</div>
+    <button id="boton1">Agregar Clase</button>
+    <button id="boton2">Remover Clase</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+           $("#div1").addClass("miEstilo1",3000,"easeInBounce");
+        });
+
+        $("#boton2").click(function () {
+           $("#div1").removeClass("miEstilo1",3000,"easeInOutCirc");
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga una clase css llamada miEstilo1 que indique que el color de fondo del elemento sea el valor #6F0C90 y el color del texto sea el valor #EBFF01, y con un ancho y alto de 200px. La idea es crear un div con id “div1” que tenga como texto “Mi div!!” y dos botones; uno con id “boton1” y texto “Agregar clase!” y el otro con id “bototn2” y texto “Remover clase!”. El primer botón ejecutará la acción de agregar la clase miEstilo1 con un efecto easeInBounce que dure 3 segundos, y el segundo botón ejecutará -->
+<!--la acción de remover la clase  miEstilo1 con un efecto easeInOutCirc que dure 3 segundos.-->
