@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <textarea id="txtArea" rows="4" cols="50">
+        Mi Text area!!! cambia de color
+    </textarea>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#txtArea").focus(function () {
+          $("#txtArea").animate({
+              color:"yellow",
+              backgroundColor:"green"
+          });
+       });
+
+       $("#txtArea").blur(function () {
+          $("#txtArea").animate({
+              color:"white",
+              backgroundColor:"black"
+          });
+       });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga un text area que tenga 4 filas y 50 columnas, un id “txtArea”,-->
+<!--y que tenga el texto “Mi text area cambia de color!!”. Este cambiará el color del texto a yellow-->
+<!--y el color de fondo a green cuando se le haga foco. Cuando pierda el foco el color del texto será-->
+<!--blue y el color de fondo black. Los cambios de estilos deberán estar acompañados de una animación.-->
+

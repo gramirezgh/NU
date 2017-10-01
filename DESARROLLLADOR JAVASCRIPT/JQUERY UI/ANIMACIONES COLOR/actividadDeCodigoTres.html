@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad De Codigo Tres</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #miDiv{
+            border-top-style: solid;
+            background-color: pink;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="miDiv">Mi Div!!!</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#miDiv").click(function () {
+            $("#miDiv").animate({
+                borderTopColor:"aqua",
+                backgroundColor:"purple"
+            });
+       });
+    });
+</script>
+</html>
+<!--Crear un HTML que contenga primero un selector de id css llamado miDiv con las propiedades-->
+<!--border-top-style  con el valor de solid, background-color con el valor de pink, width con-->
+<!--el valor 300px y height con el valor de 300px. Luego crear un div con id “miDiv”. La idea es-->
+<!--que el div cambie el color del borde superior a red y el color de fondo a purple, acompañado de-->
+<!--una animación cuando se le haga clic sobre el div.-->

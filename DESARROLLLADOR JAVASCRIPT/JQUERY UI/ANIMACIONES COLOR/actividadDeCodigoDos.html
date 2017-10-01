@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #miDiv{
+            outline-color: red;
+            outline-style: solid;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="miDiv">mi Div!!!</div>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miDiv").click(function () {
+            $("#miDiv").animate({
+                outlineColor:"blue",
+                backgroundColor:"yellow"
+
+            });
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga primero un selector de id css llamado miDiv con las propiedades-->
+<!--outline-color con el valor de red, outline-style con el valor de solid, width con el valor-->
+<!--500px y height con el valor de 500px. Luego crear un div con id “miDiv”. La idea es que el-->
+<!--div cambie el color del contorno a blue y el color de fondo a yellow, acompañado de una animación-->
+<!--cuando se le haga clic sobre el div.-->

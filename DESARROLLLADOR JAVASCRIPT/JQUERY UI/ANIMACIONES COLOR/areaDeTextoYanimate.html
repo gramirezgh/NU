@@ -6,8 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Area de texto y animate</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
-
+    <textarea rows="4" cols="50" id="txtArea">
+        Mi text Area!!!!
+    </textarea>
 </body>
+<script type="text/javascript">
+    $(function () {
+        $("#txtArea").focus(function () {
+            $("#txtArea").animate({
+               color:"#FBFB1C",
+               backgroundColor:"#25D91F"
+            });
+        });
+
+        $("#txtArea").blur(function () {
+            $("#txtArea").animate({
+                color:"#FFFFFF",
+                backgroundColor:"#FF5CE7"
+            });
+        });
+    });
+</script>
 </html>
