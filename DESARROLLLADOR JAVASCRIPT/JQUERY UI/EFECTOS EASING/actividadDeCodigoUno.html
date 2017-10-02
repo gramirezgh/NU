@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #003eff;
+            width:100px;
+            height: 100px;
+        }
+        .miestilo2{
+            background-color: orange;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <select id="miSelect">
+        <option>Seleccione una opcion</option>
+        <option value="easeInCubic">easeInCubic</option>
+        <option value="easeInQuint">easeInQuint</option>
+        <option value="easeInCirc">easeInCirc</option>
+        <option value="easeInElastic">easeInElastic</option>
+    </select>
+    <br>
+    <br>
+    <div id="miDiv">mi div!!!</div>
+    <br>
+    <br>
+    <button id="boton1">agregar clase</button>
+    <button id="boton2">remover clase</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            $("#midiv").animate("easeInCubic",2000);
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+

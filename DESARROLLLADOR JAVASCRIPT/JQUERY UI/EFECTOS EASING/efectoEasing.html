@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Efecto bousing o rebote</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+
+    <style type="text/css">
+        .miEstilo1{
+            background-color: purple;
+            color: white;
+            font-size: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        #miInput{
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Efecto Bounce</h1>
+    <input id="miInput" value="20" name="quantify" min="1">
+    <br>
+    <br>
+    <button id="miBoton1">Bounce</button>
+    <br>
+    <br>
+    <div id="miDiv" class="miEstilo1">Mi div!!!</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miBoton1").click(function () {
+           var distance = parseInt($("#miInput").val());
+           $("#miDiv").effect("bounce",{
+                distance:distance
+           },3000, function () {
+               $(this).show();
+           });
+        });
+    });
+</script>
+</html>
