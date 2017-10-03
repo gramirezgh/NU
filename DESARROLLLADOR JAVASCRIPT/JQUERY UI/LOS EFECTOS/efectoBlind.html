@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Efecto Blind</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: yellow;
+            color: green;
+            font-size: 30px;
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Opciones</h3>
+    <select id="opciones">
+        <option value="">Seleccione una opcion</option>
+        <option value="up">up</option>
+        <option value="down">Down</option>
+        <option value="left">Left</option>
+        <option value="right">Right</option>
+        <option value="vertical">Vertical</option>
+        <option value="horizontal">Horizontal</option>
+    </select>
+    <br>
+    <br>
+    <div id="miDiv1" class="miEstilo1">Mi Div!!!!</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#opciones").change(function () {
+            var opcion = $(this).val();
+            var direccion = "";
+
+            switch (opcion){
+                case "up":
+                    direccion="up";
+                    break;
+                case "down":
+                    direccion="down";
+                    break;
+                case "left":
+                    direccion="left";
+                    break;
+                case "right":
+                    direccion="right";
+                    break;
+                case "vertical":
+                    direccion="vertical";
+                    break;
+                case "horizontal":
+                    direccion="horizontal";
+                    break;
+            }
+
+            $("#miDiv1").effect("blind",{
+                direction:direccion
+            },3000,function () {
+                $(this).show(9);
+                console.log(direccion);
+            });
+        });
+    });
+</script>
+</html>

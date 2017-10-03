@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Efecto blind</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="midiv" class="miEstilo">Mi Div!!!!</div>
+    <button id="boton1">Efecto Explode</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            $("#midiv").effect("explode", 4000,function () {
+               $(this).show();
+            });
+        });
+    });
+</script>
+</html>
+<!--Crear un HTML que contenga:&ndash;&gt;-->
+
+<!--Una clase CSS llamada miEstitlo, con las propiedades background-color con el valor red, width con el valor de 200px y height con el valor de 200px.-->
+<!--Crear un div con id “miDiv” y con el atributo class con el valor de la clase css creada en el punto anterior y llamada miEstilo; con el texto “Mi div!!”.-->
+<!--Crear un botón con id “boton1” con el texto “Efecto explode!”. La idea es que cuando se haga clic sobre el botón se aplique un efecto explode que dure 4 segundos al div y al terminar el efecto mostrar de nuevo el div en pantalla.

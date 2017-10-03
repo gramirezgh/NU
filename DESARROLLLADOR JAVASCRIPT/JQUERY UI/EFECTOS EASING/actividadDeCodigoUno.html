@@ -15,10 +15,21 @@
             width:100px;
             height: 100px;
         }
-        .miestilo2{
+        .miEstilo2{
             background-color: orange;
             width: 300px;
             height: 300px;
+        }
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+        }
+
+        .big-blue {
+            width: 200px;
+            height: 200px;
+            background-color: #00f;
         }
     </style>
 </head>
@@ -40,13 +51,51 @@
 </body>
 <script type="text/javascript">
     $(function () {
-        $("#boton1").click(function () {
-            $("#midiv").animate("easeInCubic",2000);
+        var efecto = "";
+
+        $("#miSelect").change(function() {
+
+            var opcion = $(this).val();
+
+
+
+            switch (opcion) {
+                case "easeInCubic":
+                    efecto = "easeInCubic";
+                    break;
+                case "easeInQuint":
+                    efecto = "easeInQuint";
+                    break;
+                case "easeInCirc":
+                    efecto = "easeInCirc";
+                    break;
+                case "easeInElastic":
+                    efecto = "easeInElastic";
+                    break;
+
+
+            }
+
+
+
         });
+
+        $("#boton1").click(function () {
+            $("#miDiv").addClass("miEstilo2", 2000,efecto);
+        });
+
+        $("#boton2").click(function () {
+            $("#miDiv").removeClass("miEstilo2",2000,efecto);
+        });
+
     });
 </script>
 </html>
 
+<!--Además, crear un div con id “miDiv”, y para finalizar crear dos botones; uno con id “boton1” y texto-->
+<!--“Agregar clase!” y otro con id “bototn2” y texto “Remover clase!”. El primer botón ejecutará la acción de-->
+<!--agregar la clase miEstilo2 con el efecto escogido en el select que dure 2 segundos, y el segundo botón ejecutará-->
+<!--la acción de remover la clase miEstilo2 con el efecto escogido en el select que dure 2 segundos.-->
 
 
 

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shake y explode</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: red;
+            border-top: groove;
+            width: 200px;
+            height: 200px;
+        }
+        .miEstilo2{
+            background-color: #003eff;
+            border-top: grey;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+        <div id="miDiv1" class="miEstilo1">MI DIV!!!!!!!!!!!!!!!!!!!!!</div>
+        <div id="miDiv2" class="miEstilo2">MI DIV 2 !!!!</div>
+        <button id="boton1">Efecto Explode</button>
+        <button id="boton2">Efecto Shake</button>
+</body>
+<script type="text/javascript">
+        $(function () {
+           $("#boton1").click(function () {
+                $("#miDiv1").effect("explode", 4000, function () {
+                    $(this).show();
+                });
+           });
+
+           $("#boton2").click(function () {
+                $("#miDiv2").effect("shake", 4000);
+           });
+        });
+</script>
+</html>
+
