@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toogle y los cuadros de dialogo</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #contenedor{
+            width: 400px;
+            height: 100px;
+            margin: 0px auto;
+        }
+
+        #caja h3{
+            margin: 0px;
+            text-align: justify;
+
+        }
+        #boton{
+            width: 200px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="caja" class="ui-widget-content ui-corner-all">
+            <h3 class="ui-widget-header ui-corner-all">Toogle</h3>
+            <p>El efecto toogle nos permite ocultar y mostrar elemntos de una pagina web.<br>
+               Si el elemento esta oculto, pasara a visible.<br>
+               Si el elemento esta visible pasara a oculto.
+            </p>
+        </div>
+    </div>
+    <br><br><br><br>
+    <center><button id="boton" class="ui-state-default ui-corner-all">Mostrar efecto</button></center>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton").click(function () {
+             $("#caja").toggle("bounce", 1000);
+        });
+    });
+</script>
+</html>
