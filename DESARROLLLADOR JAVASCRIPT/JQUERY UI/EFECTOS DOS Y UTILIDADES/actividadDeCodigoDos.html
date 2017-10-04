@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ACtividad de Codigo Dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+      .miEstilo1{
+          background-color: #77EE07;
+          width: 200px;
+          height: 50px;
+      }
+        .miEstilo2{
+            background-color: #0760EE;
+            color: mediumpurple;
+            font-size: xx-large;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <input id="miInput" class="miEstilo1" value="Input !!!">
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miInput").focus(function () {
+            $("#miInput").switchClass("miEstilo1","miEstilo2",2000,"easeInCirc");
+        });
+
+        $("#miInput").blur(function () {
+            $("#miInput").switchClass("miEstilo2","miEstilo1",2000,"easeOutCirc");
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga:-->
+
+<!--Dos clases css, una llamada miEstitlo1 con las propiedades background-color con el valor  #77EE07, width con el valor de 200px y height con el valor de 50px. La otra clase llamada miEstilo2 con las propiedades background-color con el valor #0760EE, width con el valor de 300px y height con el valor de 100px.-->
+<!--Crear un input de tipo texto con id “miInput” y con el atributo class con el valor de la clase css creada en el punto anterior, miEstilo1.-->
+<!--La idea es que  el input tenga el foco se remueva el estilo miEstilo1 y se agregue el estilo miEstilo2 ejecutando la función easeInCirc. Y cuando se pierda el foco se remueva el estilo miEstilo2 y se agregue el estilo miEstilo1 ejecutando la función easeOutCirc.-->cuando

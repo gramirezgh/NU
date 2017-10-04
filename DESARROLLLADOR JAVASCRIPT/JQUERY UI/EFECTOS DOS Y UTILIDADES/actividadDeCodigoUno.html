@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miestilo1{
+            background-color: #C52FD9;
+            width: 200px;
+            height: 200px;
+        }
+        .miEstilo2{
+            background-color: #3CE55B;
+            color: #FFF;
+            font-size: xx-large;
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="miDiv" class="miestilo1">Mi div !!!</div><br><br>
+    <button id="boton1">Cambiar 1</button>
+    <button id="boton2">Cambiar 2</button>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            $("#miDiv").switchClass("miEstilo1","miEstilo2",2000,"easeInElastic");
+        });
+
+        $("#boton2").click(function () {
+            $("#miDiv").switchClass("miEstilo2","miEstilo1",2000,"easeOutElastic");
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga:-->
+
+<!--Dos clases css, una llamada miEstitlo1 con las propiedades background-color con el valor  #C52FD9, width con el valor de 200px y height con el valor de 200px. La otra clase llamada miEstilo2 con las propiedades background-color con el valor #3CE55B, color con el valor #fff, font-size con el valor de xx-large, width con el valor de 400px y height con el valor de 400px.-->
+<!--Crear un div con id “miDiv” y con el atributo class con el valor de la clase css creada en el punto anterior y llamada miEstilo1; con el texto “Mi div!!”-->
+<!--Crear dos botones, el primer botón con id “boton1” con el texto “Cambiar 1” y el segundo botón con id “boton2” con el texto “Cambiar 2”.-->
+<!--La idea es que cuando se de clic sobre el botón Cambiar 1 se remueva la clase miEstilo1 y se agregue la clase miEstilo2 ejecutando la función easeInElastic, y cuando se de clic en el botón Cambiar 2 se remueva la clase miEstilo2 y agregue la clase miEstilo1 ejecutando la función easeOutElastic,-->

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switch class y utilidades</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+       .miEstilo1{
+           background-color: #C52FD9;
+           border-top: groove;
+           width: 200px;
+           height: 200px;
+       }
+
+       .miEstilo2{
+           background-color: #3CE55B;
+           color: #FFF;
+           font-size: xx-large;
+           border-top: groove;
+           width: 400px;
+           height: 400px;
+       }
+    </style>
+</head>
+<body>
+    <div id="miDiv1" class="miEstilo1">Mi div!!!!</div><br><br>
+    <button id="boton1">switchClass</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            $("#miDiv1").switchClass("miEstilo1","miEstilo2",2000,"easeInBounce");
+        });
+    });
+</script>
+</html>

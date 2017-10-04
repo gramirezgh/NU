@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cambios de Clases Efectos Parte Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #4702F6;
+            width: 300px;
+            height: 300px;
+        }
+        .miEstilo2{
+            background-color: #F6D102;
+            color: #FFF;
+            font-size: x-large;
+            width: 400px;
+            height: 400px;
+        }
+        .miEstilo3{
+            background-color: #EE83A8;
+            width: 100px;
+            height: 50px;
+        }
+
+        .miEstilo4{
+            background-color: #FF790A;
+            color: #FFF;
+            font-size: 50px;
+            width: 400px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejmeplo Switch Class</h1>
+    <b>Efecto Inicial</b>
+    <select id="efectoInicial">
+        <option>Seleccione una opcion..</option>
+        <option value="easeInElastic">easeInElastic</option>
+        <option value="easeinOutQuint">easeInOutQuint</option>
+        <option value="easeInCirc">easeInCirc</option>
+        <option value="easeInOutBounce">easeInOutBounce</option>
+        <option value="easeInBack">easeInBack</option>
+        <option value="easeInBounce">easeInBounce</option>
+    </select>
+    <b>Efecto Final</b>
+    <select id="efectoFinal">
+        <option value="">Seleccione una opcion</option>
+        <option value="easeInElastic">easeInElastic</option>
+        <option value="easeinOutQuint">easeInOutQuint</option>
+        <option value="easeInCirc">easeInCirc</option>
+        <option value="easeInOutBounce">easeInOutBounce</option>
+        <option value="easeInBack">easeInBack</option>
+        <option value="easeInBounce">easeInBounce</option>
+    </select>
+    <br><br>
+    <p id="efectosActuales"></p>
+    <br><br><br><br>
+    <input id="miInput" class="miEstilo3" type="text" value="Este es mi texto">
+    <br><br><br><br>
+    <div id="miDiv" class="miEstilo1">Mi div !!</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var efectoInicial="";
+        var efectoFinal="";
+        var mensaje="";
+        $("#efectoInicial").change(function () {
+           var opcion = $(this).val();
+           switch (opcion){
+               case "easeInElastic":
+                   efectoInicial="easeInElastic";
+                   break;
+               case "easeInOutQuint":
+                   efectoInicial="easeInOutQuint";
+                   break;
+               case "easeInCirc":
+                   efectoInicial="easeInCirc";
+                   break;
+               case "easeInOutBounce":
+                   efectoInicial="easeInOutBounce";
+                   break;
+               case "easeInBack":
+                   efectoInicial="easeInBack";
+                   break;
+               case "easeInBounce":
+                   efectoInicial="easeInBounce";
+                   break;
+           }
+
+
+        });
+
+        $("#efectoFinal").change(function () {
+            var opcion = $(this).val();
+            switch (opcion){
+                case "easeInElastic":
+                    efectoFinal="easeInElastic";
+                    break;
+                case "easeInOutQuint":
+                    efectoFinal="easeInOutQuint";
+                    break;
+                case "easeInCirc":
+                    efectoFinal="easeInCirc";
+                    break;
+                case "easeInOutBounce":
+                    efectoFinal="easeInOutBounce";
+                    break;
+                case "easeInBack":
+                    efectoFinal="easeInBack";
+                    break;
+                case "easeInBounce":
+                    efectoFinal="easeInBounce";
+                    break;
+            }
+        });
+
+        $("#miDiv").mouseenter(function () {
+                $("#miDiv").switchClass("miEstilo1","miEstilo2",2000,efectoInicial,efectoF);
+
+        });
+
+        $("#miDiv").mouseout(function () {
+            $("#miDiv").switchClass("miEstilo2","miEstilo1",2000,efectoFinal,efectoF);
+        });
+
+        $("#miInput").blur(function () {
+            $("#miInput").switchClass("miEstilo4","miEstilo3",3000,efectoFinal,efectoF);
+        });
+
+        $("#miInput").focus(function () {
+            $("#miInput").switchClass("miEstilo3","miEstilo4",3000,efectoInicial,efectoF);
+        });
+
+        function efectoF() {
+            mensaje += "termino un efecto<br>";
+            $("#efectosActuales").html(mensaje);
+        }
+
+    });
+</script>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad De Codigo Tres</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #09FFEB;
+            width: 200px;
+            height: 200px;
+        }
+
+        .miEstilo2{
+            background-color: #BA09FF;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="miDiv" class="miEstilo1">Mi div1!!!</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#miDiv").mouseenter(function () {
+            $("#miDiv").switchClass("miEstilo1","miEstilo2",2000,"easeInQuint");
+        });
+
+        $("#miDiv").mouseout(function () {
+            $("#miDiv").switchClass("miEstilo2","miEstilo1",2000,"easeOutQuint");
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga:-->
+
+<!--Dos clases css, una llamada miEstitlo1 con las propiedades background-color con el valor  #09FFEB, width con el valor de 200px y height con el valor de 200px. La otra clase llamada miEstilo2 con las propiedades background-color con el valor #BA09FF, width con el valor de 500px y height con el valor de 500px.-->
+<!--Crear un div con id “miDiv” y con el atributo class con el valor de la clase css creada en el punto anterior y llamada miEstilo1; con el texto “Mi div!!”-->
+<!--La idea es que cuando el cursor del mouse esté sobre el div se remueva la clase miEstilo1 y se agregue la clase miEstilo2 ejecutando la función easeInQuint. Y cuando el cursor del mouse se salga del div se remueva la clase miEstilo2 y se agregue la clase miEstilo1 ejecutando la función easeOutQuint.-->
