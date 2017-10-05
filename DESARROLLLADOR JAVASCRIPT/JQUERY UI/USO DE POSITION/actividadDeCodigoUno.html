@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        #miDiv1{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #5AFF00;
+        }
+        #miDiv2{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #2200FF;
+            color: white;
+        }
+
+        #miDiv3{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #FFAB00;
+        }
+
+        #elementoObjetivo{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background-color: #050505;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="elementoObjetivo">
+        <div id="miDiv1">DIV 1</div><br>
+        <div id="miDiv2">DIV 2</div><br>
+        <div id="miDiv3">DIV 3</div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#miDiv1").position({
+           my:"right bottom",
+           at:"right bottom",
+           of:"#elementoObjetivo"
+       });
+
+        $("#miDiv2").position({
+            my:"right bottom",
+            at:"left top",
+            of:"#elementoObjetivo"
+        });
+
+        $("#miDiv3").position({
+            my:"center",
+            at:"center",
+            of:"#elementoObjetivo"
+        });
+    });
+//    VALORES :
+    // HORIZONTALES: left, center, right
+    // VERTICALES : top, center, bottom
+</script>
+</html>
+
+<!--Crear un HTML que contenga:-->
+
+<!--4 selectores de id css; el primero llamado miDiv1 que contenga las propiedades position con el valor absolute, width con el valor 50px, height con el valor 50px y background con el valor #5AFF00. El segundo selector llamado miDiv2 que contenga las propiedades position con el valor absolute, width con el valor 50px, height con el valor 50px y background con el valor #2200FF. El tercer selector llamado  miDiv3 que contenga las propiedades position con el valor absolute, width con el valor 50px, height con el valor 50px y background con el valor #FFAB00. Y el cuarto llamado elementoObjetivo que contenga las propiedades background con el valor #050505, position con el valor absolute, width con el valor 300px, height con el valor 300px, left con el valor 100px y top con el valor 50px.-->
+<!--Luego crear cuatro divs; el primer div que será un div contenedor padre con id “elementoObjetivo”, el segundo div con id “miDiv1”, el tercer div con id “miDiv2”, y el cuarto div con id “miDiv3”.-->
+<!--La idea es posicionar la esquina inferior derecha del div con id “miDiv1” con la esquina inferior derecha del div con id “elementoObjetivo”, la esquina inferior derecha del div con id “miDiv2” con la esquina superior izquierda del div con id “elementoObjetivo”, y el centro del div con id “miDiv3” con el centro del div con id “elementoObjetivo”.-->

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ACtividad de Codigo Dos</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style type="text/css">
+        .miEstilo1{
+            background-color: #E7FF08;
+            width: 100px;
+            height: 100px;
+        }
+        .miEstilo2{
+            background-color: #FF6708;
+            color: #fff;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="miDiv" class="miEstilo1">Mi div!!</div><br><br>
+    <button id="boton">toggleClass</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton").click(function () {
+            $("#miDiv").toggleClass("miEstilo2",3000,"easeInBounce",function () {
+                $(this).show(function () {
+                    $("#miDiv").toggleClass("miEstilo2",3000,"easeInElastic");
+                });
+            });
+        });
+    });
+</script>
+</html>
+
+<!--Crear un HTML que contenga:-->
+
+<!--Dos clases css, una llamada miEstitlo1 con las propiedades background-color con el valor #E7FF08, width con el valor de 100px y height con el valor de 100px. La otra clase llamada miEstilo2 con las propiedades background-color con el valor #FF6708, color con el valor #fff, width con el valor de 300px  y height con el valor de 300px.-->
+<!--Crear un div con id “miDiv1” y con el atributo class con el valor de la clase css creada en el punto anterior, miEstilo1.-->
+<!--Crear un botón con id “boton1” con el texto “toggleClass”.-->
+<!--La idea es que cuando se haga clic en el botón se agregue o se remueva el estilo miEstilo2 según sea el caso, acompañado de la ejecución de la función easeInBounce con una duración de 3 segundos.-->
