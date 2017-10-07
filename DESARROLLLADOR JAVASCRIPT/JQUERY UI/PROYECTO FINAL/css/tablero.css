@@ -1,0 +1,51 @@
+body{
+    background:#dddddd;
+    color:#eee;
+    font-family: Sans-serif;
+    text-align: center;
+}
+
+
+#tablero{
+    background:url("../images/fondo3.jpg");
+    width: 550px;
+    height: 550px;
+    box-shadow: 0 10px 10px -6px rgba(0,0,0,.4);
+    border-radius: 3px;
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: inherit;
+    margin: auto;
+}
+
+#tablero td{
+    color: #222;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);
+    height: 50px;
+    width: 50px;
+}
+
+#tablero tr:nth-child(odd) td:nth-child(even),
+#tablero tr:nth-child(even) td:nth-child(odd){
+    background: rgba(255, 231, 120, 0.6);
+}
+
+#tablero tr:nth-child(n+6) td{
+    color: #ffffa8;
+    text-shadow: 1px 1px 1px rgba(0,0,128);
+}
+
+.circulo {
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #A23308;
+}
+
