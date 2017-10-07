@@ -8,8 +8,8 @@ body{
 
 #tablero{
     background:url("../images/fondo3.jpg");
-    width: 550px;
-    height: 550px;
+    width: 650px;
+    height: 650px;
     box-shadow: 0 10px 10px -6px rgba(0,0,0,.4);
     border-radius: 3px;
 
@@ -36,16 +36,26 @@ body{
 }
 
 #tablero tr:nth-child(n+6) td{
-    color: #ffffa8;
-    text-shadow: 1px 1px 1px rgba(0,0,128);
+    color: #745333;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);
 }
 
 .circulo {
+     width: 60px;
+     height: 60px;
+     border: 4px ridge #000000 ;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #A23308;
+ }
+
+.circulo2 {
     width: 60px;
     height: 60px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #A23308;
+    background: #ffe662;
 }
 
