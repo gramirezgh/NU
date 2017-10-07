@@ -10,13 +10,149 @@
     <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
     <script src="../jqlib/jquery-ui.min.js"></script>
     <style type="text/css">
+        .miEstilo1{
+            background-color: #000FFF;
+            color: #000000;
+            width: 700px;
+            height: 100px;
+        }
 
+        .miEstilo2{
+            background-color: #F70b0b;
+            color: #fff;
+            width: 700px;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
-
+    <button id="boton1">Crear Widget</button>
+    <button id="boton2">Ejecutar widget</button><br><br>
+    <div id="miDiv" class="miEstilo1"></div>
 </body>
 <script>
+    $(function () {
+        $.widget("com.miWidget",{
+           _create: function () {
+               this._inputNumero1 = $("<input>");
+               this._inputNumero1.attr("placeholder","Digite el primer numero");
+               this._inputNumero1.css("width","200px");
+               this._inputNumero1.css("border-style","solid");
+               this._inputNumero1.css("text-align","left");
+               this._inputNumero1.css("margin","0 auto");
+               $(this.element).append(this._inputNumero1);
 
+               this._inputNumero2 = $("<input>");
+               this._inputNumero2.attr("placeholder","Digite el segundo numero");
+               this._inputNumero2.css("width","200px");
+               this._inputNumero2.css("border-style","solid");
+               this._inputNumero2.css("text-align","left");
+               this._inputNumero2.css("margin","0 auto");
+               $(this.element).append(this._inputNumero2);
+
+               this._operaciones = $("<select>");
+               this._operaciones.css("width", "200px");
+
+               var operacion1 = document.createElement("option");
+
+               operacion1.text="Elija una operacion...";
+               operacion1.value="";
+
+               var operacion2 = document.createElement("option");
+               operacion2.text="suma";
+               operacion2.value="1";
+
+               var operacion3 = document.createElement("option");
+               operacion3.text="resta";
+               operacion3.value="2";
+
+               var operacion4 = document.createElement("option");
+               operacion4.text="multiplicacion";
+               operacion4.value="3";
+
+               var operacion5 = document.createElement("option");
+               operacion5.text="division";
+               operacion5.value="4";
+
+               this._operaciones.append(operacion1);
+               this._operaciones.append(operacion2);
+               this._operaciones.append(operacion3);
+               this._operaciones.append(operacion4);
+               this._operaciones.append(operacion5);
+
+               $(this.element).append(this._operaciones);
+
+           },
+
+            calcular: function () {
+                if(this.validar()){
+                    var opcion = parseInt(this._operaciones.val());
+
+                    var resultado;
+                    var numero1;
+                    var numero2;
+
+                    switch(opcion){
+                        case 1:
+                            numero1 = parseInt(this._inputNumero1);
+                            numero2 = parseInt(this._inputNumero2);
+
+                            resultado = numero1 + numero2;
+                            alert("El resultado de la suma es: "+resultado);
+                            break;
+
+                        case 2:
+                            numero1 = parseInt(this._inputNumero1);
+                            numero2 = parseInt(this._inputNumero2);
+
+                            resultado = numero1 - numero2;
+                            alert("El resultado de la reesta es: "+resultado);
+                            break;
+
+                        case 3:
+                            numero1 = parseInt(this._inputNumero1);
+                            numero2 = parseInt(this._inputNumero2);
+
+                            resultado = numero1 * numero2;
+                            alert("El resultado de la multiplicacion es: "+resultado);
+                            break;
+
+                        case 4:
+                            numero1 = parseInt(this._inputNumero1);
+                            numero2 = parseInt(this._inputNumero2);
+
+                            resultado = numero1 / numero2;
+                            alert("El resultado de la division es: "+resultado);
+                            break;
+                    }
+
+
+                }
+            },
+            validar: function () {
+                var input1 = this._inputNumero1.val().trim().length;
+                var input2 = this._inputNumero2.val().trim().length;
+
+                if(input1==0 || input2==0){
+                    alert("por favor rellene los campos!!");
+
+                    $("#miDiv").addClass("miEstilo2",1000,"easeOutExpo");
+                    return false;
+                }else{
+                    $("#miDiv").removeClass("miEstilo2",1000,"easeInBounce");
+                    return true;
+                }
+            }
+
+        });
+
+        $("#boton1").click(function () {
+           $("#miDiv").miWidget();
+        });
+
+        $("#boton2").click(function () {
+            $("#miDiv").miWidget("calcular");
+        });
+    });
 </script>
 </html>

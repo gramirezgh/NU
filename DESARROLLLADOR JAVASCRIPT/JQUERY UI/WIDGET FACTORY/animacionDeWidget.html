@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animacion de widget</title>
+    <script src="../jqlib/jquery321.js"></script>
+    <link rel="stylesheet" href="../jqlib/jquery-ui.min.css">
+    <script src="../jqlib/jquery-ui.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="miDiv"></div>
+    <button id="boton1">crear widget</button>
+    <button id="boton2">animar widget</button>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $.widget("com.myDivWidget",{
+            _create: function () {
+                this._div=$("<div>");
+                this._div.text("mi div widget");
+                this._div.css("width", "200px");
+                this._div.css("text-align", "center");
+
+                this._div.css("margin","0 auto");
+                $(this.element).append(this._div);
+            },
+
+            animar: function () {
+                this._div.css("background-color","red");
+
+                this._div.toggle('pulsate',3000);
+            }
+        });
+
+        $("#boton1").click(function () {
+           $("#miDiv").myDivWidget();
+        });
+
+        $("#boton2").click(function () {
+           $("#miDiv").myDivWidget("animar")
+        });
+    });
+</script>
+</html>
