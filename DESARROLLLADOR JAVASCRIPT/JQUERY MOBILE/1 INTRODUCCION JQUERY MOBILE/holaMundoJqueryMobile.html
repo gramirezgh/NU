@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hola mundo Jquery Mobile</title>
+
+    <script src="../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="header">
+            <h1>Hola Mundo desde jquery mobile</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="nombre">Nombre :</label><br>
+                    <input id="nombre" type="text" name="nombre">
+                    <label for="apellido">Apellido :</label><br>
+                    <input id="apellido" type="text" name="apellido">
+                </div>
+                <input type="button" id="boton1" value="Enviar">
+            </form>
+        </div>
+
+        <div data-role="footer">
+            <p align="center">Next University</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+  $(function () {
+      $("#boton1").click(function () {
+          var nombre=$("#nombre").val();
+          var apellido=$("#apellido").val();
+
+          alert("hola"+nombre+" "+apellido+" como estas");
+          $("#nombre").val("");
+          $("#apellido").val("");
+      });
+  });
+</script>
+</html>
