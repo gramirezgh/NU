@@ -1,11 +1,13 @@
+/*Adicionando estilos CSS a BODY*/
 body{
-    background:#dddddd;
+    background:url("../images/fondo6.jpg");
     color:#eee;
     font-family: Sans-serif;
     text-align: center;
+
 }
 
-
+/*Adicionando estilos CSS a TABLERO*/
 #tablero{
     background:url("../images/fondo3.jpg");
     width: 650px;
@@ -30,16 +32,19 @@ body{
     width: 50px;
 }
 
+/*Pintando los cuadros del tablero mediante la propiedad NTH-CHILD*/
 #tablero tr:nth-child(odd) td:nth-child(even),
 #tablero tr:nth-child(even) td:nth-child(odd){
     background: rgba(255, 231, 120, 0.6);
 }
 
+/*Cambiando el color en el tablero de juego para su intercalacion*/
 #tablero tr:nth-child(n+6) td{
     color: #745333;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, .8);
 }
 
+/*Añadiendo estilos a la clase CIRCULO*/
 .circulo {
      width: 60px;
      height: 60px;
@@ -50,15 +55,42 @@ body{
      background: #A23308;
  }
 
+/*Añadiendo estilos a la clase CIRCULO2*/
 .circulo2 {
     width: 60px;
     height: 60px;
+    border: 4px ridge #000000 ;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffe662;
 }
 
+/*Añadiendo estilos a la clase CIRCULO3*/
+.circulo3 {
+    width: 60px;
+    height: 60px;
+    border: 4px ridge #000000 ;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffe662;
+    font-size: 45px;
+}
+
+/*Añadiendo estilos a la clase CIRCULO4*/
+.circulo4 {
+    width: 60px;
+    height: 60px;
+    border: 4px ridge #000000 ;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #A23308;
+    font-size: 45px;
+}
+
+/*Añadiendo estilos a la clase RIGHT*/
 .right{
     float: right;
 
@@ -69,12 +101,10 @@ body{
     height: 650px;
     border: 3px outset rgb(160, 0, 11);
     font-family: "Century Gothic";
-
 }
 
+/*Añadiendo estilos a la clase RIGHT2*/
 .right2{
-
-
     background: white;
     color: #0B2161;
     border-radius: inherit;
@@ -84,16 +114,22 @@ body{
     font-family: "Century Gothic";
 }
 
+/*Añadiendo estilos a la clase INSTRUCCIONES*/
 .instrucciones{
     float: left;
-
-    background: white;
-    color: #0B2161;
+    background: black;
+    color: white;
     border-radius: inherit;
     width: 350px;
     height: 650px;
-    border: 3px outset rgb(160, 0, 11);
+    border: 3px outset rgb(153, 141, 160);
     font-family: "Century Gothic";
+    align-content: center;
+    font-size: large;
 }
 
+/*Añadiendo estilos a TITULO*/
+#titulo{
+    color: #2b2b2b;
+}
 
