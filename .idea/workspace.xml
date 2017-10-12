@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e989b41-37c6-49c9-ae75-94681b5f9d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/holaMundoJqueryMobile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqmobile145Lib/jquery321.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/cuadroDeDialogoYBotones.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,12 +18,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="atividadDeCodigoUno.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="atividadDeCodigoUno.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="10" column="80" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cuadroDeDialogoYBotones.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/cuadroDeDialogoYBotones.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="80" lean-forward="false" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="140" column="66" lean-forward="false" selection-start-line="140" selection-start-column="66" selection-end-line="140" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -32,8 +52,8 @@
       <file leaf-file-name="holaMundoJqueryMobile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/holaMundoJqueryMobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -45,6 +65,7 @@
     <findStrings>
       <find>#8226</find>
       <find>&lt;link rel=&quot;stylesheet&quot; href=&quot;../jqmobile145Lib/jquery.mobile-1.4.5.min.css&quot;&gt;</find>
+      <find>boton1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,10 +93,11 @@
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/USO DE POSITION/position.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/javaScript/tablero.js" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/css/tablero.css" />
-        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqueryMobileLib/jqm145.js" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/INTRODUCCION JQUERY MOBILE/holaMundoJqueryMobile.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/cuadroDeDialogoYBotones.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html" />
       </list>
     </option>
   </component>
@@ -128,50 +150,28 @@
               <item name="NU" type="b2602c69:ProjectViewProjectNode" />
               <item name="NU" type="462c0819:PsiDirectoryNode" />
               <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY UI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NU" type="b2602c69:ProjectViewProjectNode" />
               <item name="NU" type="462c0819:PsiDirectoryNode" />
               <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="1 INTRODUCCION JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NU" type="462c0819:PsiDirectoryNode" />
-              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmobile145Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NU" type="462c0819:PsiDirectoryNode" />
-              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmobile145Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery.mobile-1.4.5.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NU" type="462c0819:PsiDirectoryNode" />
-              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmobile145Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery.mobile-1.4.5.js" type="620a8d5e:NestingTreeNode" />
+              <item name="JQUERY UI" type="462c0819:PsiDirectoryNode" />
+              <item name="PROYECTO FINAL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -220,14 +220,17 @@
       <workItem from="1507409077137" duration="13336000" />
       <workItem from="1507422587258" duration="41000" />
       <workItem from="1507480812638" duration="6201000" />
+      <workItem from="1507741486161" duration="1676000" />
+      <workItem from="1507764568380" duration="2716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68485000" />
+    <option name="totallyTimeSpent" value="72877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -258,18 +261,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/css/tablero.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,7 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,27 +553,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="131" column="10" lean-forward="false" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqueryMobileLib/jqm145.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqueryMobileLib/jqm145.js" />
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqmobile145Lib/demos/collapsible/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,22 +565,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/holaMundoJqueryMobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="10" column="80" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/cuadroDeDialogoYBotones.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="80" lean-forward="false" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="140" column="66" lean-forward="false" selection-start-line="140" selection-start-column="66" selection-end-line="140" selection-end-column="66" />
           <folding />
         </state>
       </provider>
