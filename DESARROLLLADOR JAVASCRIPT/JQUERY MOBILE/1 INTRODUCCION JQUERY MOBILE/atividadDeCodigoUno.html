@@ -23,88 +23,9 @@
                     <label for="apellido">Apellido :</label>
                     <input type="text" id="apellido" name="apellido">
                 </div>
-                <a href="#pagina2" class="ui-btn">Siguiente Paso</a>
             </form>
         </div>
-        <div data-role="footer">
-            <p align="center">PASO 1</p>
-        </div>
-    </div>
-
-    <div data-role="page" id="pagina2">
-        <div data-role="header">
-            <h2>Formulario de llenado</h2>
-        </div>
-        <div data-role="content">
-            <form>
-                <div class="ui-field-contain">
-                    <label for="direccion">Direccion :</label>
-                    <input type="text" id="direccion" name="direccion">
-                    <label for="telefono">Telefono :</label>
-                    <input type="text" id="telefono" name="telefono">
-                </div>
-                <a href="#pagina3" class="ui-btn">Siguiente Paso</a>
-            </form>
-        </div>
-        <div data-role="footer">
-            <p align="center">PASO 2</p>
-        </div>
-    </div>
-
-    <div data-role="page" id="pagina3">
-        <div data-role="header">
-            <h2>Formulario de llenado</h2>
-        </div>
-        <div data-role="content">
-            <form>
-                <div class="ui-field-contain">
-                    <label for="email">Email :</label>
-                    <input type="text" id="email" name="email">
-                    <label for="ciudad">Ciudad :</label>
-                    <input type="text" id="ciudad" name="ciudad">
-                </div>
-                <a id="boton1" class="ui-btn">Enviar</a>
-            </form>
-        </div>
-        <div data-role="footer">
-            <p align="center">PASO 3</p>
-        </div>
-    </div>
-
-    <div data-role="page" id="pagina4">
-        <div data-role="header">
-            <h2>Formulario de llenado</h2>
-        </div>
-        <div data-role="content">
-            <form>
-                <p id="parrafo1">Registro Exitoso</p>
-                <p id="datos"></p>
-            </form>
-        </div>
+        <button></button>
     </div>
 </body>
-<script type="text/javascript">
-    $(function () {
-        $("#boton1").click(function () {
-            var nombre = $("#nombre").val();
-            var apellido = $("#apellido").val();
-            var direccion= $("#direccion").val();
-            var telefono= $("#telefono").val();
-            var email= $("#email").val();
-            var ciudad= $("#ciudad").val();
-
-            var datos = "Datos Clientes <br>";
-            datos += "Nombre :"+nombre+"<br>";
-            datos += "Apellido :"+apellido+"<br>";
-            datos += "Direccion :"+direccion+"<br>";
-            datos += "Telefono :"+telefono+"<br>";
-            datos += "Email :"+email+"<br>";
-            datos += "Ciudad :"+ciudad+"<br>";
-
-            $("#datos").html(datos);
-
-            $.mobile.changePage("#pagina4");
-        });
-    });
-</script>
 </html>
