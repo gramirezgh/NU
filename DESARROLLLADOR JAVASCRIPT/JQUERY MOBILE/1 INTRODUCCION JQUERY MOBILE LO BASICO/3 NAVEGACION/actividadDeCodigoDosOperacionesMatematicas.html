@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Operaciones Matematicas</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="header">
+            <h1>Operaciones Matematicas</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <a onclick="cambiarPagina('paginaSuma')" class="ui-btn">SUMA</a>
+                <a onclick="cambiarPagina('paginaResta')" class="ui-btn">RESTA</a>
+                <a onclick="cambiarPagina('paginaMultiplicacion')" class="ui-btn">MULTIPLICACION</a>
+                <a onclick="cambiarPagina('paginaDivision')" class="ui-btn">DIVISION</a>
+            </form>
+        </div>
+        <div data-role="footer">
+                <p></p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaSuma">
+        <div data-role="header">
+            <h1>Suma</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="numSum1">Numero 1 :</label>
+                    <input id="numSum1" type="text">
+                    <label for="numSum2">Numero 2 :</label>
+                    <input id="numSum2" type="text">
+                </div>
+            </form>
+            <a class="ui-btn" id="boton1">Sumar</a>
+            <a class="ui-btn" href="#pagina1">Volver</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Suma</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaResta">
+        <div data-role="header">
+            <h1>Resta</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="numRes1">Numero 1 :</label>
+                    <input id="numRes1" type="text">
+                    <label for="numRes2">Numero 2 :</label>
+                    <input id="numRes2" type="text">
+                </div>
+            </form>
+            <a class="ui-btn" id="boton2">Restar</a>
+            <a class="ui-btn" href="#pagina1">Volver</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Resta</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaMultiplicacion">
+        <div data-role="header">
+            <h1>Multiplicacion</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="numMul1">Numero 1 :</label>
+                    <input id="numMul1" type="text">
+                    <label for="numMul2">Numero 2 :</label>
+                    <input id="numMul2" type="text">
+                </div>
+            </form>
+            <a class="ui-btn" id="boton3">Multiplicar</a>
+            <a class="ui-btn" href="#pagina1">Volver</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Multiplicacion</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaDivision">
+        <div data-role="header">
+            <h1>Division</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="numDiv1">Numero 1 :</label>
+                    <input id="numDiv1" type="text">
+                    <label for="numDiv2">Numero 2 :</label>
+                    <input id="numDiv2" type="text">
+                </div>
+            </form>
+            <a class="ui-btn" id="boton4">Dividir</a>
+            <a class="ui-btn" href="#pagina1">Volver</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Division</p>
+        </div>
+    </div>
+
+    <div data-role="page" data-dialog="true" id="pagRespuesta">
+        <div data-role="header">
+            Resultado
+        </div>
+        <div data-role="content">
+            <p id="res"></p>
+            <a class="ui-btn" href="#pagina1">Volver</a>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+        $.mobile.changePage("#"+page);
+    }
+    $(function () {
+        $("#boton1").click(function () {
+            var datos="Resultado<br>";
+            var num1=parseFloat($("#numSum1").val());
+            var num2=parseFloat($("#numSum2").val());
+
+            var resultado=num1+num2;
+            alert("resultado : "+resultado);
+        });
+
+        $("#boton2").click(function () {
+            var datos="Resultado<br>";
+            var num1=parseFloat($("#numRes1").val());
+            var num2=parseFloat($("#numRes2").val());
+
+            var resultado=num1-num2;
+            alert("resultado : "+resultado);
+        });
+
+        $("#boton3").click(function () {
+            var datos="Resultado<br>";
+            var num1=parseFloat($("#numMul1").val());
+            var num2=parseFloat($("#numMul2").val());
+
+            var resultado=num1*num2;
+            alert("resultado : "+resultado);
+        });
+
+        $("#boton4").click(function () {
+            var datos="Resultado<br>";
+            var num1=parseFloat($("#numDiv1").val());
+            var num2=parseFloat($("#numDiv2").val());
+
+            var resultado=num1/num2;
+            alert("resultado : "+resultado);
+        });
+    });
+</script>
+</html>
