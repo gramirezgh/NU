@@ -17,41 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="atividadDeCodigoUno.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/atividadDeCodigoUno.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="80" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cuadroDeDialogoYBotones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/cuadroDeDialogoYBotones.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="140" column="65" lean-forward="false" selection-start-line="140" selection-start-column="65" selection-end-line="140" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="holaMundoJqueryMobile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE/holaMundoJqueryMobile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="138" column="49" lean-forward="true" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -157,7 +127,7 @@
               <item name="NU" type="462c0819:PsiDirectoryNode" />
               <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
               <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="1 INTRODUCCION JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
+              <item name="1 INTRODUCCION JQUERY MOBILE LO BASICO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NU" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +203,12 @@
       <workItem from="1507480812638" duration="6201000" />
       <workItem from="1507741486161" duration="1676000" />
       <workItem from="1507764568380" duration="6301000" />
-      <workItem from="1508038084459" duration="705000" />
+      <workItem from="1508038084459" duration="1167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77167000" />
+    <option name="totallyTimeSpent" value="77629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -606,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/PROYECTO FINAL/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="140" column="65" lean-forward="false" selection-start-line="140" selection-start-column="65" selection-end-line="140" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="138" column="49" lean-forward="true" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
           <folding />
         </state>
       </provider>
