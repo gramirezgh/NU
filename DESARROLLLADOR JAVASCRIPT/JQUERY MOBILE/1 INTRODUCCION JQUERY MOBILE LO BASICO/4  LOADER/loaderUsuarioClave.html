@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loader</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+
+<div data-role="page" id="pagina1">
+    <div data-role="header">
+        <h1 align="center">Inicio de Sesion</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <div class="ui-field-contain">
+                <label for="usuario">Usuario : </label>
+                <input type="text" id="usuario" name="usuario">
+                <label for="clave">Password : </label>
+                <input type="password" id="clave" name="clave">
+            </div>
+            <a class="ui-btn" id="boton1">Iniciar Sesion</a>
+        </form>
+    </div>
+    <div data-role="footer">
+        <p align="center">Pagina de Inicio Sesion</p>
+    </div>
+</div>
+    <div data-role="page" id="paginaPerfil">
+        <div page-role="header">
+           <h1>Perfil</h1>
+        </div>
+        <div data-role="content">
+            <h3 id="mensaje"></h3>
+        </div>
+        <div data-role="footer">
+            <p align="center">Perfil</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).on("mobileinit",function () {
+       $.mobile.loader.prototype.options.text="Conectando.....";
+       $.mobile.loader.prototype.options.textVisible=true;
+        $.mobile.loader.prototype.options.textonly=false;
+        $.mobile.loader.prototype.options.theme="a";
+        $.mobile.loader.prototype.options.html="";
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+           $.mobile.loading("show");
+           setTimeout(function () {
+                $.mobile.loading("hide");
+                var usuario = $("#usuario").val();
+                var mensaje = "Bienvenido : "+usuario+" al sistema";
+                $("#mensaje").html(mensaje);
+                $.mobile.changePage("#paginaPerfil");
+           },4000);
+        });
+    });
+</script>
+</html>
