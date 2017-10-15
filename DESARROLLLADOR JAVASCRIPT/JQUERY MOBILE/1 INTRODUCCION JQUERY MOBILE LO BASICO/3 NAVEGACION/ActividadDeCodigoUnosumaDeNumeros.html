@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo Uno</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="header">
+            <h2>Carrito de Compra</h2>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="producto1">Precio Preoducto 1 : </label>
+                    <input id="producto1" type="text">
+                </div>
+            </form>
+            <a href="#pagina2" class="ui-btn">Siguiente</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Carrito de Compra</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagina2">
+        <div data-role="header">
+            <h2>Carrito de Compra</h2>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="producto2">Precio Preoducto 2 : </label>
+                    <input id="producto2" type="text">
+                </div>
+            </form>
+            <a href="#pagina3" class="ui-btn">Siguiente</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Carrito de Compra</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagina3">
+        <div data-role="header">
+            <h2>Carrito de Compra</h2>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="producto3">Precio Preoducto 3 : </label>
+                    <input id="producto3" type="text">
+                </div>
+            </form>
+            <a href="#pagina4" class="ui-btn">Siguiente</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Carrito de Compra</p>
+        </div>
+    </div>
+
+    <div data-role="header" id="pagina4">
+        <div data-role="header">
+            <h2>Total Compra</h2>
+        </div>
+        <div data-role="content">
+            <h1 id="total" align="center"></h1>
+            <button id="boton1">OBTENER TOTAL DE COMPRA</button>
+
+        </div>
+        <div data-role="footer">
+            <p align="center">Total Carrito de Compras</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            var datos = "Usted compro el valor de : <br>";
+            var producto1 = parseFloat($("#producto1").val());
+            var producto2 = parseFloat($("#producto2").val());
+            var producto3 = parseFloat($("#producto3").val());
+
+            var total = producto1+producto2+producto3;
+
+            datos+="Total : "+total+"[Bs.]<br>";
+
+            $("#total").html(datos);
+
+
+            $("#producto1").val("");
+            $("#producto2").val("");
+            $("#producto3").val("");
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Dos</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="head">
+            <h2 align="center">Registro de Producto</h2>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="codigo">Codigo : </label>
+                    <input id="codigo" type="text">
+                    <label for="nombre">Nombre : </label>
+                    <input id="nombre" type="text">
+                    <label for="precio">Precio : </label>
+                    <input id="precio" type="text">
+                </div>
+            </form>
+            <a id="boton1" class="ui-btn">Registrar</a>
+            <a href="#pagina2" class="ui-btn" id="boton2">Mostrar Producto</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Registro de Producto</p>
+        </div>
+    </div>
+    <div data-role="page" id="pagina2" data-dialog="true">
+        <div data-role="content">
+            <p id="producto"></p>
+            <a href="#pagina1" class="ui-btn">Hecho</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+
+        $("#boton1").click(function () {
+           var codigo = $("#codigo").val();
+           var nombre = $("#nombre").val();
+           var precio = $("#precio").val();
+           var datos = "Datos del Registro<br>";
+
+            datos+="codigo : "+codigo+"<br>";
+            datos+="nombre : "+nombre+"<br>";
+            datos+="precio : "+precio+"<br>";
+
+            $("#producto").html(datos);
+            alert("Producto Registrado!!!");
+            $("#codigo").val("");
+            $("#nombre").val("");
+            $("#precio").val("");
+        });
+    });
+</script>
+</html>

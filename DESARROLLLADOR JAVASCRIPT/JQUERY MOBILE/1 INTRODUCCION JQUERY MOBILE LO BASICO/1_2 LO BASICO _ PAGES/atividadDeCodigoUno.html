@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de codigo Uno</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="header">
+            <h2>Formulario de llenado</h2>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="nombre">Nombre :</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="apellido">Apellido :</label>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+            </form>
+            <a href="#pagina2" id="" class="ui-btn">Siguiente Paso</a>
+        </div>
+        <div data-role="footer" align="center">Paso 1</div>
+    </div>
+
+    <div data-role="page" id="pagina2">
+        <div data-role="header">
+            <h1>Registro Cliente</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="direccion">Direccion : </label>
+                    <input id="direccion" value="direccion" type="text">
+                    <label for="telefono">Telefono :</label>
+                    <input id="telefono" value="telefono" type="text">
+                </div>
+            </form>
+           <a href="#pagina3" id="boton2" class="ui-btn">Siguiente Paso</a>
+        </div>
+        <div data-role="footer" align="center">
+            Paso 2
+        </div>
+    </div>
+
+    <div data-role="page" id="pagina3">
+        <div data-role="header">
+            <h1>Registro Cliente</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="ciudad">Ciudad : </label>
+                    <input id="ciudad" type="text" value="ciudad">
+                    <label for="email">Email : </label>
+                    <input id="email" type="text" value="email">
+                </div>
+            </form>
+            <a href="#pagina4" id="boton1" class="ui-btn">Enviar</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagina4" data-dialog="true">
+        <div data-role="header">
+            <h1>Registro Exitoso</h1>
+        </div>
+        <div data-role="content">
+            <p id="parrafo1"></p>
+             <a href="#pagina1" class="ui-btn">Regresar</a>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            var datos = "Datos de la Persona Registrada<br>";
+            var nombre = $("#nombre").val();
+            var apellido = $("#apellido").val()
+            var direccion = $("#direccion").val();
+            var telefono = $("#telefono").val();
+            var ciudad = $("#ciudad").val();
+            var email = $("#email").val();
+
+            datos+="Nombre : "+nombre+"<br>";
+            datos+="Apellido : "+apellido+"<br>";
+            datos+="Direccion : "+direccion+"<br>";
+            datos+="Telefono : "+telefono+"<br>";
+            datos+="Ciudad : "+ciudad+"<br>";
+            datos+="Email"+email+"<br>";
+            $("#parrafo1").html(datos);
+
+            $("#nombre").val("");
+            $("#apellido").val("")
+            $("#direccion").val("");
+            $("#telefono").val("");
+            $("#ciudad").val("");
+            $("#email").val("");
+        });
+
+
+
+
+    });
+</script>
+
+</html>
