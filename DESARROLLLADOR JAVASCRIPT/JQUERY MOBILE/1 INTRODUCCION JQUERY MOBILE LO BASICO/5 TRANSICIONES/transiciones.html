@@ -13,18 +13,68 @@
 <body>
     <div data-role="page" id="paginaRegistro">
         <div data-role="header">
-            <h1>Pagina de Registro</h1>
+            <h1>Pagina de Registro de Vehiculos</h1>
         </div>
         <div data-role="content">
-            <form action="">
+            <form>
                 <div class="ui-field-contain">
                     <label for="marca">Marca de Auto :</label>
+                    <input id="marca" type="text" name="marca">
+                    <label for="placa">Placa de Auto :</label>
+                    <input id="placa" type="text" name="placa">
+                    <label for="modelo">Modelo de Auto :</label>
+                    <input type="text" id="modelo" name="modelo">
                 </div>
+                <a class="ui-btn" id="boton1">Registrar</a>
             </form>
         </div>
         <div data-role="footer">
+            <p align="center">Registro Vehiculo</p>
+        </div>
+    </div>
 
+    <div data-role="page" id="paginaExito">
+        <div data-role="header">
+            <h1>Operacion Exitosa</h1>
+        </div>
+        <div data-role="content">
+            <h2 id="mensaje"></h2>
+            <a class="ui-btn" id="boton2">Nuevo Registro</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Operacion Exitosa</p>
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    $(document).on("mobileinit",function () {
+          $.mobile.defaultPageTransition="fade";
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            var placa = $("#placa").val();
+            var marca = $("#marca").val();
+            var modelo = $("#modelo").val();
+
+            var mensaje = "DAtos del vehiculo<br>";
+            mensaje+="placa"+placa+"<br>";
+            mensaje+="marca"+marca+"<br>";
+            mensaje+="modelo"+modelo+"<br>";
+
+            $("#mensaje").html(mensaje);
+
+            $.mobile.changePage("#paginaExito");
+           });
+            $("#boton2").click(function () {
+               $("#placa").val("");
+                $("#marca").val("");
+                $("#modelo").val("");
+
+                $.mobile.changePage("#paginaRegistro");
+            });
+
+    });
+</script>
 </html>
