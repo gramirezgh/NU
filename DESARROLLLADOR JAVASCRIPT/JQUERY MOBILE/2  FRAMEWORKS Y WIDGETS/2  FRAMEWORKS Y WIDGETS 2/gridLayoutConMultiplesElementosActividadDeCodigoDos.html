@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout con Multiples Elementos</title>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="paginaRegistroEmpresa">
+        <div data-role="header">
+            <h1>Conversion de Unidades</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="unidad">Unidad : </label>
+                    <input type="text" id="unidad">
+                    <label for="resultado">Resultado : </label>
+                    <input type="text" id="resultado">
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a id="boton1" class="ui-btn">Centimetros a Pulgadas</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="boton2" class="ui-btn">Yardas a Metros</a>
+                    </div>
+                    <div class="ui-block-a">
+                        <a id="boton3" class="ui-btn">Km a Millas</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="boton4" class="ui-btn">Pies a Centimetros</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div data-role="footer">
+            <p align="center">Conversion de Unidad</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            var cm = parseFloat($("#unidad").val());
+            var pulgadas = cm*0.39378;
+            $("#resultado").val(pulgadas);
+        });
+
+        $("#boton2").click(function () {
+            var yardas = parseFloat($("#unidad").val());
+            var metros = yardas*0.914491829;
+            $("#resultado").val(metros);
+        });
+
+        $("#boton3").click(function () {
+            var KM = parseFloat($("#unidad").val());
+            var millas = KM*0.621;
+            $("#resultado").val(millas);
+        });
+
+        $("#boton4").click(function () {
+            var pies = parseFloat($("#unidad").val());
+            var cm = pies/0.032008;
+            $("#resultado").val(cm);
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

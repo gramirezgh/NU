@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collpasible</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="paginaInicio">
+        <div data-role="header">
+            <h1>Gestion Persona</h1>
+        </div>
+        <div data-role="content">
+            <a id="btnRegistroPersona" class="ui-btn">Registro Persona</a>
+            <a id="btnListarPersona" class="ui-btn">Lista Persona</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Lista de Personas</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaRegistroPersona">
+       <div data-role="header">
+           <h1>Registro Personas</h1>
+       </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="id">ID : </label>
+                    <input type="text" id="id">
+                    <label for="nombre">Nombre :</label>
+                    <input type="text" id="nombre">
+                    <label for="edad">Edad :</label>
+                    <input type="text" id="edad">
+                    <fieldset data-role="control-group">
+                        <legend>Genero</legend>
+                        <input type="radio" name="radio-genero" id="radio-genero-1" value="M" checked="checked">
+                        <label for="radio-genero-1">Maculino</label>
+                        <input type="radio" name="radio-genero" id="radio-genero-2" value="M">
+                        <label for="radio-genero-2">Femenino</label>
+                    </fieldset>
+                </div>
+                <a id="btnGuardarPersona" class="ui-btn">Guardar</a>
+                <a class="ui-btn volver">Volver</a>
+            </form>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaLitarPersona">
+        <div data-role="header">
+            <h1>Litado de Personas</h1>
+        </div>
+        <div data-role="content">
+           <div id="listaHombres" data-role="collapsible">
+                <h3>Hombres</h3>
+                <table id="tablaHombres" style="width: 100%" border="1">
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+
+                </table>
+           </div>
+
+            <div id="listaMujeres" data-role="collapsible">
+                <h3>Muejeres</h3>
+                <table id="tablaMujeres" style="width: 100%" border="1">
+                    <tr>
+                        <th>id</th>
+                        <th>nombre</th>
+                        <th>edad</th>
+                    </tr>
+
+                </table>
+            </div>
+            <a class="ui-btn volver">Volver</a>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+        $.mobile.changePage("#"+page,{
+            transition:"turn"
+        });
+    }
+
+    $(function () {
+        var personas = [];
+
+        $(".volver").click(function () {
+           cambiarPagina("paginaInicio");
+        });
+
+        $("#btnRegistroPersona").click(function () {
+            cambiarPagina("paginaRegistroPersona");
+        });
+
+        $("#btnregistropersona").click(function () {
+            var tablaHombres = $("#tablaHombres");
+            var tablaMujeres = $("#tablaMujeres");
+
+            $(".personas").remove();
+
+            for (var i=0; i<personas.length;i++){
+                var tr = $("<tr></tr>>");
+                tr.attr("class","persona");
+
+                var td1 = $("<td></td>").text(personas[i].id);
+                var td2 = $("<td></td>").text(personas[i].nombre);
+                var td3 = $("<td></td>").text(personas[i].edad);
+
+                tr.append(td1);
+                tr.append(td2);
+                tr.append(td3);
+
+                if (personas[i].genero=="M"){
+                    tablaHombres.append(tr);
+                }else{
+                    tablaMujeres.append(tr);
+                }
+
+            }
+            cambiarPagina("paginaListarPersonas")
+        });
+
+        $("#btnGuardarPersona").click(function () {
+            var id=$("#id").val();
+            var nombre=$("#nombre").val();
+            var edad=$("#edad").val();
+            var genero=$("input[name=radio-genero]:checked").val();
+
+            var persona={
+                id:id,
+                nombre:nombre,
+                edad:edad,
+                genero:genero
+            }
+
+            personas.push(persona);
+            alert("persona Registrada");
+
+            limpiarCampos();
+
+        });
+
+        function limpiarCampos() {
+            $("#id").val("");
+            $("#nombre").val("");
+            $("#edad").val("");
+            $("#genero").val("");
+        }
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

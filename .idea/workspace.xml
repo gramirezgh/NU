@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e989b41-37c6-49c9-ae75-94681b5f9d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/actividadDeCodigoUno.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transicionesDos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/6 FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotones.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/2  FRAMEWORKS Y WIDGETS 2/gridLayoutConMultiplesElementosActividadDeCodigoDos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/6 FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/1  FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotones.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/2  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotonesActividadDeCodigoUno.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,42 +20,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="transiciones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transiciones.html">
+      <file leaf-file-name="parte1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actividadDeCodigoUno.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/actividadDeCodigoUno.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/6 FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gridLayoutConBotones.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotones.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="81" column="28" lean-forward="false" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="124" column="44" lean-forward="true" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +36,8 @@
       <file leaf-file-name="transicionesDos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transicionesDos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="83" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -118,6 +91,8 @@
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/actividadDeCodigoUno.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/6 FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotones.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConMultiplesElementos.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html" />
       </list>
     </option>
   </component>
@@ -154,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,20 +154,12 @@
               <item name="NU" type="462c0819:PsiDirectoryNode" />
               <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
               <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="1 INTRODUCCION JQUERY MOBILE LO BASICO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NU" type="462c0819:PsiDirectoryNode" />
-              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="jqmobile145Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="2  FRAMEWORKS Y WIDGETS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,13 +169,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\2  FRAMEWORKS Y WIDGETS" />
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE" />
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\jqmobile145Lib" />
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE" />
-      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,18 +223,19 @@
       <workItem from="1508383369165" duration="600000" />
       <workItem from="1508428128802" duration="5618000" />
       <workItem from="1508440583294" duration="9129000" />
-      <workItem from="1508460162654" duration="6156000" />
+      <workItem from="1508460162654" duration="6366000" />
+      <workItem from="1508511050766" duration="9184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109974000" />
+    <option name="totallyTimeSpent" value="119368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -282,6 +252,24 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -294,20 +282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/animate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/camiandoBordeYColorDeFondo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/formulariosYanimate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -571,14 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transiciones.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/jqmobile145Lib/jquery.mobile-1.4.5.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -589,35 +555,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transicionesDos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/actividadDeCodigoUno.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="18">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/6 FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transiciones.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotones.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/1  FRAMEWORKS Y WIDGETS/aplicandoClasesConJqueryMobile_ActividadDeCodigoUno.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="81" column="28" lean-forward="false" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        <state relative-caret-position="18">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/2  FRAMEWORKS Y WIDGETS 2/gridLayoutConBotonesActividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="75" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/2  FRAMEWORKS Y WIDGETS 2/gridLayoutConMultiplesElementosActividadDeCodigoDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/5 TRANSICIONES/transicionesDos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="83" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="124" column="44" lean-forward="true" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
