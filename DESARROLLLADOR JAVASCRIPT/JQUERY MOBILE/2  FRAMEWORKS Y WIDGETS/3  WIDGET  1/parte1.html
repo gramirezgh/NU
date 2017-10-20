@@ -41,7 +41,7 @@
                         <legend>Genero</legend>
                         <input type="radio" name="radio-genero" id="radio-genero-1" value="M" checked="checked">
                         <label for="radio-genero-1">Maculino</label>
-                        <input type="radio" name="radio-genero" id="radio-genero-2" value="M">
+                        <input type="radio" name="radio-genero" id="radio-genero-2" value="F">
                         <label for="radio-genero-2">Femenino</label>
                     </fieldset>
                 </div>
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div data-role="page" id="paginaLitarPersona">
+    <div data-role="page" id="paginaListarPersona">
         <div data-role="header">
             <h1>Litado de Personas</h1>
         </div>
@@ -69,7 +69,7 @@
            </div>
 
             <div id="listaMujeres" data-role="collapsible">
-                <h3>Muejeres</h3>
+                <h3>Mujeres</h3>
                 <table id="tablaMujeres" style="width: 100%" border="1">
                     <tr>
                         <th>id</th>
@@ -101,7 +101,7 @@
             cambiarPagina("paginaRegistroPersona");
         });
 
-        $("#btnregistropersona").click(function () {
+        $("#btnListarPersona").click(function () {
             var tablaHombres = $("#tablaHombres");
             var tablaMujeres = $("#tablaMujeres");
 
@@ -126,7 +126,7 @@
                 }
 
             }
-            cambiarPagina("paginaListarPersonas")
+            cambiarPagina("paginaListarPersona")
         });
 
         $("#btnGuardarPersona").click(function () {
