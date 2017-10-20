@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actividad de Codigo Uno</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+
+
+</head>
+<body>
+    <div data-role="page" id="paginaInicio">
+        <div data-role="header">
+            <h1>Gestion de Productos</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <a onclick="cambiarPagina('paginaRegistro')" class="ui-btn">Registro</a>
+                <a onclick="cambiarPagina('paginaConsulta')" class="ui-btn">Consultas</a>
+            </form>
+        </div>
+        <div data-role="footer">
+            <p align="center">Gestion de Productos</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaRegistro">
+        <div data-role="header">
+            <h1>Registro Producto</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="codigo">Codigo :</label>
+                    <input type="text" id="codigo">
+                    <label for="nombre">Nombre : </label>
+                    <input type="text" id="nombre">
+                    <label for="precio">Precio : </label>
+                    <input type="text" id="precio">
+                </div>
+            </form>
+            <a id="boton1" class="ui-btn">Guardar</a>
+            <a onclick="cambiarPagina('paginaInicio')" class="ui-btn">Volver</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaConsulta">
+        <div data-role="header">
+            <h1>Consulta Producto</h1>
+        </div>
+        <div data-role="content">
+            <div class="ui-field-contain">
+                <label for="codigoB">Codigo : </label>
+                <input type="text" id="codigoB">
+                <h3 id="datosProducto"></h3>
+            </div>
+            <a id="boton2" class="ui-btn">Consultar</a>
+            <a onclick="cambiarPagina('paginaInicio')" class="ui-btn">Volver</a>
+        </div>
+        <div data-role="footer">
+            <p align="center">Consulta Producto</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+
+            switch(page){
+                case "paginaRegistro":
+                    $.mobile.changePage("#"+page,{
+                        transition:"slidedown"
+                    });
+                    break;
+
+                case "paginaConsulta":
+                    $("#codigoB").val("");
+                    $("#datos").html("");
+                    $.mobile.changePage("#"+page,{
+                        transition:"slideup"
+                    });
+                    break;
+
+                case "paginaInicio":
+                    $.mobile.changePage("#"+page,{
+                        transition:"flip"
+                    });
+                    break;
+            }
+
+    }
+
+    $(function () {
+       productos = [];
+       $("#boton1").click(function () {
+          var codigo=$("#codigo").val();
+          var nombre=$("#nombre").val();
+          var precio=$("#precio").val();
+          producto={
+              codigo:codigo,
+              nombre:nombre,
+              precio:precio
+          }
+
+          productos.push(producto);
+
+          limpiarCampos();
+       });
+
+       $("#boton2").click(function () {
+           var datos = "----Producto---<br>";
+           var codigoB = $("#codigoB").val();
+           for (i=0;i<productos.length;i++){
+               if(codigoB==productos[i].codigo){
+                   datos+="Codigo : "+productos[i].codigo+"<br>";
+                   datos+="Nombre : "+productos[i].nombre+"<br>";
+                   datos+="Precio : "+productos[i].precio+"<br>";
+
+                   $("#datosProducto").html(datos);
+               }
+           }
+       });
+
+       
+       function limpiarCampos() {
+           $("#codigo").val("");
+           $("#nombre").val("");
+           $("#precio").val("");
+       }
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

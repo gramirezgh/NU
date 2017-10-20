@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aplicando clases con Jquery Mobile</title>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <div data-role="page" id="pagina1">
+        <div data-role="header">
+            <h1>Teorema de Pitagoras</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="cateto1">Cateto 1 :</label>
+                    <input type="text" id="cateto1">
+                    <label for="cateto2">Cateto 2 :</label>
+                    <input type="text" id="cateto2">
+                    <label for="hipotenusa">Hipotenusa : </label>
+                    <input type="text" id="hipotenusa" disabled>
+                </div>
+                <a id="boton1" class="ui-btn ui-btn-corner-all ui-shadow ui-overlay-shadow">CALCULAR</a>
+                <a id="boton2" class="ui-btn ui-btn-corner-all ui-shadow ui-overlay-shadow  ">LIMPIAR</a>
+            </form>
+
+        </div>
+        <div data-role="footer">
+            <p align="center">TEOREMA DE PITAGORAS</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#boton1").click(function () {
+            var cateto1 = $("#cateto1").val();
+            var cateto2 = $("#cateto2").val();
+            var resultado = Math.sqrt(Math.pow(cateto1,2)+Math.pow(cateto2,2));
+            $("#hipotenusa").val(resultado);
+//            alert("operacion completada");
+        });
+
+        $("#boton2").click(function () {
+           $("#cateto1").val("");
+           $("#cateto2").val("");
+           $("#hipotenusa").val("");
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

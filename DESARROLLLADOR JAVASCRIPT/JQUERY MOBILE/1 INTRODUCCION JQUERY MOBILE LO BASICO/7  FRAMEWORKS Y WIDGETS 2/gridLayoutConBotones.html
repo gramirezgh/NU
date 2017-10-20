@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout con Botones</title>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+     <div data-role="page" id="paginaRegistroEmpresa">
+        <div data-role="header">
+            <h1>Regisro Empresa</h1>
+        </div>
+         <div data-role="content">
+             <form>
+                 <div class="ui-field-contain">
+                     <label for="nit">Nit : </label>
+                     <input type="text" id="nit">
+                     <label for="nombre">Nombre :</label>
+                     <input type="text" id="nombre">
+                     <label for="direccion"> Direccion :</label>
+                     <input type="text" id="direccion">
+                     <label for="telefono">Telefono :</label>
+                     <input type="text" id="telefono">
+                     <label for="email">Email :</label>
+                     <input type="text" id="email">
+                 </div>
+                 <fieldset class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a id="boton1" class="ui-btn">Registrar</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="boton2" class="ui-btn">Mostrar</a>
+                    </div>
+                 </fieldset>
+
+             </form>
+         </div>
+         <div data-role="footer">
+             <p align="center">PAGINA EMPRESA</p>
+         </div>
+     </div>
+
+     <div data-role="page" id="paginaDatosEmpresa" data-dialog="true">
+        <div data-role="header">
+            <h1>Datos Empresa</h1>
+        </div>
+        <div data-role="content">
+            <h3 id="datosEmpresa"></h3>
+            <a href="#pagina1" id="boton3" class="ui-btn">Regresar</a>
+        </div>
+     </div>
+
+
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+        $.mobile.changePage("#"+page,{
+            transition:"turn"
+        });
+    }
+
+    $(function () {
+        $("#boton1").click(function () {
+
+
+        var nit = $("#nit").val();
+        var nombre = $("#nombre").val();
+        var direccion = $("#direccion").val();
+        var telefono = $("#telefono").val();
+        var email = $("#email").val();
+
+        var datosEmpresa = "";
+        datosEmpresa+="NIT"+nit+"<br>";
+        datosEmpresa+="NOMBRE"+nombre+"<br>";
+        datosEmpresa+="DIRECCION"+direccion+"<br>";
+        datosEmpresa+="TLEFONO"+telefono+"<br>";
+        datosEmpresa+="EMAIL"+email+"<br>";
+
+        $("#datosEmpresa").html(datosEmpresa);
+
+        alert("Empresa regisrtrada!!!!");
+
+//        $("#nit").val("");
+//        $("#nombre").val("");
+//        $("#direccion").val("");
+//        $("#telefono").val("");
+//        $("#email").val("");
+     });
+
+     $("#boton2").click(function () {
+        cambiarPagina("paginaDatosEmpresa");
+     });
+
+     $("#boton3").click(function () {
+        cambiarPagina("paginaRegistroEmpresa");
+     });
+
+  });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
