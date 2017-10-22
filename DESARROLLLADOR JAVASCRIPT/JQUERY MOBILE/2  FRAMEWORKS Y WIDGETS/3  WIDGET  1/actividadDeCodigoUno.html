@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Actividad de Cosgio Uno</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="paginaInicio">
+        <div data-role="header">
+            <h1>Gestion Encuesta</h1>
+        </div>
+
+        <div data-role="content">
+
+                <a id="btnNuevaEncuesta" class="ui-btn">Nueva Encuesta</a>
+                <a id="btnListaEncuesta" class="ui-btn">Lista Encuestados</a>
+                <a id="btnResultadoEncuesta" class="ui-btn">Resultado Encuestas</a>
+
+        </div>
+        <div data-role="footer">
+            <p align="center">Gestion de Encuestas</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaNuevaEncuesta">
+        <div data-role="header">
+            <h1>Nueva Encuesta</h1>
+        </div>
+
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                    <label for="nombre">Nombre : </label>
+                    <input type="text" id="nombre">
+                    <fieldset class="ui-controlgroup">
+                        <h5>Preguntas : </h5>
+                        <label>
+                            <input id="checkbox0" type="checkbox" name="checkboxPreguntas">Tiene titulo de bachiller???
+                        </label>
+                        <label>
+                            <input id="checkbox1" type="checkbox" name="checkboxPreguntas">Tiene titulo de pregrado universitario
+                        </label>
+                        <label>
+                            <input id="checkbox2" type="checkbox" name="checkboxPreguntas">Tiene titulo de postgrado universitario
+                        </label>
+                    </fieldset>
+                </div>
+            </form>
+            <a id="btnGuardarPersona" class="ui-btn">Guardar</a>
+            <a class="ui-btn volver">Volver</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaListarEncuestados">
+        <div data-role="header">
+            <h2>Listado Encuestados</h2>
+        </div>
+
+        <div data-role="content">
+            <div id="listaNombres" data-role="collapsible">
+                <h3>---Nombres---</h3>
+                <table id="tabla" style="width: 100%" border="1">
+                    <tr>
+                        <th>nombres Aqui Abajito</th>
+                    </tr>
+
+                </table>
+            </div>
+            <a class="ui-btn volver">Volver</a>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaResultadoEncuestas">
+        <div data-role="header">
+            <h2>Resultados Encuestas</h2>
+        </div>
+
+        <div data-role="content">
+            <div id="resultado1" data-role="collapsible">
+                <h3>Resultado 1</h3>
+                <h3 id="r1"></h3>
+            </div>
+
+            <div id="resultado2" data-role="collapsible">
+                <h3>Resultado 2</h3>
+                <h3 id="r2"></h3>
+            </div>
+
+            <div id="resultado3" data-role="collapsible">
+                <h3>Resultado 3</h3>
+                <h3 id="r3"></h3>
+            </div>
+
+            <a class="ui-btn volver">Volver</a>
+        </div>
+     </div>
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+        $.mobile.changePage("#"+page,{
+           transition:"turn"
+        });
+    }
+    
+    $(function () {
+        var nombres = [];
+
+        $(".volver").click(function () {
+            cambiarPagina("paginaInicio");
+        });
+
+        $("#btnNuevaEncuesta").click(function () {
+            cambiarPagina("paginaNuevaEncuesta");
+        });
+
+        $("#btnListaEncuesta").click(function () {
+           cambiarPagina("paginaListarEncuestados");
+        });
+
+        $("#btnResultadoEncuesta").click(function () {
+           cambiarPagina('paginaResultadoEncuestas');
+        });
+
+        $("#btnGuardarPersona").click(function () {
+
+            var nombre = $("#nombre").val();
+            var checkboxPregunta = $("input[name=checkboxPreguntas]:checked").val();
+
+            var persona = {
+                nombre:nombre,
+                checkboxPregunta:checkboxPregunta
+            }
+
+            nombres.push(persona);
+            alert("Persona Registrada");
+
+            limpiarCampos();
+        });
+
+        $("#btnListaEncuesta").click(function () {
+            var tabla = $("#tabla");
+
+            $(".persona").remove();
+
+            for(var i=0;i<nombres.length;i++){
+                var tr = $("<tr></tr>");
+                tr.attr("class","persona");
+
+                var td1 = $("<td></td>").text(nombres[i].nombre);
+
+                tr.append(td1);
+
+                tabla.append(tr);
+            }
+
+        });
+
+        $("#btnResultadoEncuesta").click(function () {
+//            var r1 = "Tiene titulo de bachiller<br>";
+//
+//            if($("#checkbox0")[0].checked===true){
+//                  var total1 = 1;
+//                  r1+=total1 + "Persona(s)" +r1;
+//                  $("#r1").html(r1);
+//                  total1=total1+1;
+//            }
+            for(var i=0;i<nombres.length;i++){
+                var c1 = 0;
+                var c2 = 0;
+                var c3 = 0;
+               if($('#checkbox0')[0].checked===true){
+                    c1 = c1 + 1;
+                    $("#r1").html(c1);
+               }else if($('#checkbox1')[0].checked===true){
+                    c2 = c2 + 1;
+                    $("#r2").html(c2);
+                 }
+               else if($('#checkbox2')[0].checked===true){
+                   c3 = c3 + 1;
+                   $("#r3").html(c3);
+               }
+
+
+            }
+        });
+
+        function limpiarCampos() {
+            $("#nombre").val("");
+        }
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
