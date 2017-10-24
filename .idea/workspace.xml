@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e989b41-37c6-49c9-ae75-94681b5f9d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/actividadDeCodigoUno.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/4  WIDGET  2/actividadDeCodigoUnopopUp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,14 +31,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actividadDeCodigoUno.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/actividadDeCodigoUno.html">
+      <file leaf-file-name="tablas.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="145" column="31" lean-forward="true" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +49,7 @@
       <find>&lt;link rel=&quot;stylesheet&quot; href=&quot;../jqmobile145Lib/jquery.mobile-1.4.5.min.css&quot;&gt;</find>
       <find>boton1</find>
       <find>btn</find>
+      <find>resultado</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +94,9 @@
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/1 INTRODUCCION JQUERY MOBILE LO BASICO/7  FRAMEWORKS Y WIDGETS 2/gridLayoutConMultiplesElementos.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/actividadDeCodigoUno.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/4  WIDGET  2/popUp.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/4  WIDGET  2/actividadDeCodigoUnopopUp.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html" />
       </list>
     </option>
   </component>
@@ -132,7 +134,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,18 +159,11 @@
               <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
               <item name="2  FRAMEWORKS Y WIDGETS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NU" type="462c0819:PsiDirectoryNode" />
-              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
-              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
-              <item name="2  FRAMEWORKS Y WIDGETS" type="462c0819:PsiDirectoryNode" />
-              <item name="3  WIDGET  1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,14 +232,16 @@
       <workItem from="1508647935350" duration="1160000" />
       <workItem from="1508681779239" duration="7448000" />
       <workItem from="1508690079281" duration="8800000" />
+      <workItem from="1508786797844" duration="11603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136888000" />
+    <option name="totallyTimeSpent" value="148491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -276,20 +272,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/areaDeTextoYanimate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/animate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY/JQUERY/JQUERY/PROYECTO FINAL/index.html" />
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/adicionarEliminarClases.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -584,10 +566,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/actividadDeCodigoUno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="83" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/4  WIDGET  2/actividadDeCodigoUnopopUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/parte1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -595,13 +597,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/3  WIDGET  1/actividadDeCodigoUno.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="145" column="31" lean-forward="true" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

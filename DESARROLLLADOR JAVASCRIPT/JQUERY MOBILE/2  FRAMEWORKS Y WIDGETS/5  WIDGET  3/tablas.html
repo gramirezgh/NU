@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Widget Tablas</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role=" page" id="paginaInicio">
+        <div data-role="header">
+            <h1>Gestion Computadores</h1>
+        </div>
+        <div data-role="content">
+            <a id="btnRegisroComputador" class="ui-btn">Registrar Computador</a>
+            <a id="btnListarComputadores" class="ui-btn">Listar Computadores</a>
+        </div>
+        <div data-role="footer">
+            <p align="center"></p>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaRegistroComputador">
+        <div data-role="header">
+            <h3>Registro Computador</h3>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="codigo">Codigo  : </label>
+                    <input type="text" name="codigo" id="codigo">
+
+                    <label for="marca">Marca : </label>
+                    <select name="marca" id="marca">
+                        <option value=""></option>
+                        <option value="Dell">Dell</option>
+                        <option value="Acer">Acer</option>
+                        <option value="Toshiba">Toshiba</option>
+                        <option value="Lenovo">Lenovo</option>
+                        <option value="Compaq">Compaq</option>
+                    </select>
+
+                    <label for="memoriaRAM">memoriaRAM</label>
+                    <input type="text" name="memoriaRAM" is="memoriaRAM">
+
+                    <label for="discoDuro">Disco Duro</label>
+                    <input type="text" id="discoDuro" name="discoDuro">
+
+                    <label for="procesador">Procesador</label>
+                    <input type="text" id="procesador" name="procesador">
+
+
+                    <label for="os">Sistema Operativo</label>
+                    <input type="text" id="os" name="so">
+
+
+                </div>
+                <a id="btnGuardaromputador" class="ui-btn">Guardar</a>
+                <a class="ui-btn volver">Volver</a>
+            </form>
+        </div>
+    </div>
+
+    <div data-role="page" id="paginaListaComputadoras">
+        <div data-role="header">
+            <h1>Lista Computadores</h1>
+        </div>
+        <div data-role="content">
+            <table data-role="table" id="tablaComputadores" data-mode="reflow" class="ui-responsive table-stroke">
+                <thead>
+                    <tr>
+                        <th data-priority="1">Codigo</th>
+                        <th data-priority="2">Marca</th>
+                        <th data-priority="3">RAM</th>
+                        <th data-priority="4">Disco Duro</th>
+                        <th data-priority="5">Procesador</th>
+                        <th data-priority="6">Os</th>
+                    </tr>
+                </thead>
+            </table>
+            <a class="ui-btn volver">Volver</a>
+        </div>
+    </div>
+</body>
+<script>
+
+    function cambiarPagina(page) {
+           $.mobile.changePage("#"+page,{
+                transition:"flip"
+           });
+    }
+
+    $(function () {
+      var computadores=[];
+      $(".volver").click(function () {
+         cambiarPagina("paginaInicio");
+      });
+
+      $("#btnRegistroComputador").click(function () {
+         cambiarPagina("paginaRegistroComputador");
+      });
+
+        $("#btnGuardarComputador").click(function () {
+            var codigo = $("#codigo").val();
+            var marca = $("#marca").val();
+            var memoriaRAM = $("#memoriaRAM").val();
+            var discoDuro = $("#discoDuro").val();
+            var procesador = $("#procesador").val();
+            var os = $("#os").val();
+
+            var computador = {
+                codigo:codigo,
+                marca:marca,
+                memoriaRAM:memoriaRAM,
+                discoDuro:discoDuro,
+                procesador:procesador,
+                os:os
+            }
+
+            computadores.push(computador);
+            alert("se registro");
+
+            limpiarCampos();
+        });
+
+        $("#btnListarComputadores").click(function () {
+            var tablaComputadores = $("#tablaComputadores");
+            var tbody = $("<tbody></tbody>");
+            $.computador.remove();
+            tbody.attr("class","computador");
+            for(var i=0;i<computadores.length;i++){
+                var tr = $("<tr></tr>");
+                var th1 = $("<th></th>").text(computadores.[i].codigo);
+                var th2 = $("<th></th>").text(computadores.[i].marca);
+                var th3 = $("<th></th>").text(computadores.[i].memoriaRAM);
+                var th4 = $("<th></th>").text(computadores.[i].discoDuro);
+                var th5 = $("<th></th>").text(computadores.[i].procesador);
+                var th6 = $("<th></th>").text(computadores.[i].os);
+
+                tr.append(th1);
+                tr.append(th2);
+                tr.append(th3);
+                tr.append(th4);
+                tr.append(th5);
+                tr.append(th6);
+
+
+
+            }
+        });
+
+        function limpiarCampos(){
+            $("#codigo").val("");
+            $("#marca").val("");
+            $("#memoriaRAM").val("");
+            $("#discoDuro").val("");
+            $("#procesador").val("");
+            $("#os").val("");
+            var selectMarca = $("#marca");
+            selectMarca[0].selectedIndex = 0;
+            selectedMarca.selectMenu("refresh");
+        }
+
+
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+

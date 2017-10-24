@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Widget popup</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="paginaFunciones">
+        <div data-role="header">
+            <h1>Funciones Matematicas</h1>
+        </div>
+
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+                    <label for="numero">Numero : </label>
+                    <input type="text" id="numero" name="numero">
+                </div>
+
+                <a class="ui-btn" id="btnSeno">Seno</a>
+                <a class="ui-btn" id="btnCoseno">Coseno</a>
+                <a class="ui-btn" id="btnTangente">Tangente</a>
+
+            </form>
+        </div>
+
+        <div data-role="footer">
+            <p align="center">Funciones Matematicas</p>
+        </div>
+
+
+    <div data-role="popup" id="popupDialogoResultado" data-dismissible="false" style="width:300px;">
+        <div data-role="header">
+            <h3>Resultado</h3>
+        </div>
+        <div role="main" class="ui-content">
+            <h3 id="resultado"></h3>
+            <a href="#" data-rel="back" class="ui-btn">Ok</a>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+       $("#btnSeno").click(function () {
+           var numero = parseFloat($("#numero").val());
+           var resultado = Math.sin(numero);
+           $("#resultado").html("El resultado del seno es : "+resultado);
+           $("#popupDialogoResultado").popup('open');
+       });
+
+        $("#btnCoseno").click(function () {
+            var numero = parseFloat($("#numero").val());
+            var resultado = Math.cos(numero);
+            $("#resultado").html("El resultado del coseno es : "+resultado);
+            $("#popupDialogoResultado").popup('open');
+        });
+
+        $("#btnTangente").click(function () {
+            var numero = parseFloat($("#numero").val());
+            var resultado = Math.tan(numero);
+            $("#resultado").html("El resultado de la tangente es : "+resultado);
+            $("#popupDialogoResultado").popup('open');
+        });
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
