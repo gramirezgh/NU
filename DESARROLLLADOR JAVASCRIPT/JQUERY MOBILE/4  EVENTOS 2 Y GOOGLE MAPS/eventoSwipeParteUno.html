@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El evento swipe parte 1</title>
+    <script src="../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+    <div data-role="page" id="paginaCalculoDesnsidad">
+        <div data-role="header">
+            <h1>Densidad</h1>
+        </div>
+        <div data-role="content">
+            <form action="">
+                <div class="ui-field-contain">
+                <div class="ui-field-contain">
+                    <label for="masa">Masa (KG)</label>
+                    <input type="text" id="masa" name="masa">
+                    <label for="volumen">Volumen (M3)</label>
+                    <input type="text" id="volumen" name="volumen">
+                    <label for="resultado">Densidad (KG/M3)</label>
+                    <input type="text" id="resultado" name="resultado" readonly="true">
+                </div>
+                <a id="btnLimpiar" class="ui-btn">Limpiar</a>
+            </form>
+        </div>
+        <div data-role="footer">
+            <p align="center">Densidad de masa y volumen</p>
+        </div>
+    </div>
+</body>
+<script>
+    $(function () {
+    $("#paginaCalculoDesnsidad").on("swipe",function () {
+            var masa = parseFloat($("#masa").val());
+            var volumen = parseFloat($("#volumen").val());
+            var resultado = masa/volumen;
+
+            $("#resultado").val(resultado);
+        });
+
+        $("#btnLimpiar").click(function () {
+            $("#masa").val("");
+            $("#volumen").val("");
+            $("#resultado").val("");
+        });
+    });
+
+</script>
+</html>
