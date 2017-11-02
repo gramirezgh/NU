@@ -134,23 +134,28 @@
             tbody.attr("class","computador");
             for(var i=0;i<computadores.length;i++){
                 var tr = $("<tr></tr>");
-                var th1 = $("<th></th>").text(computadores.[i].codigo);
-                var th2 = $("<th></th>").text(computadores.[i].marca);
-                var th3 = $("<th></th>").text(computadores.[i].memoriaRAM);
-                var th4 = $("<th></th>").text(computadores.[i].discoDuro);
-                var th5 = $("<th></th>").text(computadores.[i].procesador);
-                var th6 = $("<th></th>").text(computadores.[i].os);
+                var th1 = $("<th></th>").text(computadores[i].codigo);
+                var td2 = $("<th></th>").text(computadores[i].marca);
+                var td3 = $("<th></th>").text(computadores[i].memoriaRAM);
+                var td4 = $("<th></th>").text(computadores[i].discoDuro);
+                var td5 = $("<th></th>").text(computadores[i].procesador);
+                var td6 = $("<th></th>").text(computadores[i].os);
 
                 tr.append(th1);
-                tr.append(th2);
-                tr.append(th3);
-                tr.append(th4);
-                tr.append(th5);
-                tr.append(th6);
+ 4               tr.append(td2);
+                tr.append(td3);
+                tr.append(td4);
+                tr.append(td5);
+                tr.append(td6);
 
-
+                tbody.append(tr);
 
             }
+
+            tablaComputadores.append(tbody);
+            cambiarPagina("´paginaListarComputadores");
+
+
         });
 
         function limpiarCampos(){
