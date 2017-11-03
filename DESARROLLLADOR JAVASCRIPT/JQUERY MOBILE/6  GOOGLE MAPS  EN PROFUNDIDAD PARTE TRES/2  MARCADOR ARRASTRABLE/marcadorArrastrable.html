@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marcador arrastrable</title>
+    <script src="../../jqmobile145Lib/jquery-1.11.1.js"></script>
+    <script src="../../jqmobile145Lib/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js"></script>-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHQy55cKbw-WVbgjBBvc8gVsLhf4oqMpc&callback=initMap"
+            type="text/javascript"></script>
+    <link rel="stylesheet" href="../../jqmobile145Lib/jquery.mobile-1.4.5.min.css">
+    <style>
+       #paginaMapa,
+       #divMapa{
+           width: 100%;
+           height: 100%;
+           padding:0;
+       }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="paginaMapa">
+        <div data-role="header">
+            <h1>Mapa</h1>
+        </div>
+        <div data-role="content" id="divMapa">
+
+        </div>
+        <div data-role="footer">
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function cambiarPagina(page) {
+        $.mobile.changePage("#"+page)
+    }
+
+    $(function () {
+        var latlng1 = new google.maps.LatLng(39.54016, -89.348943);
+        var latlng2 = new google.maps.LatLng(9.143855, -74.583318);
+        var latlng3 = new google.maps.LatLng(52.621961, -11.549494);
+
+        var marcador1;
+        var marcador2;
+        var marcador3;
+
+        function mostrarMapa() {
+            var opciones = {
+                zoom:2,
+                center:latlng1,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var mapa = new google.maps.Map(document.getElementById("divMapa"),opciones);
+
+            marcador1 = new google.maps.Marker({
+                position:latlng1,
+                map: mapa,
+                draggable:true,
+                title:"punto Uno"
+            });
+
+            marcador2 = new google.maps.Marker({
+                position:latlng2,
+                map: mapa,
+                draggable:true,
+                title:"punto Dos"
+            });
+
+            marcador3 = new google.maps.Marker({
+                position:latlng3,
+                map: mapa,
+                draggable:true,
+                title:"punto Tres"
+            });
+
+            google.maps.addListener(marcador1, "dragend", function () {
+                alert("Latitud : "+event.latLng.lat()+"- Lonitud"+event.latLng.lon());
+            });
+
+            google.maps.addListener(marcador2, "dragend", function () {
+                alert("Latitud : "+event.latLng.lat()+"- Lonitud"+event.latLng.lon());
+            });
+
+            google.maps.addListener(marcador3, "dragend", function () {
+                alert("Latitud : "+event.latLng.lat()+"- Lonitud"+event.latLng.lon());
+            });
+        }
+        mostrarMapa();
+    });
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

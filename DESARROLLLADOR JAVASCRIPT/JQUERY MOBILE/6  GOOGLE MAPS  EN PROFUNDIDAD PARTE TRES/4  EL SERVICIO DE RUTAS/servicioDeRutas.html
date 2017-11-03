@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="jquery.mobile-1.4.4.css">
+
+   <style type="text/css">
+   #paginaBusquedaPunto,
+   #divMapa {
+       width: 100%;
+       height: 400px;
+       padding: 0;
+   }
+   </style>
+
+   <script src="jquery-1.11.1.js"></script>
+      <script src="jquery.mobile-1.4.4.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7LHQsjSLssuvA2itjrkv146CctENS12k" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <title>Servicio de Rutas</title>
+  </head>
+  <body>
+      <div data-role="page" id="paginaRuta">
+          <div data-role="header">
+              <h1>Rutas</h1>
+          </div>
+          <div data-role="content" id="divMapa">
+
+          </div>
+      </div>
+  </body
+  <script>
+      function cambiarPagina(page){
+        $.mobile.changePage("#"+page,{
+            transition:"none"
+        });
+      }
+      $(function{
+        var latlng1 = new google.maps.LatLng(10.496943, -75.475175);
+        var latlng2 = new google.maps.LatLng(4.684236, -74.113471);
+        var marcador1;
+        var marcador2;
+
+        function mostrarMapa(){
+          var directionDisplay;
+          var directionService=new google.maps.DirectionService();
+          var opciones = {
+              zoom:3,
+              center:latlng1,
+              mapTypeId:google.maps.mapTypeId.ROADMAP
+          };
+          var mapa = new google.maps.Map(document.getElementById('divMapa'), opciones);
+
+          marcador1 = new google.maps.Marker({
+            position:latlng1,
+            map:mapa,
+            draggable: true,
+            title:"Punto 1"
+          });
+
+          marcador2 = new google.maps.Marker({
+            position:latlng2,
+            map:mapa,
+            draggable: true,
+            title:"Punto 2"
+          });
+
+          directionDisplay = new google.maps.DirectionsRenderer();
+          directionDisplay.setMap(mapa);
+
+          var peticion = {
+            origin:latlng1,
+            destination:latlng2,
+            travelMode:google.maps.TravelMode.DRIVING
+          };
+
+          directionService.route(peticion, function(respuesta, estado){
+              if (estado == gogle.maps.DirectionsStatus.OK) {
+                directionsDisplay.setDirections(respuesta);
+              }else{
+                alert("Error en el Servicio"+estado);
+              }
+          });
+        }
+        mostrarMapa();
+      });
+  </script>
+</html>
