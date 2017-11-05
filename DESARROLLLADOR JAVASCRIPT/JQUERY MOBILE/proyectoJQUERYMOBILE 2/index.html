@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale=1" charset="utf-8">
+
+    <link rel="stylesheet" href="jquery.mobile-1.4.4.css">
+
+    <style type="text/css">
+    #paginaMapa,
+    #divMap {
+      width: 100%;
+      height: 400px;
+      padding: 0;
+    }
+
+    #divMap2{
+      width:100%;
+      height:200px;
+      padding:0;
+    }
+    </style>
+
+
+    <script src="jquery-1.11.1.js"></script>
+    <script src="jquery.mobile-1.4.4.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <script type="text/javascript">
+        function cambiarPagina(page){
+          $.mobile.changePage("#"+page,{
+            transition:"turn"
+          });
+        }
+
+        $(function(){
+
+          var datos=[];
+
+          $(".volver").click(function () {
+            cambiarPagina("paginaInicio");
+           });
+
+           $("#btnRegistroHotel").click(function () {
+           cambiarPagina("registroHotel");
+          });
+
+          $("#btnListarHotel").click(function () {
+          cambiarPagina("listaHotel");
+          });
+
+           var marcador;
+           var latitudPunto;
+           var longitudPunto;
+           var mapa;
+           var latlngInicial = new google.maps.LatLng(-16.11401975932022, -65.90204843750001);
+
+           $("#btnBuscarPunto").click(function() {
+               convertirDireccion();
+           });
+
+          function convertirDireccion() {
+
+              var geocoder = new google.maps.Geocoder();
+              var latlngN = new google.maps.LatLng(latitudPunto, longitudPunto);
+
+              $.mobile.loading("show", {
+              text: "Convirtiendo Dirección...",
+                    textVisible: true,
+                    theme: "c",
+                    textonly: false,
+                    html: ''
+                });
+
+              geocoder.geocode({
+                'latLng': latlngN
+                }, function(resultados, estado) {
+                    if (estado == google.maps.GeocoderStatus.OK) {
+                       $("#ciudad").val(resultados[0].formatted_address);
+                        $.mobile.loading("hide");
+                    } else {
+                        $.mobile.loading("hide");
+                        alert('Error en el servicio!!: ' + estado);
+                    }
+                });
+            }
+
+          function mostrarMapa() {
+              var opciones = {
+                  zoom: 5,
+                  center: latlngInicial,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+              };
+
+
+               mapa = new google.maps.Map(document.getElementById("divMap"), opciones);
+
+                marcador = new google.maps.Marker({
+                    position: latlngInicial,
+                    map: mapa,
+                    draggable: true,
+                    title: "Mi punto!!"
+                });
+
+              google.maps.event.addListener(marcador, 'dragend', function(event) {
+                  latitudPunto = event.latLng.lat();
+                  longitudPunto = event.latLng.lng();
+                   $("#latitud").val(latitudPunto);
+                   $("#longitud").val(longitudPunto);
+                  convertirDireccion();
+               });
+          }
+        mostrarMapa();
+
+          $("#btnRegistrarDatosHotel").click(function () {
+
+             var nombre = $("#nombre").val();
+             var ciudad = $("#ciudad").val();
+             var telefono = $("#telefono").val();
+             var estrellas = $("#estrellas").val();
+             var latitud = $("#latitud").val();
+             var longitud = $("#longitud").val();
+
+             var hotel = {
+                 nombre:nombre,
+                 ciudad:ciudad,
+                 telefono:telefono,
+                 estrellas:estrellas,
+                 latitud:latitud,
+                 longitud:longitud
+             }
+
+             datos.push(hotel);
+             alert("Hotel Registrado con Exito!!");
+             limpiarCampos();
+
+         });
+
+         function limpiarCampos() {
+            $("#nombre").val("");
+            $("#ciudad").val("");
+            $("#telefono").val("");
+            $("#estrellas").val("");
+            $("#latitud").val("");
+            $("#longitud").val("");
+        }
+
+        $("#btnListarHotel").click(function () {
+           for(var i=0;i<datos.length;i++){
+                var hotel = "<h1>*****HOTEL*****</h1><br>";
+                var nombre = $("#nombre").val();
+                var ciudad = $("#ciudad").val();
+                var telefono = $("#telefono").val();
+                var estrellas = $("#estrellas").val();
+                var latitud = $("#latitud").val();
+                var longitud = $("#longitud").val();
+                hotel += "<h4>Nombre del Hotel: </h4>" + datos[i].nombre + "<br>";
+                hotel += "<h4>Ciudad o Ubicacion del Hotel: </h4>" + datos[i].ciudad + "<br>";
+                hotel += "<h4>Telefono del Hotel :</h4>" + datos[i].telefono + "<br>";
+                hotel += "<h4>Categoria del Hotel </h4>" + "El Hotel posee " +datos[i].estrellas + "  estrella(s)" + "<br>";
+                console.log("nombre "+datos[i].nombre);
+                console.log("latitud  "+datos[i].latitud);
+                console.log("longitud "+datos[i].longitud);
+                $("#divH1").html(hotel);
+
+                var mapa2;
+                var latitudPunto2;
+                var longitudPunto2;
+
+                // latitud2 = $("#latitud");
+                // longitud2 = $("#longitud")
+
+
+                 latitudPunto2 = datos[i].latitud;
+                 longitudPunto2 = datos[i].longitud;
+
+                  marcador = new google.maps.Marker({
+                      position: latlngInicial2,
+                      map: mapa2,
+                      draggable: false,
+                      title: "Mi Hotel 1!!"
+                 });
+
+                //  console.log("LONGITUDES"+latitudPunto2);
+                 var latlngInicial2 = new google.maps.LatLng(latitudPunto2, longitudPunto2);
+
+                 var opciones = {
+
+                     center: latlngInicial2,
+                     mapTypeId: google.maps.MapTypeId.ROADMAP
+                 };
+
+                mapa2 = new google.maps.Map(document.getElementById("divMap2"), opciones);
+           }
+       });
+
+
+console.log(datos);
+   });
+    </script>
+
+    <body>
+        <div data-role="page" id="paginaInicio">
+            <div data-role="header">
+                <h1>REGISTRO DE HOTELES</h1>
+            </div>
+            <div data-role="content">
+                  <a id="btnRegistroHotel" class="ui-btn">Registrar Hotel</a>
+                  <a id="btnListarHotel" class="ui-btn">Listar Hoteles</a>
+            </div>
+            <div data-role="footer">
+              <p align=center>Pagina de Registro de Hoteles</p>
+            </div>
+        </div>
+
+        <!-- pagina de registro de hoteles -->
+        <div data-role="page" id="registroHotel">
+            <div data-role=header>
+                <h3>Registro de Hoteles</h3>
+            </div>
+            <div data-role=content>
+              <form>
+              <div class="ui-field-contain">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" name="nombre" id="nombre">
+              </div>
+              <div data-role="content" id="divMap">
+                   <label>Ubicacion</label>
+              </div>
+              <div class="ui-field-contain">
+
+                    <label for="ciudad">Ciudad :</label>
+                    <input type="text" name="ciudad" id="ciudad">
+                    <label for="telefono">Telefono :</label>
+                    <input type="text" name="telefono" id="telefono">
+                    <label for="estrellas">Estrellas :</label>
+                    <input type="text" name="estrellas" id="estrellas">
+                    <label for="latitud">latitud :</label>
+                    <input type="text" name="latitud" id="latitud">
+                    <label for="longitud">Longitud :</label>
+                    <input type="text" name="longitud" id="longitud">
+              </div>
+              </form>
+              <a class="ui-btn" id="btnRegistrarDatosHotel">Registrar Hotel</a>
+              <a class="ui-btn volver">Volver</a>
+            </div>
+            <div data-role=footer>
+              <p align=center>Gestion Hotel</p>
+            </div>
+        </div>
+
+
+
+            <div data-role="page" id="listaHotel">
+                <div data-role="header">
+                    <h2>Detalles del Hotel</h2>
+                </div>
+
+                <div data-role="content">
+                    <div id="hotel1" data-role="collapsible">
+                        <h3>Hotel 1</h3>
+                        <div class="ui-field-contain" id="divH1">
+
+                        </div>
+
+                    </div>
+                    <div data-role="content" div="divMap2">
+
+                    </div>
+
+
+                    <a class="ui-btn volver">Volver</a>
+                </div>
+             </div>
+
+
+
+    </body>
+
+</html>

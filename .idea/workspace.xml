@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e989b41-37c6-49c9-ae75-94681b5f9d61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,23 +32,63 @@
       <file leaf-file-name="tablas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="2592">
               <caret line="144" column="2" lean-forward="false" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ventanaDeInformacionyeventosDeMArcador.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ventanaDeInformacionyeventosDeMArcador.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
-                <marker date="1509649387024" expanded="true" signature="2597:2622" ph="..." />
-                <marker date="1509649387024" expanded="true" signature="2739:2764" ph="..." />
-                <marker date="1509649387024" expanded="true" signature="2867:2892" ph="..." />
+                <marker date="1509853152591" expanded="true" signature="2688:2713" ph="..." />
+                <marker date="1509853152591" expanded="true" signature="2830:2855" ph="..." />
+                <marker date="1509853152591" expanded="true" signature="2958:2983" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elObjetoGeocoder.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/3  EL OBJETO GEOCODER/elObjetoGeocoder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marcadorArrastrable.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/2  MARCADOR ARRASTRABLE/marcadorArrastrable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servicioDeRutas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/4  EL SERVICIO DE RUTAS/servicioDeRutas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/proyectoJQUERYMOBILE 2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,11 +211,20 @@
               <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
               <item name="6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NU" type="462c0819:PsiDirectoryNode" />
+              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
+              <item name="JQUERY MOBILE" type="462c0819:PsiDirectoryNode" />
+              <item name="6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES" type="462c0819:PsiDirectoryNode" />
+              <item name="2  MARCADOR ARRASTRABLE" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,127 +243,6 @@
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\jqmobile145Lib" />
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/solucionNextU.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/3  EVENTOS E INTRODUCCION A GOOGLE MAPS/1 INTRODUCCION A GOOGLE MAPS/ACTIVIDAD DE CODIGO UNO NEXTU.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/3  EVENTOS E INTRODUCCION A GOOGLE MAPS/2  EVENTOS 1/creandoLaEstructuraPAraUSarEventos.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/3  EVENTOS E INTRODUCCION A GOOGLE MAPS/ACTIVIDAD DE CODIGO 1 Y 2/Solucion 1.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/3  EVENTOS E INTRODUCCION A GOOGLE MAPS/ACTIVIDAD DE CODIGO 1 Y 2/Solucion 2.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/4  EVENTOS 2 Y GOOGLE MAPS/ACTIVIDAD DE CODIGO DOS/Solucion 2.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/4  EVENTOS 2 Y GOOGLE MAPS/ACTIVIDAD DE CODIGO UNO/Solucion 1.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/4  EVENTOS 2 Y GOOGLE MAPS/eventoSwipeParteUno.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/5 GOOGLE MAPS PARTE UNO_DOS/ACTIVIDAD DE CODIGO DOS/Solucion 2.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/5 GOOGLE MAPS PARTE UNO_DOS/ACTIVIDAD DE CODIGO UNO/Solucion 1.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/5 GOOGLE MAPS PARTE UNO_DOS/implementacionDeMapas.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,31 +296,34 @@
       <workItem from="1508786797844" duration="11700000" />
       <workItem from="1509138656625" duration="1296000" />
       <workItem from="1509647763429" duration="3676000" />
+      <workItem from="1509852956726" duration="2225000" />
+      <workItem from="1509896390647" duration="2721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153560000" />
+    <option name="totallyTimeSpent" value="158506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,34 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/adicionarEliminarClases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/adicionarYRemoverClasesDos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/adicionarEliminarUnaClaseEnInput.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/acividadDeCodigoUno.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="38" column="90" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/EFECTOS UNO/actividadDeCodigoDos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -729,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="2592">
           <caret line="144" column="2" lean-forward="false" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
           <folding />
         </state>
@@ -737,13 +637,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <marker date="1509649387024" expanded="true" signature="2597:2622" ph="..." />
-            <marker date="1509649387024" expanded="true" signature="2739:2764" ph="..." />
-            <marker date="1509649387024" expanded="true" signature="2867:2892" ph="..." />
+            <marker date="1509853152591" expanded="true" signature="2688:2713" ph="..." />
+            <marker date="1509853152591" expanded="true" signature="2830:2855" ph="..." />
+            <marker date="1509853152591" expanded="true" signature="2958:2983" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/4  EL SERVICIO DE RUTAS/servicioDeRutas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/proyectoJQUERYMOBILE 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/3  EL OBJETO GEOCODER/elObjetoGeocoder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/2  MARCADOR ARRASTRABLE/marcadorArrastrable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
