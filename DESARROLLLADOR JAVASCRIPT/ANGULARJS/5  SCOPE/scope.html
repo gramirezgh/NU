@@ -15,6 +15,7 @@
     </div>
     <script type="text/javascript">
         angular.module('randomizeApp', []).controller('mainController',['$scope', function ($scope) {
+//            los SCOPE son considerados proiedades o propiedad
             $scope.randomNumber = 0.0;
             $scope.getNumber = function () {
                 $scope.randomNumber =  'Aqui tienes tu numero : ' + Math.random();

@@ -6,10 +6,22 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Numero Aleatorio</title>
-</head>
-<body ng-controller="mainController">
-    <div ng-model="">
+    <script src="../angularLib/angular.js"></script>
 
+</head>
+<body >
+    <div ng-controller="mainController">
+        <label>Que numero quieres</label>
+        <button ng-click="getNumber()">Pulsa y Obtenlo</button>
+        <h1>{{randomNumber}}</h1>
     </div>
+    <script type="text/javascript">
+        angular.module('numberRandom',[]).controller('mainController',['$scope',function ($scope) {
+            $scope.randomNumber = 0.0;
+            $scope.getNumber = function () {
+                $scope.randomNumber = Math.random();
+            };
+        }]);
+    </script>
 </body>
 </html>
