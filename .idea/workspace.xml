@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e989b41-37c6-49c9-ae75-94681b5f9d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/4  SERVICIOS/serviciosCookies.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/js/servicios.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/index.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/0  carApp/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/app.js" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/0  carApp/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/controller.js" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/0  carApp/js/controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/services.js" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/0  carApp/js/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION/actividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/1  INTRODUCCION/actividadDeCodigoUno.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION/ejemploIntroduccion.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/1  INTRODUCCION/ejemploIntroduccion.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  BOOTSTRAPPING CON ANGULAR JS/INICIANDO ANGULAR AUTOMATICAMENTE/archivoJS.js" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/2  BOOTSTRAPPING CON ANGULAR JS/INICIANDO ANGULAR AUTOMATICAMENTE/archivoJS.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  BOOTSTRAPPING CON ANGULAR JS/INICIANDO ANGULAR AUTOMATICAMENTE/iniciandoAngularAutomaticamente.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/2  BOOTSTRAPPING CON ANGULAR JS/INICIANDO ANGULAR AUTOMATICAMENTE/iniciandoAngularAutomaticamente.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  BOOTSTRAPPING CON ANGULAR JS/actividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/2  BOOTSTRAPPING CON ANGULAR JS/actividadDeCodigoUno.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  BOOTSTRAPPING CON ANGULAR JS/inicializandoAngularManualmente.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/2  BOOTSTRAPPING CON ANGULAR JS/inicializandoAngularManualmente.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/actividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/actividadDeCodigoUno.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/implementandoControladorAngularJS.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/implementandoControladorAngularJS.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/4  SERVICIOS/serviciosCookies.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/4  SERVICIOS/serviciosCookies.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/5  SCOPE/actividadDeCodigoUno.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/5  SCOPE/actividadDeCodigoUno.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/5  SCOPE/scope.html" afterPath="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/5  SCOPE/scope.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +34,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="implementandoControladorAngularJS.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/implementandoControladorAngularJS.html">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/implementandoControladorAngularJS.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -28,7 +44,7 @@
         </entry>
       </file>
       <file leaf-file-name="actividadDeCodigoUno.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/actividadDeCodigoUno.html">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/actividadDeCodigoUno.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -37,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serviciosCookies.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/4  SERVICIOS/serviciosCookies.html">
+      <file leaf-file-name="serviciosCookies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/4  SERVICIOS/serviciosCookies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servicios.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/js/servicios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -105,6 +141,8 @@
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/2  FRAMEWORKS Y WIDGETS/5  WIDGET  3/tablas.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY MOBILE/6  GOOGLE MAPS  EN PROFUNDIDAD PARTE TRES/1  VENTANA DE INFORMACION Y LOS EVENTOS DEL MARCADOR/ventanaDeInformacionyeventosDeMArcador.html" />
         <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/4  SERVICIOS/serviciosCookies.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/INTRODUCCION A ANGULAR JS/4  SERVICIOS/serviciosCookies.html" />
+        <option value="$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/js/servicios.js" />
       </list>
     </option>
   </component>
@@ -142,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,14 +205,20 @@
               <item name="NU" type="462c0819:PsiDirectoryNode" />
               <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
               <item name="ANGULARJS" type="462c0819:PsiDirectoryNode" />
-              <item name="angularLib" type="462c0819:PsiDirectoryNode" />
+              <item name="2  ELEMENTOS DE ANGULAR JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NU" type="462c0819:PsiDirectoryNode" />
+              <item name="DESARROLLLADOR JAVASCRIPT" type="462c0819:PsiDirectoryNode" />
+              <item name="ANGULARJS" type="462c0819:PsiDirectoryNode" />
+              <item name="2  ELEMENTOS DE ANGULAR JS" type="462c0819:PsiDirectoryNode" />
+              <item name="1 Inyeccion de Dependencias" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,15 +229,131 @@
     <property name="settings.editor.splitter.proportion" value="0.23827252" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\2  FRAMEWORKS Y WIDGETS" />
-      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE" />
-      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\jqmobile145Lib" />
       <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\ANGULARJS\INTRODUCCION A ANGULAR JS" />
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE\2  FRAMEWORKS Y WIDGETS" />
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY MOBILE" />
+      <recent name="E:\CURSOS\NU\DESARROLLLADOR JAVASCRIPT\JQUERY UI\PROYECTO FINAL\css" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/controller.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/0  carApp/js/services.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/5  SCOPE/actividadDeCodigoUno.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/5  SCOPE/scope.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,17 +413,17 @@
       <workItem from="1510697565956" duration="151000" />
       <workItem from="1510881673621" duration="127000" />
       <workItem from="1510882478082" duration="4139000" />
+      <workItem from="1511384785528" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163669000" />
+    <option name="totallyTimeSpent" value="165624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -278,24 +440,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -308,20 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/areaDeTextoYanimate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/camiandoBordeYColorDeFondo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/JQUERY UI/ANIMACIONES COLOR/actividadDeCodigoUno.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -504,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,10 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="83" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2880">
           <caret line="144" column="2" lean-forward="false" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,11 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <marker date="1509853152591" expanded="true" signature="2688:2713" ph="..." />
-            <marker date="1509853152591" expanded="true" signature="2830:2855" ph="..." />
-            <marker date="1509853152591" expanded="true" signature="2958:2983" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,11 +739,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/implementandoControladorAngularJS.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/actividadDeCodigoUno.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -637,7 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/3  CONTROLADORES/actividadDeCodigoUno.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/3  CONTROLADORES/implementandoControladorAngularJS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -645,10 +758,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/4  SERVICIOS/serviciosCookies.html">
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/1  INTRODUCCION A ANGULAR JS/4  SERVICIOS/serviciosCookies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESARROLLLADOR JAVASCRIPT/ANGULARJS/2  ELEMENTOS DE ANGULAR JS/1 Inyeccion de Dependencias/js/servicios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
