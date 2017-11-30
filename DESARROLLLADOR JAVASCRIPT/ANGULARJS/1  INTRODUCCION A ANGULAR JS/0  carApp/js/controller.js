@@ -1,19 +1,10 @@
 'use strict';
 var carAppControllers = angular.module('carAppControllers', []);
 
-carAppControllers.controller('CarListCtrl', ['$scope',
-    function ($scope, Car) {
+carAppControllers.controller('CarListCtrl'['$scope','Car','carroDetalle',
+    function ($scope, Car, carroDetalle) {
         // alert("Bienvenido a nuestra aplicacion de carros");
-        $scope.cars = [{
-            "name":"NEW QASHQAI",
-            "snippet": "MADE WHIT YOU IN MIND TO GIVE YOU THE HIGJEST QUIALITY"
-        },
-        {
-             "name":"veloster",
-             "snippet":"SPORTY LIKE A COUPE. ROMMY LIKE A SEDAM."
-        },
-        {
-            "name":"Navara",
-            "snippet":"THE NAVARA IS ALL ABOUT FREEDOM INCLUDING FREEDOM OF CHOICE."
-        }];
+        $scope.cars = Car.getCars();
+        $scope.carroDetalle = carroDetalle.getCarroDetalle();
+        // $scope.carsDetail = carsDetail.getCarsDetail();
 }]);

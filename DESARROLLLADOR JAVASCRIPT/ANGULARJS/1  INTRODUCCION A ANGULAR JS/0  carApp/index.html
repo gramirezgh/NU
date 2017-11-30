@@ -18,5 +18,15 @@
                 <p>{{car.snippet}}</p>
             </li>
         </ul>
+        <hr>
+        <h2>Descripcion a Detalle del coche</h2>
+        <ul>
+            <li ng-repeat="carro in carroDetalle">
+                <span>{{carro.nombreV}}</span>
+                <p>{{carro.modelo}}</p><br>
+                <p>{{carro.descripcion}}</p><br>
+                <p>{{carro.idUnico}}</p>
+            </li>
+        </ul>
     </body>
 </html>

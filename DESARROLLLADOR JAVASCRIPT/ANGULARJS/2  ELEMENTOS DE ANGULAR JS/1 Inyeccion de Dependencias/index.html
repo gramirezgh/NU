@@ -1,48 +1,49 @@
-﻿<DOCTYPE html>
-<html ng-app="tempApp">
-    <head>
-        <meta charset="UTF-8">
-        <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/controller.js"></script>
-        <script type="text/javascript" src="js/servicios.js"></script>
-        <script type="text/javascript" src="../../angularLib/angular.js"></script>
-    </head>
-    <body>
-      <div ng-controller="TempController">
-        <h1>
-            Conversor de Temperatura Estudiantil
-        </h1>
-        <form>
-<<<<<<< HEAD
-            <label>Ingrese la temperatura en grados Centigrados (C)</label>
-            <input ng-model="tempCelcius"/>
-=======
-            <label>Ingrese la temperatura en grados Centigrados (�C)</label>
-            <input ng-model="tempInCelcius"/>
->>>>>>> 2c76d44311c572f1f0bdab06df8a8fd69bb36ee4
-            <button ng-click="convertTemperatures()">Convertir</button>
-        </form>
-        <hr>
-        <h2>Cojmo convertir Celcius a Fahrenheit</h2>
-        <h3>Formulas usada</h3>
-<<<<<<< HEAD
-        <p>F = {{tempCelcius}} C x 9/5 +32</p>
-        <p>Resultado : {{resultInFahrenheit}} F</p>
-=======
-        <p>°F = {{tempInCelcius}} °C x 9/5 +32</p>
-        <p>Resultado : {{resultInFahrenheit}} °F</p>
->>>>>>> 2c76d44311c572f1f0bdab06df8a8fd69bb36ee4
+﻿<!doctype html>
+<html lang="es" ng-app="tempApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temp Applications</title>
+    <script src="../../angularLib/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/servicios.js"></script>
 
-        <hr>
-        <h2>Como convertir Celcius a Kelvin</h2>
-        <h3>Formula Usada</h3>
-<<<<<<< HEAD
-        <p>K = {{tempCelcius}} -273.15</p>
-        <p>Resultado : {{resultInKelvin}} K</p>
-=======
-        <p>°K = {{tempInCelcius}} -273.15</p>
-        <p>Resultado : {{resultInKelvin}} °K</p>
->>>>>>> 2c76d44311c572f1f0bdab06df8a8fd69bb36ee4
-      </div>
-    </body>
+</head>
+        <body>
+        <div ng-controller="TempController">
+            <h1>
+                Conversor de Temperatura Estudiantil
+            </h1>
+            <form>
+                <label>Ingrese la temperatura en grados Centigrados (°C)</label>
+                <input ng-model="tempCelcius"/>
+
+                <button ng-click="convertTemperatures()">Convertir</button>
+            </form>
+            <hr>
+            <h2>Cojmo convertir Celcius a Fahrenheit</h2>
+            <h3>Formulas usada</h3>
+
+            <p>F = {{tempCelcius}} C x 9/5 +32</p>
+            <p>Resultado : {{resultInFahrenheit}} F</p>
+
+            <p>°F = {{tempCelcius}} °C x 9/5 +32</p>
+            <p>Resultado : {{resultInFahrenheit}} °F</p>
+
+
+            <hr>
+            <h2>Como convertir Celcius a Kelvin</h2>
+            <h3>Formula Usada</h3>
+
+            <p>K = {{tempCelcius}} -273.15</p>
+            <p>Resultado : {{resultInKelvin}} K</p>
+
+            <p>°K = {{tempCelcius}} -273.15</p>
+            <p>Resultado : {{resultInKelvin}} °K</p>
+
+        </div>
+        </body>
 </html>
