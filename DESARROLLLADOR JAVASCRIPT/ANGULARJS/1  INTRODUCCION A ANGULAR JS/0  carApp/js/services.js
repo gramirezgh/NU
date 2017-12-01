@@ -2,7 +2,7 @@
 
 var carAppServices = angular.module('carAppServices', []);
 
-carAppServices.factory('Car','carroDetalle',[
+carAppServices.factory('carroDetalle',[
     function () {
         return {
             notify: function (msg) {
@@ -24,13 +24,20 @@ carAppServices.factory('Car','carroDetalle',[
                 return cars;
             },
             getCarroDetalle: function () {
-                var carroDetalle = [{
-                    "nombreV": "Toyoya Serrano",
-                    "modelo": "44F85A",
-                    "descripcion": "Para todo terreno 4X4",
-                    "idUnico": 1
-                }];
-                return carroDetalle;
+                 var carroDetalle = [{
+                     "nombreV": "Toyota Serrano",
+                     "modelo": "44FFGGK",
+                     "descripcion":"Para todo terreno",
+                     "idUnico":"1"
+                 },
+                 {
+                     "nombreV": "Toyota Montero",
+                     "modelo": "454578JJ",
+                     "descripcion":"4X4",
+                     "idUnico":2
+                 }
+                 ];
+                 return carroDetalle;
             }
             // },
             // getCarsDetail: function () {
