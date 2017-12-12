@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>map api javascript</title>
+    <!--<script type="text/javascript" src="http://localhost:8236/arcgis_js_v315_api/arcgis_js_api/library/3.15/3.15/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8236/arcgis_js_v315_api/arcgis_js_api/library/3.15/3.15/esri/css/esri.css"/>-->
+
+      <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+
+      <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/claro/claro.css">
+      
+      <script src="https://js.arcgis.com/3.15/"></script>
+     
+       <script type="text/javascript">
+           //var map;
+           dojo.require("esri.map");
+           dojo.require("esri.tasks.find");
+           dojo.require("esri.dijit.Measurement");
+           var map;
+           var findParams, findTask;
+           function init(){
+               //map = new esri.Map("mapDiv");
+               //var layer = new esri.layers.ArcGISDynamicMapServiceLayer("http://localhost:6080/arcgis/rest/services/shapefilesLocales/servicioBolivia/MapServer");
+               //map.addLayer(layer);
+               /* map = new esri.Map("mapDiv");
+                var osm = new esri.layers.OpenStreetMapLayer();
+    
+                var info = new esri.InfoTemplate();
+                var flayer = new esri.layers.FeatureLayer("http://localhost:6080/arcgis/rest/services/shapefilesLocales/servicioBolivia/MapServer/0",
+                    { outFields: ["NOMBRE"], infoTemplate:info });
+    
+                map.addLayers([osm, flayer]);
+                findTask = new esri.tasks.FindTask("http://localhost:6080/arcgis/rest/services/shapefilesLocales/servicioBolivia/MapServer/0");
+                findParams = new esri.tasks.FindParameters();
+                findParams.returnGeometry = true;
+                findParams.searchFields = ["NOMBRE"];
+                findParams.layesId = [0, 1];   */
+
+               map = new esri.Map("mapDiv");
+               //var osm = new esri.layers.OpenStreetMapLayer();
+               layer = new esri.layers.ArcGISDynamicMapServiceLayer("http://localhost:6080/arcgis/rest/services/shapefilesLocales/zona21/MapServer");
+
+               ///Añadiendo tareas de busqueda por palabra o letra con reprsentacion en el mapa
+               findTask = new esri.tasks.FindTask("http://localhost:6080/arcgis/rest/services/shapefilesLocales/zona21/MapServer");
+
+               findParams = new esri.tasks.FindParameters();
+               findParams.returnGeometry = true;
+               findParams.searchFields = ["nombrePred"];
+               findParams.layerIds = [0];
+
+               ///añadiendo eventos al pie del servicio invocado en este caso coordenadas
+               dojo.connect(map, "onclick", showCoord);
+               map.on("MouseMove", showXY);
+
+               ///añadiendo al popup campos personalizados
+               var info = new esri.InfoTemplate("${nombrePred }", "NOMBRE DE PREDIO:${nombrePred}<br> NUMERO DE TITULO :${numeroTitu} <br> PRESIDENTE : ${presidente}");
+
+               var flayers = new esri.layers.FeatureLayer("http://localhost:6080/arcgis/rest/services/shapefilesLocales/zona21/MapServer/0",{
+               outFields: ["nombrePred", "numeroTitu", "presidente"],
+               infoTemplate: info
+                  
+               });
+
+               widget = new esri.dijit.Measurement({ map: map }, "widgetDiv");
+               widget.startup();
+
+               ///añadiendo las capas invocadas desde arcgis server
+               map.addLayers([layer, flayers]);
+        }
+           
+
+        function find() {
+            var x = document.getElementById('txt').value;
+            findParams.searchText = x;
+            findTask.execute(findParams, showResults);
+
+        }
+        function showResults(results) {
+            map.graphics.clear();
+            var sym;
+            for (var i = 0; i < results.length;i++){
+                var f = results[i].feature;
+                switch (results[i].feature.geometry.type) {
+                    case "point":
+                        sym = new esri.symbol.SimpleMarkerSymbol();
+                    break;
+                    case "polyline":
+                        sym = new esri.symbol.SimpleLineSymbol();
+                    break;
+                    case "polygon":
+                        sym = new esri.symbol.SimpleFillSymbol();
+                    break;
+                }
+
+                f.setSymbol(sym);
+                f.setInfoTemplate(new esri.InfoTemplate());
+                map.graphics.add(f);
+            }
+
+        }
+
+        function showCoord(evt) {
+            alert(evt.mapPoint.x + " , " + evt.mapPoint.y);
+        }
+
+        function showXY(evt) {
+            document.getElementById("coord").innerHTML = evt.mapPoint.x + " , " + evt.mapPoint.y;
+        }
+
+        dojo.ready(init);
+    </script>
+  </head>
+  <body>
+      <input type="search" id="txt" onsearch="find()"/>
+      <div id="mapDiv" style="width:1280px;height:800px;"></div>
+
+      <div id="coord"></div>
+
+      <div id="widgetDiv" style="width:600px;"></div>
+  </body>
+</html>

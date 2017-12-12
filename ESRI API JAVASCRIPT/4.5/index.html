@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Map Server</title>
+    <script type="text/javascript" src="js\arcgis_js_v45_api\arcgis_js_api\library\4.5\init.js">
+    <link rel="stylesheet" href="js\arcgis_js_v45_api\arcgis_js_api\library\4.5\esri\css\main.css">
+    </script>
+    <script type="text/javascript">
+        var map;
+        function init(){
+          map = new esri.Map("mapDiv");
+          var layer = new esri.layers.ArcGISDynamicMapServiceLayer("http://localhost:6080/arcgis/rest/services/SampleWorldCities/MapServer");
+          map.addLayer(layer);
+        }
+      dojo.ready(init);  
+    </script>
+  </head>
+  <body>
+    <div id="mapDiv" width="600" height="400">
+
+    </div>
+  </body>
+</html>
