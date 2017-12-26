@@ -21,12 +21,19 @@
         <hr>
         <h2>Descripcion a Detalle del coche</h2>
         <ul>
-            <li ng-repeat="carro in carroDetalle">
+            <li ng-repeat="carro in carroDetalle | filter:query">
                 <span>{{carro.nombreV}}</span>
                 <p>{{carro.modelo}}</p><br>
                 <p>{{carro.descripcion}}</p><br>
                 <p>{{carro.idUnico}}</p>
             </li>
         </ul>
+
+        <form>
+            <div class="form-group">
+                <label>Filtro</label>
+                <input type="text" ng-model="query">
+            </div>
+        </form>
     </body>
 </html>
