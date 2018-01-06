@@ -5,15 +5,23 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>App Carros</title>
+        <link rel="icon" href="">
+
+        <title>CarApp</title>
+
         <script src="../../angularLib/angular.js"></script>
+        <script src="js/angularResource.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controller.js"></script>
         <script src="js/services.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="../../../JQUERY/JQUERY/JQUERY/jqlib/jquery321.js"></script>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/jumbotron-narrow.css">
+
+
 
     </head>
     <body ng-controller="CarListCtrl">
@@ -23,22 +31,32 @@
                 <!--<p>{{car.snippet}}</p>-->
             <!--</li>-->
         <!--</ul>-->
-        <hr>
-        <h2>Descripcion a Detalle del coche</h2>
-        <ul>
-            <li ng-repeat="carro in carroDetalle | filter:query">
-                <span>{{carro.nombreV}}</span>
-                <p>{{carro.modelo}}</p><br>
-                <p>{{carro.descripcion}}</p><br>
-                <p>{{carro.idUnico}}</p>
-            </li>
-        </ul>
+        <!--<hr>-->
+        <!--<h2>Descripcion a Detalle del coche</h2>-->
+        <!--<ul>-->
+            <!--<li ng-repeat="carro in carroDetalle | filter:query">-->
+                <!--<span>{{carro.nombreV}}</span>-->
+                <!--<p>{{carro.modelo}}</p><br>-->
+                <!--<p>{{carro.descripcion}}</p><br>-->
+                <!--<p>{{carro.idUnico}}</p>-->
+            <!--</li>-->
+        <!--</ul>-->
 
-        <form>
-            <div class="form-group">
-                <label>Filtro</label>
-                <input type="text" ng-model="query">
+        <!--<form>-->
+            <!--<div class="form-group">-->
+                <!--<label>Filtro</label>-->
+                <!--<input type="text" ng-model="query">-->
+            <!--</div>-->
+        <!--</form>-->
+        <div class="blog-masthead">
+            <div class="container">
+                <nav class="blog-nav">
+                    <a class="blog-nav-item active">CarApp</a>
+                </nav>
             </div>
-        </form>
+        </div>
+        <div ng-view class="container">
+
+        </div>
     </body>
 </html>

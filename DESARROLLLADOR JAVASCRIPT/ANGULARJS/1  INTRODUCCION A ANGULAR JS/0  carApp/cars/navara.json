@@ -1,0 +1,31 @@
+{
+  "manufacter":{
+    "name":"NISSAN",
+    "country":"JAPAN"
+  },
+  "engine":{
+    "gears":"6",
+    "transmition":"manual",
+    "type":"Diesel"
+  },
+  "description":"Descripcion NISSAN Auto 3",
+  "id":"navara",
+  "images":[
+    "img/carroSiete.jpg",
+    "img/carroOcho.jpg",
+    "img/carroNueve.jpg"
+  ],
+  "name":"Veloster",
+  "sizeAndWeight":{
+    "dimensions":[
+      "1799.5 mm (w)",
+      "1595.8 mm (h)",
+      "3218.9 mm (l)"
+    ],
+    "weight":"3110 Kg"
+
+  },
+  "space":{
+    "volume":"1130l"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "manufacter":{
+    "name":"HYUNDAI",
+    "country":"SOUTH COREAN"
+  },
+  "engine":{
+    "gears":"6",
+    "transmition":"automatic",
+    "type":"Petrol"
+  },
+  "description":"Descripcion HYUNDAI Auto 2",
+  "id":"veloster",
+  "images":[
+    "img/carroCuatro.jpg",
+    "img/carroCinco.jpg",
+    "img/carroSeis.jpg"
+  ],
+  "name":"Veloster",
+  "sizeAndWeight":{
+    "dimensions":[
+      "1399.5 mm (w)",
+      "1595.8 mm (h)",
+      "4218.9 mm (l)"
+    ],
+    "weight":"1211 Kg"
+
+  },
+  "space":{
+    "volume":"15.5l"
+  }
+}
