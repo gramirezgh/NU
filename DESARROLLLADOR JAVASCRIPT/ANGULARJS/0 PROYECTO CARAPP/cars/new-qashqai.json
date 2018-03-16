@@ -1,0 +1,28 @@
+{
+  "manufacter": {
+    "name":"NISSAN",
+    "country":"Japan"
+  },
+  "engine":{
+    "gears":"6",
+    "transmission":"automatic",
+    "type":"Diesel"
+  },
+  "descripcion":"este modelo es qashqai",
+  "id":"new-qashqai",
+  "images":[
+    "images/carUno.jpg",
+    "images/carDos.jpg",
+    "images/carTres.jpg"
+  ],
+  "name":"New Qashqai",
+  "sizeAndWeight":{
+    "dimensions":[
+      "1806.9 mm (W)",
+      "1595.8 mm (h)",
+      "4377.4 mm (l)"
+    ],
+    "weight":"2646.0 Kg"
+  },
+  "space":"430l"
+}

@@ -1,0 +1,28 @@
+{
+  "manufacter": {
+    "name":"NISSAN",
+    "country":"Japan"
+  },
+  "engine":{
+    "gears":"9",
+    "transmission":"Manual",
+    "type":"Diesel"
+  },
+  "descripcion":"este modelo es navara",
+  "id":"Navara",
+  "images":[
+    "images/carSiete.jpg",
+    "images/carOcho.jpg",
+    "images/carNueve.jpg"
+  ],
+  "name":"Navara",
+  "sizeAndWeight":{
+    "dimensions":[
+      "1783.9 mm (W)",
+      "1595.8 mm (h)",
+      "5222.4 mm (l)"
+    ],
+    "weight":"3110.0 Kg"
+  },
+  "space":"1130l"
+}

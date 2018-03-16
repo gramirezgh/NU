@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>appAnimaciones</title>
+    <script src="JS/angular.js"></script>
+    <script src="JS/angular-animate.min.js"></script>
+    <script src="JS/app.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body ng-app="app">
+    <div class="container" ng-controller="controllerAnimacion">
+        <div class="page-header">
+            <h1>Mi primera animacion con angular</h1>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">Mi animacion</div>
+            <div class="panel-body animacion miEstilo" ng-if="visible">Hola commo estas</div>
+
+        </div>
+        <button class="btn btn btn-lg btn-danger" ng-click="visible=!visible">Iniciar</button>
+    </div>
+</body>
+</html>

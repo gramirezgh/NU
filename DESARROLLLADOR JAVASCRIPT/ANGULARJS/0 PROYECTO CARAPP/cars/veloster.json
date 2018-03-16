@@ -1,0 +1,28 @@
+{
+  "manufacter": {
+    "name":"HYUNDAI",
+    "country":"South Korea"
+  },
+  "engine":{
+    "gears":"6",
+    "transmission":"automatic",
+    "type":"Petrol"
+  },
+  "descripcion":"este modelo es veloster",
+  "id":"veloster",
+  "images":[
+    "images/carCuatro.jpg",
+    "images/carCinco.jpg",
+    "images/carSeis.jpg"
+  ],
+  "name":"Veloster",
+  "sizeAndWeight":{
+    "dimensions":[
+      "1399.9 mm (W)",
+      "1595.8 mm (h)",
+      "4218.9 mm (l)"
+    ],
+    "weight":"1211.0 Kg"
+  },
+  "space":"15.5l"
+}
