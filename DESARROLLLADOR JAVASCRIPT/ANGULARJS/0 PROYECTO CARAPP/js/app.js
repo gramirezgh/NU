@@ -1,8 +1,10 @@
 'use strict';
  var carApp  = angular.module('carApp',[
     'ngRoute',
+    'carAppAnimations',
     'carAppControllers',
     'carAppServices'
+
  ]);
 
  carApp.config(['$routeProvider',
