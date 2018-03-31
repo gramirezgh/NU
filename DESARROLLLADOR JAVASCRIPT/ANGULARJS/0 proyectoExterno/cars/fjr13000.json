@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Yamaha", 
+        "country": "Japan"
+    }, 
+    "engine": {
+        "gears": "--", 
+        "transmission": "6-speed; multiplate assist-and-slipper wet clutch", 
+        "type": "--"
+    }, 
+    "description": "The 2016 FJR1300A™ features an all‑new 6‑speed transmission, with a new assist‑and‑slipper clutch for reduced lever effort and smoother downshifts.",  
+    "id": "fjr13000", 
+    "images": [
+        "img/cars/fjr13000.jpg",
+        "img/cars/fjr130002.jpg",
+        "img/cars/fjr130003.jpg",
+        "img/cars/fjr130004.jpg"       
+    ], 
+    "name": "Fjr13000", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "  29.5 in (w)", 
+            "  57.3 in (h)", 
+            "  87.8 in (l)"
+        ], 
+        "weight": "  635 lbs"
+    }, 
+    "space": {
+        "volume": "6.6"
+    }
+}

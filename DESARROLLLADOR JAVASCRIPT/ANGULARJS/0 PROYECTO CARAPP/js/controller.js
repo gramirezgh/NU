@@ -2,6 +2,7 @@
 
 var carAppControllers = angular.module('carAppControllers',[]);
 
+//Inyectamos la dependecia Car creada en services.js
 carAppControllers.controller('carListCtrl',['$scope','Car',
     function ($scope, Car) {
        // $http.get('cars/cars.json').success(function (data) {

@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "KAWASAKI", 
+        "country": "Japan"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Bicilíndrico paralelo"
+    }, 
+    "description": "La Versys 650 de supera la suma de sus partes. Con suspensiones de largo recorrido, llantas deportivas de 17 pulgadas.",  
+    "id": "fjr13000", 
+    "images": [
+       "img/cars/versys.jpg",
+        "img/cars/versys2.jpg",
+		"img/cars/versys3.jpg",
+		"img/cars/versys4.jpg"    
+    ], 
+    "name": "Versys", 
+    "sizeAndWeight": {
+        "dimensions": [
+            " 840   mm (w)", 
+            "1330   mm (h)", 
+            "2125   mm (l)"
+        ], 
+        "weight": "216 kg"
+    }, 
+    "space": {
+        "volume": "5.5"
+    }
+}

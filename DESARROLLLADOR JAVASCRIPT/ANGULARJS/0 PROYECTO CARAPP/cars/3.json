@@ -1,0 +1,26 @@
+{
+  "manufacter": {
+    "name":"KTM",
+    "country":"Irlanda"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Automatico",
+    "type":"Premium"
+  },
+  "descripcion":"Modelo de alto recorrido",
+  "id":"ktm",
+  "images":[
+    "images/carNueve.jpg"
+  ],
+  "name":"ktm",
+  "sizeAndWeight":{
+    "dimensions":[
+      "474.9 mm (W)",
+      "845.8 mm (h)",
+      "4500.4 mm (l)"
+    ],
+    "weight":"2554.0 Kg"
+  },
+  "space":"154 (l)"
+}

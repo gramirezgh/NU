@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "YAMAHA", 
+        "country": "Japan"
+    }, 
+    "engine": {
+        "gears": "--", 
+        "transmission": "Automática por variador", 
+        "type": "4 Tiempos SOHC, refrigerado por aire / 4 Válvulas"
+    }, 
+    "description": "Vive la mejor eXperiencia que ofrece BWS en su versión X para que maniobres con total confianza por la ciudad",  
+    "id": "bwsx", 
+    "images": [
+        "img/cars/bwsx.jpg",
+        "img/cars/bwsx2.jpg",
+        "img/cars/bwsx3.jpg",
+		"img/cars/bwsx4.jpg"
+    ], 
+    "name": "BWSX", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1806.9 mm (w)", 
+            "11090 mm (h)", 
+            "4377.4 mm (l)"
+        ], 
+        "weight": "117.0 Kg"
+    }, 
+    "space": {
+        "volume": "6L"
+    }
+}

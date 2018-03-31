@@ -1,0 +1,26 @@
+{
+  "manufacter": {
+    "name":"VESPA",
+    "country":"Japan"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Automatico",
+    "type":"Petroleo"
+  },
+  "descripcion":"Vespa modelo Primavera",
+  "id":"vespa",
+  "images":[
+    "images/carOnce.jpg"
+  ],
+  "name":"Vespa Modelo Primaveral",
+  "sizeAndWeight":{
+    "dimensions":[
+      "174.9 mm (W)",
+      "150.8 mm (h)",
+      "345.4 mm (l)"
+    ],
+    "weight":"800.0 Kg"
+  },
+  "space":"154 (l)"
+}

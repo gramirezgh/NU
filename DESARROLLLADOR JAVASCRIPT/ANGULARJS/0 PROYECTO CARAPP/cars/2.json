@@ -1,0 +1,26 @@
+{
+  "manufacter": {
+    "name":"KEEWAY ARN 125",
+    "country":"Bolivia"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Automatico",
+    "type":"Gasolina Premium"
+  },
+  "descripcion":"Modelo de gran recorrido",
+  "id":"KEEWAY ARN 125",
+  "images":[
+    "images/carDiez.jpg"
+  ],
+  "name":"KEEWAY ARN 125",
+  "sizeAndWeight":{
+    "dimensions":[
+      "789.9 mm (W)",
+      "785.8 mm (h)",
+      "455.4 mm (l)"
+    ],
+    "weight":"2454.0 Kg"
+  },
+  "space":"654 (l)"
+}

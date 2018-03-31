@@ -1,0 +1,27 @@
+
+{
+  "manufacter": {
+    "name":"GAS GAS EC 300",
+    "country":"Rumania"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Automatico",
+    "type":"Gasolina Corriente"
+  },
+  "descripcion":"Modelo de Semirecorrido",
+  "id":"GAS GAS EC 300",
+  "images":[
+    "images/carCinco.jpg"
+  ],
+  "name":"GAS GAS EC 300",
+  "sizeAndWeight":{
+    "dimensions":[
+      "78.9 mm (W)",
+      "855.8 mm (h)",
+      "889.4 mm (l)"
+    ],
+    "weight":"564.0 Kg"
+  },
+  "space":"254 (l)"
+}

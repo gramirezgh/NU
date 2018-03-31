@@ -11,11 +11,10 @@
   "descripcion":"este modelo es veloster",
   "id":"veloster",
   "images":[
-    "images/carCuatro.jpg",
-    "images/carCinco.jpg",
-    "images/carSeis.jpg"
+    "images/yamaha.jpg",
+    "images/yamaha.png"
   ],
-  "name":"Veloster",
+  "name":"Yamaha",
   "sizeAndWeight":{
     "dimensions":[
       "1399.9 mm (W)",
@@ -24,5 +23,5 @@
     ],
     "weight":"1211.0 Kg"
   },
-  "space":"15.5l"
+  "space":"15.5 (l)"
 }

@@ -1,0 +1,27 @@
+
+{
+  "manufacter": {
+    "name":"BENELLI BN 302",
+    "country":"Italia"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Manual-Automatico",
+    "type":"Gasolina Corriente"
+  },
+  "descripcion":"Modelo de Semirecorrido y con alta gama de repsuestos",
+  "id":"BENELLI BN 302",
+  "images":[
+    "images/carSeis.jpg"
+  ],
+  "name":"BENELLI BN 302",
+  "sizeAndWeight":{
+    "dimensions":[
+      "445.9 mm (W)",
+      "455.8 mm (h)",
+      "689.4 mm (l)"
+    ],
+    "weight":"1564.0 Kg"
+  },
+  "space":"2544 (l)"
+}

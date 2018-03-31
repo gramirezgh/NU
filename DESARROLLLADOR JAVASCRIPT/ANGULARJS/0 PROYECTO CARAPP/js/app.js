@@ -1,9 +1,11 @@
 'use strict';
  var carApp  = angular.module('carApp',[
     'ngRoute',
+    'ngAnimate',
     'carAppAnimations',
     'carAppControllers',
     'carAppServices'
+
 
  ]);
 

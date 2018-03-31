@@ -1,0 +1,23 @@
+[
+    {
+        "model": 2016, 
+        "id": "bwsx", 
+        "imageUrl": "img/cars/bwsx.jpg", 
+        "name": "BWSX", 
+        "snippet": "Pasión por los Detalles"
+    },
+    {
+        "model": 2016, 
+        "id": "fjr13000", 
+        "imageUrl": "img/cars/fjr13000.jpg", 
+        "name": "Fjr13000", 
+        "snippet": "SUPERSPORT TOURING AT ITS FINEST"
+    },
+    {
+        "model": 2015, 
+        "id": "versys", 
+        "imageUrl": "img/cars/versys.jpg", 
+        "name": "Versys", 
+        "snippet": "Diviértete devorando carreteras."
+    }
+]

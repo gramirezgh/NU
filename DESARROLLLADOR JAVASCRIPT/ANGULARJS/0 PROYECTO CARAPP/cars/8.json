@@ -1,0 +1,27 @@
+
+{
+  "manufacter": {
+    "name":"HARLEY DAVIDSON CVO Road King",
+    "country":"Brasil"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Manual-Automatico",
+    "type":"Petroleo"
+  },
+  "descripcion":"Modelo de Entregas a Domicilio",
+  "id":"HARLEY DAVIDSON CVO Road King",
+  "images":[
+    "images/carCuatro.jpg"
+  ],
+  "name":"HARLEY DAVIDSON CVO Road King",
+  "sizeAndWeight":{
+    "dimensions":[
+      "978.9 mm (W)",
+      "455.8 mm (h)",
+      "649.4 mm (l)"
+    ],
+    "weight":"764.0 Kg"
+  },
+  "space":"554 (l)"
+}

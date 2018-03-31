@@ -9,13 +9,12 @@
     "type":"Diesel"
   },
   "descripcion":"este modelo es navara",
-  "id":"Navara",
+  "id":"kawasaki",
   "images":[
-    "images/carSiete.jpg",
-    "images/carOcho.jpg",
-    "images/carNueve.jpg"
+    "images/kawasaki.jpg",
+    "images/kawasaki.png"
   ],
-  "name":"Navara",
+  "name":"Kawasaki",
   "sizeAndWeight":{
     "dimensions":[
       "1783.9 mm (W)",
@@ -24,5 +23,5 @@
     ],
     "weight":"3110.0 Kg"
   },
-  "space":"1130l"
+  "space":"1130 (l)"
 }

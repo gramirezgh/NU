@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="lib/knockout-3.4.2.js"></script>
+
+</head>
+<body>
+    <div>
+        <label>
+            Nombre:<input type="text" data-bind="value:n"><br>
+            Apellido:<input type="text" data-bind="value:a"><br>
+            <h2>Hola bienvenido a KnockoutJS <span data-bind="text:c"></span>!</h2>
+
+        </label>
+    </div>
+    <script>
+        function Model(n,a) {
+            this.n=ko.observable(n);
+            this.a=ko.observable(a);
+
+            c=ko.computed(function () {
+               return this.n()+" "+this.a();
+            }, this);
+        }
+        ko.applyBindings(Model("nombre","apellido"));
+    </script>
+</body>
+</html>

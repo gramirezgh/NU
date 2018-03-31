@@ -11,11 +11,10 @@
   "descripcion":"este modelo es qashqai",
   "id":"new-qashqai",
   "images":[
-    "images/carUno.jpg",
-    "images/carDos.jpg",
-    "images/carTres.jpg"
+    "images/Suzuki.jpg",
+    "images/Suzuki.png"
   ],
-  "name":"New Qashqai",
+  "name":"Suzuki",
   "sizeAndWeight":{
     "dimensions":[
       "1806.9 mm (W)",
@@ -24,5 +23,5 @@
     ],
     "weight":"2646.0 Kg"
   },
-  "space":"430l"
+  "space":"430 (l)"
 }

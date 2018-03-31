@@ -1,23 +1,23 @@
 [
   {
     "model":2015 ,
-    "id":"new-qashqai",
-    "imageUrl":"images/new-qashqai.jpg",
-    "name":"NEW-QASHQAI",
-    "snippet":"MADE WHIT YOU MIND TO GIVE YOU THE HIGHTEST QUIALITY"
+    "id":"suzuki",
+    "imageUrl":"images/suzuki.jpg",
+    "name":"SUZUKI",
+    "snippet":"HECHO PARA VOLAR EN TIERRA,"
   },
   {
     "model": 2014,
-    "id":"veloster",
-    "imageUrl":"images/veloster.jpg",
-    "name":"VELOSTER",
-    "snippet":"SPORTY LIKE COUPE, ROOMY LIKE SEDAN."
+    "id":"yamaha",
+    "imageUrl":"images/yamaha.jpg",
+    "name":"YAMAHA",
+    "snippet":"LA VELOCIDAD ES PARTE DEL ALMA NO DEL MOTOR."
   },
   {
     "model": 2015,
-    "id":"navara",
-    "imageUrl":"images/navara.jpg",
-    "name":"NAVARA",
-    "snippet":"The navara is all about freedom including freedom."
+    "id":"kawasaki",
+    "imageUrl":"images/kawasaki.jpg",
+    "name":"KAWASAKI",
+    "snippet":"LA PASION POR LA CALIDAD, CREA LOS PRODUCTOS."
   }
 ]

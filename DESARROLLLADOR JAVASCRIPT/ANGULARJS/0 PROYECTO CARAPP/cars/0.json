@@ -1,0 +1,26 @@
+{
+  "manufacter": {
+    "name":"SYM",
+    "country":"Inglaterra"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"manual",
+    "type":"Premium"
+  },
+  "descripcion":"Simple para ciudad o pequeños trayectos",
+  "id":"sym",
+  "images":[
+    "images/carDoce.jpg"
+  ],
+  "name":"SYM",
+  "sizeAndWeight":{
+    "dimensions":[
+      "456.9 mm (W)",
+      "595.8 mm (h)",
+      "428.9 mm (l)"
+    ],
+    "weight":"211.0 Kg"
+  },
+  "space":"25.5 (l)"
+}

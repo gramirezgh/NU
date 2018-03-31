@@ -1,0 +1,27 @@
+
+{
+  "manufacter": {
+    "name":"DUCATI 1299 Panigale R",
+    "country":"Rusia"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Manual-Automatico",
+    "type":"Premium"
+  },
+  "descripcion":"Modelo de Carrera y alto recorrido",
+  "id":"DUCATI 1299 Panigale R",
+  "images":[
+    "images/carOcho.jpg"
+  ],
+  "name":"DUCATI 1299 Panigale R",
+  "sizeAndWeight":{
+    "dimensions":[
+      "875.9 mm (W)",
+      "546.8 mm (h)",
+      "4899.4 mm (l)"
+    ],
+    "weight":"3500.0 Kg"
+  },
+  "space":"789 (l)"
+}

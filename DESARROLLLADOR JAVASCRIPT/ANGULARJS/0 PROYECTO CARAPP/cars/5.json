@@ -1,0 +1,27 @@
+
+{
+  "manufacter": {
+    "name":"APRILIA RX 50",
+    "country":"Rusia"
+  },
+  "engine":{
+    "gears":"2",
+    "transmission":"Manual-Automatico",
+    "type":"Petroleo"
+  },
+  "descripcion":"Modelo de Semirecorrido",
+  "id":"APRILIA RX 50",
+  "images":[
+    "images/carSiete.jpg"
+  ],
+  "name":"APRILIA RX 50",
+  "sizeAndWeight":{
+    "dimensions":[
+      "642.9 mm (W)",
+      "455.8 mm (h)",
+      "6899.4 mm (l)"
+    ],
+    "weight":"2500.0 Kg"
+  },
+  "space":"1245 (l)"
+}

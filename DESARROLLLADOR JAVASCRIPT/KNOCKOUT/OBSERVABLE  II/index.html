@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Observavbles Array </title>
+
+
+
+</head>
+<body>
+<script src="../lib/knockout-3.4.2.js"></script>
+    <form data-bind="submit:addItem">
+        <p>Soporte de Registro de Compras</p>
+        <br>
+        Id de Producto : <input type="text" name="" value="" data-bind="value:id_producto">
+        <br>
+        Proveedor : <input type="text" name="" value="" data-bind="proveedor"><br>
+        Nombre Producto : <input type="text" name="" value="" data-bind='value:itemToAdd, valueUpdate:"afterKeydown"'><br>
+        Precio : <input type="text" name="" value="" data-bind='value:precio, valueUpdate:"afterKeydown"' id="num"><br>
+        <button type="submit" data-bind="enable:itemToAdd().length>0">Agregar Producto</button>
+        <p>Productos Agregados</p>
+        <select name="" multiple="multiple" data-bind="options:items" style="width:100px"></select>
+        
+    </form>
+
+<script>
+    var SimpleListModel = function (items) {
+        this.items = ko.observableArray(items);
+        this.itemToAdd = ko.observable("");
+        this.precio = ko.observable("");
+        this.id_producto = ko.observable("");
+        this.proveedor = ko.observable("");
+        this.addItem = function () {
+            if (this.itemToAdd() != "") {
+                this.items.push(this.itemToAdd, this.precio(), this.id_producto(), this.proveedor());
+                this.itemToAdd("");
+                this.id_producto("");
+                this.proveedor("");
+                this.precio("");
+            }
+        }.bind(this);
+    };
+        ko.applyBindings(new SimpleListModel([]));
+
+</script>
+</body>
+</html>
