@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "descripcion": "app prueba",
+  "main": "servidorUno.js",
+  "scripts": {
+    "test": "null",
+    "start": "node servidorUno.js"
+  },
+  "author": "favio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
