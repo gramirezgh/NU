@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block ver_usuario %}
+	<form role="form" method="POST" action="/editar/usuario/{{usuario._id.toString()}}">
+		<div class="form-group">
+			<label>Nombre</label>
+			<input type="text" name="nombre" value="{{usuario.nombre}}">
+		</div>
+		<div class="form-group">
+			<label>Edad</label>
+			<input type="text" name="edad" value="{{usuario.edad}}">
+		</div>
+		<div class="form-group">
+			<label>Sexo</label>
+			<input type="text" name="sexo" value="{{usuario.sexo}}">
+		</div>
+		<div class="form-group">
+			<label>Email</label>
+			<input type="text" name="email" value="{{usuario.email}}">
+		</div>
+		<div class="form-group">
+			<label>Telefono</label>
+			<input type="text" name="telefono" value="{{usuario.telefono}}">
+		</div>
+		<input type="hidden" name="_method" value="put"/>
+		<button type="submit" class="btn btn-primary">Editar</button>
+
+	</form>
+
+{% endblock %}

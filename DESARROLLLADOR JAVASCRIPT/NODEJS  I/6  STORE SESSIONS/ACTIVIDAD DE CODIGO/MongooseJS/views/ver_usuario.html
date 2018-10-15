@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+
+{% block ver_usuario %}
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				#
+			</th>
+			<th>
+				Nombre
+			</th>
+			<th>
+				Edad
+			</th>
+			<th>
+				Email
+			</th>
+			<th>
+				Teléfono
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for usuario in usuarios %}
+		<tr>
+			<td>
+				{{loop.index}}
+			</td>
+			<td>
+				{{usuario.nombre}}
+			</td>
+			<td>
+				{{usuario.edad}}
+			</td>
+			<td>
+				{{usuario.email}}
+			</td>
+			<td>
+				{{usuario.telefono}}
+			</td>
+			<td>
+				<a href="/editar/usuario/{{usuario._id.toString()}}" class="btn btn-primary">Editar</a>
+			</td>
+			<td>
+				<form method="POST" action="/eliminar/usuario/{{usuario._id.toString()}}">
+					<input type="hidden" name="_method" value="delete">
+					<input type="submit" value="Eliminar" class="btn btn-danger">
+				</form>
+			</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+{% endblock %}

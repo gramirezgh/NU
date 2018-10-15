@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/img/favicon.png" rel="shortcut icon">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <title>app Completa</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toogle" data-toogle="collpase" data-target="#bs-example-navbar-collpase-1"><span class="sr-only">Toogle Navigation</span></button><a href="/" class="navbar-brand">Usuarios</a>
+                    </div>
+
+                    <div class="collpase navbar-collapse" id="bs-example-navbar-collpase-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/usuarios/crear">Crear Usuarios</a></li>
+                            <li><a href="/usuarios">Ver Usuarios</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                {% block index %}
+                {% endblock %}
+
+                {% block crear_usuario %}
+                {% endblock %}
+
+                {% block ver_usuario %}
+                {% endblock %}
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

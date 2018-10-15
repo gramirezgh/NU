@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block crear_usuario %}
+<h2>Crear  usuario</h2>
+<form action="/usuario" method="post">
+    <input id="nombre" name="nombre" placeholder="nombre de usuario">
+    <br/>
+    <input id="edad" name="edad" placeholder="edad del usuario">
+    <br>
+    <input id="sexo" name="sexo" placeholder="genero del usuario">
+    <br>
+    <input id="email" name="email" placeholder="email">
+    <br>
+    <input id="telefono" name="telefono" placeholder="telefono del usuario">
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+{% endblock %}
